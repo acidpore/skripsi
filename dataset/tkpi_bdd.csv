@@ -1,0 +1,1151 @@
+﻿kode,nama_bahan_makanan,jenis,kelompok,energi_kal,protein_g,lemak_g,karbohidrat_g,bdd_persen
+Komposisi Zat Gizi Makanan per 100 gram BDD(Bagian yang Dapat Dimakan) - Sumber:TKPI 2019,(g),AP001,Nasi,(g),(g),(g),(g),1
+AP001,Nasi,Olahan,Serealia,180,"3,0","0,3","39,8",100
+AP002,Nasi tim,Olahan,Serealia,120,"2,4","0,4","26,0",100
+AP003,Tapai beras,Olahan,Serealia,99,"1,7","0,3","22,4",100
+AP004,"Tepung beras, mentah",Olahan,Serealia,353,"7,0","0,5","80,0",100
+AP005,Nasi beras merah,Olahan,Serealia,149,"2,8","0,4","32,5",100
+AP006,"Bihun, mentah",Olahan,Serealia,348,"4,7","0,1","82,1",100
+AP007,Bihun goreng instan,Olahan,Serealia,381,"6,1","3,9","80,3",100
+AP008,"Bihun Jagung, mentah",Olahan,Serealia,354,"0,5","0,3","87,4",100
+AP009,Nasi jagung,Olahan,Serealia,357,"8,8","0,5","79,5",100
+AP010,"Jagung muda, rebus",Olahan,Serealia,142,"5,0","0,7","30,3",100
+AP011,"Jagung kuning, tepung",Olahan,Serealia,355,"9,2","3,9","73,7",100
+AP012,"Jagung kuning pipil, rebus",Olahan,Serealia,154,"3,8","3,5","28,4",100
+AP013,Tepung jagung putih,Olahan,Serealia,355,"9,2","3,9","73,7",100
+AP014,Ketupat ketan,Olahan,Serealia,212,"4,0","4,6","38,6",100
+AP015,"Ketan hitam, matang",Olahan,Serealia,181,"4,0","1,2","37,3",100
+AP016,Tapai ketan hitam,Olahan,Serealia,166,"3,8","1,0","34,4",100
+AP017,"Ketan putih, matang",Olahan,Serealia,163,"3,0","0,4","35,7",100
+AP018,Tapai ketan putih,Olahan,Serealia,172,"3,0","0,5","37,5",100
+AP019,"Maizena, tepung",Olahan,Serealia,341,"0,3",-,"85,0",100
+AP020,"Makaroni, mentah",Olahan,Serealia,353,"8,7","0,4","78,7",100
+AP021,Mi basah,Olahan,Serealia,88,"0,6","3,3","14,0",100
+AP022,Mi kering,Olahan,Serealia,339,"10,0","1,7","6,3",100
+AP023,Misoa,Olahan,Serealia,345,"8,5","2,2","78,0",100
+AP024,Roti putih,Olahan,Serealia,248,"8,0","1,2","50,0",100
+AP025,Tepung terigu,Olahan,Serealia,333,"9,0","1,0","77,2",100
+AP026,Amparan tatak,Olahan,Serealia,191,"1,3","5,5","34,0",100
+AP027,"Apang kukus, kue",Olahan,Serealia,202,"3,0","0,3","46,7",100
+AP028,"Apem, kue",Olahan,Serealia,148,"2,0","0,5","33,9",100
+AP029,Biskuit,Olahan,Serealia,458,"6,9","14,4","75,1",100
+AP030,"Bakpia, kue",Olahan,Serealia,272,"8,7","6,7","44,1",100
+AP031,Bakwan,Olahan,Serealia,280,"8,2","10,2","39,0",100
+AP032,Bantal,Olahan,Serealia,190,"3,3","0,3","43,5",100
+AP033,Baruasa,Olahan,Serealia,417,"6,5","8,2","79,3",100
+AP034,Batar daan,Olahan,Serealia,107,"2,2","2,2","19,6",100
+AP035,Bika ambon,Olahan,Serealia,199,"2,1","1,5","44,4",100
+AP036,Bingka,Olahan,Serealia,273,"5,3","10,6","39,1",100
+AP037,Bobengka,Olahan,Serealia,225,"5,3","2,6","45,2",100
+AP038,Bolu peca,Olahan,Serealia,197,"3,3","4,6","35,6",100
+AP039,Brem,Olahan,Serealia,249,"3,4","0,4","58,0",100
+AP040,Bubur tinotuan (Manado),Olahan,Serealia,156,"2,3","0,2","15,6",100
+AP041,Cake tape,Olahan,Serealia,323,"4,9","11,5","50,1",100
+AP042,Cangkuning,Olahan,Serealia,204,"2,8","7,5","31,4",100
+AP043,Dodol bali,Olahan,Serealia,298,"3,7","2,1","65,9",100
+AP044,Dodol galamai,Olahan,Serealia,348,"0,4","3,8","76,1",100
+AP045,Dodol kedondong,Olahan,Serealia,331,"1,9","7,6","63,8",100
+AP046,Dodol manado,Olahan,Serealia,373,"4,3","16,5","51,9",100
+AP047,Emping beras,Olahan,Serealia,403,"10,6","2,2","85,3",100
+AP048,Gemblong,Olahan,Serealia,274,"1,7","5,4","55,5",100
+AP049,Gendar goreng,Olahan,Serealia,407,"6,4","28,2","32,0",100
+AP050,Intip goreng,Olahan,Serealia,474,"7,6","21,6","62,3",100
+AP051,Jagung gerontol,Olahan,Serealia,156,"2,7","1,3","33,3",100
+AP052,Jagung titi,Olahan,Serealia,374,"9,4","2,2","79,1",100
+AP053,Japilus,Olahan,Serealia,500,"1,2","25,1","67,3",100
+AP054,Kakicak,Olahan,Serealia,296,"3,4","15,1","36,7",100
+AP055,Kambose,Olahan,Serealia,164,"3,0","2,4","32,6",100
+AP056,Kapusa,Olahan,Serealia,158,"4,4","3,2","27,8",100
+AP057,Keddo bodong,Olahan,Serealia,290,"4,6","5,7","55,2",100
+AP058,"Kelepon, kue",Olahan,Serealia,215,"3,7","3,7","41,8",100
+AP059,Kereput,Olahan,Serealia,580,"4,8","39,6","51,1",100
+AP060,Ketoprak,Olahan,Serealia,153,"7,9","7,7","13,0",100
+AP061,Ketupat kandangan,Olahan,Serealia,109,"2,2","5,2","13,4",100
+AP062,Koya,Olahan,Serealia,366,"4,2","4,3","77,5",100
+AP063,Koya mirasa,Olahan,Serealia,370,"8,0","1,0","82,2",100
+AP064,Koyabu,Olahan,Serealia,241,"3,4","4,3","47,2",100
+AP065,Kue ali,Olahan,Serealia,440,"3,8","18,5","64,5",100
+AP066,Kue bangen,Olahan,Serealia,442,"3,3","14,7","74,2",100
+AP067,Kue gelang,Olahan,Serealia,448,"5,8","16,1","70,0",100
+AP068,Kue jahe,Olahan,Serealia,425,"1,6","8,8","84,6",100
+AP069,Kue kelapa,Olahan,Serealia,591,"5,6","42,1","47,5",100
+AP070,Kue koa,Olahan,Serealia,340,"4,8","0,4","79,3",100
+AP071,Kue ku temu,Olahan,Serealia,214,"3,5","0,2","49,6",100
+AP072,Kue lumpur,Olahan,Serealia,291,"3,6","11,1","44,1",100
+AP073,Kue pelita,Olahan,Serealia,141,"5,3","5,5","17,6",100
+AP074,Kue putu cangkir,Olahan,Serealia,304,"5,3","7,0","54,9",100
+AP075,Kue sus,Olahan,Serealia,221,"7,5","10,2","24,8",100
+AP076,Kue thipan,Olahan,Serealia,247,"2,9","4,2","49,5",100
+AP077,Laksa/Putu mayang,Olahan,Serealia,121,"1,7","3,4","21,1",100
+AP078,Lapis legit,Olahan,Serealia,389,"6,6","15,7","55,5",100
+AP079,Lupis ketan,Olahan,Serealia,164,"1,8","2,1","34,5",100
+AP080,Manan samin,Olahan,Serealia,379,"3,4","18,1","50,6",100
+AP081,Martabak india,Olahan,Serealia,153,"4,5","4,2","24,3",100
+AP082,Martabak mesir,Olahan,Serealia,278,"5,1","8,6","45,0",100
+AP083,Masekat,Olahan,Serealia,369,"2,1","7,0","74,1",100
+AP084,Mie aceh rebus,Olahan,Serealia,113,"3,0","3,2","18,1",100
+AP085,Mie ayam,Olahan,Serealia,102,"6,2","3,9","10,5",100
+AP086,Mie bakso,Olahan,Serealia,114,"5,3","3,0","16,4",100
+AP087,Mie celon,Olahan,Serealia,102,"3,0","2,1","17,8",100
+AP088,Mie pangsit basah,Olahan,Serealia,105,"5,9","4,9","9,4",100
+AP089,Nasi gemuk,Olahan,Serealia,192,"3,8","8,8","24,4",100
+AP090,Nasi gurih,Olahan,Serealia,190,"4,7","7,5","26,0",100
+AP091,Nasi minyak,Olahan,Serealia,207,"3,5","5,0","37,1",100
+AP092,Nasi rames,Olahan,Serealia,155,"10,3","4,2","19,1",100
+AP093,Nopia spesial,Olahan,Serealia,387,"5,3","7,6","74,3",100
+AP094,Onde-onde,Olahan,Serealia,336,"4,0","9,8","57,9",100
+AP095,Padamaran,Olahan,Serealia,171,"3,9","8,9","18,8",100
+AP096,Pastel,Olahan,Serealia,307,"4,5","13,3","42,4",100
+AP097,Pulut,Olahan,Serealia,216,"2,6","3,1","44,4",100
+AP098,Pundut nasi,Olahan,Serealia,104,"1,9","4,1","15,1",100
+AP100,Putri selat,Olahan,Serealia,163,"2,2","6,5","23,8",100
+AP101,Putu sopa,Olahan,Serealia,215,"3,3","4,1","41,1",100
+AP102,Renggi goreng,Olahan,Serealia,471,"4,7","21,8","64,1",100
+AP103,Roti boong,Olahan,Serealia,341,"5,5","16,2","43,3",100
+AP104,Roti warna sawo matang,Olahan,Serealia,249,"7,9","1,5","49,7",100
+AP105,Sarimuka,Olahan,Serealia,166,"2,3","2,8","32,9",100
+AP106,Spaghetti,Olahan,Serealia,139,"7,4","2,1","22,6",100
+AP107,Srikaya ketan,Olahan,Serealia,265,"2,7","6,4","49,1",100
+AP108,Sunduk lawang,Olahan,Serealia,181,"1,9","1,3","32,4",100
+AP109,Suwir-suwir,Olahan,Serealia,347,"0,5","0,9","84,2",100
+AP110,Tipa-tipa,Olahan,Serealia,355,"6,2","1,2","79,8",100
+AP111,Wajit camilan,Olahan,Serealia,303,"6,3","2,7","63,3",100
+AP112,Widaran,Olahan,Serealia,424,"1,3","10,7","80,7",100
+AP113,Wingko babat,Olahan,Serealia,355,"3,2","15,1","51,4",100
+AP114,Yangko,Olahan,Serealia,254,"3,0","1,1","58,1",100
+AP99,Putri hijau,Olahan,Serealia,189,"5,4","2,1","37,2",100
+AR001,"Beras giling, mentah",Tunggal,Serealia,357,"8,4","1,7","77,1",100
+AR002,"Beras giling var pelita, mentah",Tunggal,Serealia,369,"9,5","1,4","77,1",100
+AR003,"Beras giling var rojolele, mentah",Tunggal,Serealia,357,"8,4","1,7","77,1",100
+AR004,"Beras hitam, mentah",Tunggal,Serealia,351,"8,0","1,3","76,9",100
+AR005,"Beras jagung kuning, kering, mentah",Tunggal,Serealia,358,"5,5","0,1","82,7",100
+AR006,"Beras jagung putih, kering, mentah",Tunggal,Serealia,307,"4,8","0,1","71,8",100
+AR007,"Beras ketan hitam tumbuk, mentah",Tunggal,Serealia,360,"8,0","2,3","74,5",100
+AR008,"Beras ketan putih tumbuk, mentah",Tunggal,Serealia,361,"7,4","0,8","78,4",100
+AR009,"Beras ladang, mentah",Tunggal,Serealia,376,"7,5","3,8","78,0",100
+AR010,"Beras menir, mentah",Tunggal,Serealia,362,"7,7","4,4","73,0",100
+AR011,Beras parboiled,Tunggal,Serealia,353,"6,8","0,6","80,0",100
+AR012,"Beras tumbuk, mentah",Tunggal,Serealia,354,"7,8","0,4","79,9",100
+AR013,"Beras tumbuk merah, mentah",Tunggal,Serealia,352,"7,3","0,9","76,2",100
+AR014,"Cantel, mentah",Tunggal,Serealia,366,"11,0","3,3","73,0",100
+AR015,"Jagung muda, kuning, mentah",Tunggal,Serealia,147,"5,1","0,7","31,5",100
+AR016,"Jagung kuning pipil, kering, mentah",Tunggal,Serealia,366,"9,8","7,3","69,1",100
+AR017,"Jagung pipil var. harapan, kering",Tunggal,Serealia,367,"6,2","5,1","76,2",100
+AR018,"Jagung pipil var. metro, kering",Tunggal,Serealia,368,"5,5","4,6","78,0",100
+AR019,"Jali, mentah",Tunggal,Serealia,324,"11,0","4,0","61,0",90
+AR020,"Jawawut, mentah",Tunggal,Serealia,364,"9,7","3,5","73,4",100
+AR021,"Jampang huma, mentah",Tunggal,Serealia,350,"6,2","1,4","78,2",100
+BP001,"Batatas kelapa, ubi, bakar",Olahan,Umbi,110,"1,4","1,1","23,4",85
+BP002,"Batatas kelapa, ubi, kukus",Olahan,Umbi,92,"1,2","0,3","21,0",100
+BP003,"Batatas tali, ubi, rebus",Olahan,Umbi,182,"2,4","0,4","42,2",100
+BP004,"Belitung, talas, kukus",Olahan,Umbi,145,"1,2","0,4","34,2",100
+BP005,"Bentul, talas, kukus",Olahan,Umbi,71,"2,3","0,3","15,4",100
+BP006,"Gadung, ubi, kukus",Olahan,Umbi,88,"0,6","0,3","20,9",100
+BP007,"Ganyong, rebus",Olahan,Umbi,100,"0,8","0,2","23,8",100
+BP008,Ketela pohon/singkong kukus,Olahan,Umbi,153,"1,2","0,3","36,4",100
+BP009,"Suweg, talas, kukus",Olahan,Umbi,93,"1,5","0,1","21,9",100
+BP010,"Talas bogor, kukus",Olahan,Umbi,120,"1,5","0,3","28,2",100
+BP011,"Ubi jalar, kuning, kukus",Olahan,Umbi,100,"0,7","0,3","23,8",100
+BP012,Ubi jalar tinta/ kemayung kukus,Olahan,Umbi,165,"0,9","0,2","39,8",100
+BP013,Bagea kelapa asin,Olahan,Umbi,450,"3,2","13,9","78,1",100
+BP014,Bagea kelapa manis,Olahan,Umbi,452,"1,3","13,8","80,6",100
+BP015,Bagea kenari asin,Olahan,Umbi,529,"3,2","29,1","63,6",100
+BP016,Bagea kenari manis,Olahan,Umbi,523,"3,2","28,2","64,2",100
+BP017,Bagea kw 1,Olahan,Umbi,416,"6,5","9,4","76,3",100
+BP018,Bagea kw 2,Olahan,Umbi,382,"0,3","3,5","87,2",100
+BP019,Beras Cerdas,Olahan,Umbi,350,"2,7","1,1","82,3",100
+BP020,Beras ganyong,Olahan,Umbi,364,"3,4","0,7","86,3",100
+BP021,Beras Siger,Olahan,Umbi,344,"1,1","0,2","28,3",100
+BP022,Biji nangka/Biji salak,Olahan,Umbi,262,"2,3","5,4","51,1",100
+BP023,Bubur sagu,Olahan,Umbi,167,"0,2","4,0","33,0",100
+BP024,Cassavastick,Olahan,Umbi,460,"0,8","18,7","17,2",100
+BP025,Ceriping getuk singkong,Olahan,Umbi,462,"1,2","20,7","67,7",100
+BP026,Gatot,Olahan,Umbi,347,"1,3","0,7","83,8",100
+BP027,Geblek,Olahan,Umbi,195,"0,4","1,7","44,4",100
+BP028,Getuk goreng,Olahan,Umbi,360,"1,3","6,4","74,3",100
+BP029,Getuk singkong,Olahan,Umbi,204,"0,5","1,4","47,4",100
+BP030,Gurandil,Olahan,Umbi,218,"0,5","2,5","48,5",100
+BP031,Kabuto,Olahan,Umbi,250,"2,6","2,5","35,4",100
+BP032,Kapurung,Olahan,Umbi,41,"2,0","0,3","7,8",100
+BP033,Kecimpring singkong goreng,Olahan,Umbi,464,"1,2","18,6","73,0",100
+BP034,Keremes,Olahan,Umbi,475,"1,6","25,2","64,4",100
+BP035,Keripik gadung,Olahan,Umbi,446,"2,8","14,5","76,0",100
+BP036,Keripik kentang,Olahan,Umbi,448,"2,7","18,8","67,1",100
+BP037,Keripik singkong,Olahan,Umbi,478,"0,9","20,7","72,0",100
+BP038,Keripik singkong berbumbu,Olahan,Umbi,481,"2,2","19,7","73,6",100
+BP039,Keripik ubi,Olahan,Umbi,486,"0,2","23,9","67,6",100
+BP040,Kerupuk cumi goreng,Olahan,Umbi,444,"6,9","14,6","71,3",100
+BP041,Kerupuk kemplang (ikan) mentah,Olahan,Umbi,325,"1,8","0,4","78,5",100
+BP042,Kerupuk kemplang goreng,Olahan,Umbi,504,"5,6","28,1","57,1",100
+BP043,Kerupuk kemplang panggang,Olahan,Umbi,356,"9,7","1,1","76,9",100
+BP044,Kerupuk mie kuning goreng,Olahan,Umbi,476,"0,1","21,1","71,3",100
+BP045,Kerupuk udang goreng,Olahan,Umbi,477,"4,7","20,5","68,5",100
+BP046,Kue bangket,Olahan,Umbi,338,"1,5","1,2","80,3",100
+BP047,Kue putu singkong,Olahan,Umbi,217,"1,2","0,5","53,2",100
+BP048,Lanting getuk,Olahan,Umbi,422,"0,9","10,8","80,4",100
+BP049,Mi golosor,Olahan,Umbi,71,"0,2","0,8","15,9",100
+BP050,Mie Bendo,Olahan,Umbi,353,"0,3",-,"88,0",100
+BP051,Mie Sagu,Olahan,Umbi,190,"0,2","0,4","46,5",100
+BP052,Ongol-ongol sagu,Olahan,Umbi,111,"0,3","2,7","21,2",100
+BP053,Oyek,Olahan,Umbi,351,"0,9","0,9","84,9",100
+BP054,Papeda,Olahan,Umbi,61,"0,2","0,1","14,9",100
+BP055,Rasbi (Beras Ubi),Olahan,Umbi,394,"2,2","8,8","76,6",100
+BP056,Rasi (Beras Singkong),Olahan,Umbi,350,"0,9","0,4","85,7",100
+BP057,Sagu forno,Olahan,Umbi,291,"0,5","4,0","63,4",100
+BP058,Sagu Lemak (Kue Sagon),Olahan,Umbi,452,"2,8","14,8","76,8",100
+BP059,Sagu manis,Olahan,Umbi,287,"0,5","3,9","62,4",100
+BP060,Sagu Rendang,Olahan,Umbi,364,"0,1","0,2","90,5",100
+BP061,Sagu sinole,Olahan,Umbi,354,"0,8","8,3","68,9",100
+BP062,Serimping talas kebumen,Olahan,Umbi,478,"2,5","21,2","69,2",100
+BP063,Tapai singkong,Olahan,Umbi,169,"1,4","0,3","40,2",100
+BP064,Tepung Arrowroot,Olahan,Umbi,355,"0,7","0,2","85,2",100
+BP065,Tepung Ganyong,Olahan,Umbi,353,"0,8","1,7","83,6",100
+BP066,Tepung Gaplek,Olahan,Umbi,345,"2,4","0,4","83,1",100
+BP067,"Tepung kentang, kering",Olahan,Umbi,347,"0,3","0,1","85,6",100
+BP068,Tepung Mocaf,Olahan,Umbi,350,"1,2","0,6","85,0",100
+BP069,Tepung Sente,Olahan,Umbi,326,"4,0","0,4","76,7",100
+BP070,Tepung singkong/ Tapioka,Olahan,Umbi,363,"1,1","0,5","88,2",100
+BP071,Tepung Tales Beneng,Olahan,Umbi,332,"5,7","0,6","76,1",100
+BP072,Tepung Ubi Ungu,Olahan,Umbi,354,"2,8","0,6","84,4",100
+BP073,Tiwul,Olahan,Umbi,353,"2,4","1,1","83,4",100
+BP074,Tiwul Instan,Olahan,Umbi,395,"3,2","8,5","76,5",100
+BP075,Ubi Cilembu,Olahan,Umbi,186,"1,9","0,2","44,3",90
+BP076,Uli batatas,Olahan,Umbi,150,"1,1","4,0","27,4",100
+BR001,"Arrowroot, segar",Tunggal,Umbi,102,"1,0","0,2","24,1",100
+BR002,"Batatas gembili, segar",Tunggal,Umbi,76,"1,1","0,9","16,0",85
+BR003,"Batatas kelapa, ubi, segar",Tunggal,Umbi,89,"1,1","0,1","21,0",85
+BR004,"Belitung, talas, segar",Tunggal,Umbi,145,"1,2","0,4","34,2",85
+BR005,"Bengkuang, segar",Tunggal,Umbi,59,"1,4","0,2","12,8",84
+BR006,"Bentul (Komba), talas, segar",Tunggal,Umbi,98,"1,6","0,7","20,9",86
+BR007,"Gadeng/Gadung, kering",Tunggal,Umbi,322,"2,4","0,6","76,6",100
+BR008,"Gadung, ubi, segar",Tunggal,Umbi,100,"0,9","0,3","23,5",85
+BR009,"Ganyong, segar",Tunggal,Umbi,77,"0,6","0,2","18,4",65
+BR010,"Gembili, ubi, segar",Tunggal,Umbi,131,"1,1","0,2","31,3",85
+BR011,"Hofa/Ubi hutan, segar",Tunggal,Umbi,127,"1,2","0,5","29,5",85
+BR012,"Kaburan, ubi, segar",Tunggal,Umbi,133,"1,0","0,2","32,2",81
+BR013,"Kentang, segar",Tunggal,Umbi,62,"2,1","0,2","13,5",85
+BR014,"Kentang hitam, segar",Tunggal,Umbi,142,"0,9","0,4","33,7",75
+BR015,"Keribang, ubi, segar",Tunggal,Umbi,137,"1,3","1,1","29,8",83
+BR016,"Ketela pohon/ singkong, segar",Tunggal,Umbi,154,"1,0","0,3","36,8",85
+BR017,Lepok/Ubi rumput,Tunggal,Umbi,181,"2,8","1,2","39,8",85
+BR018,"Sagu aren, kering",Tunggal,Umbi,355,"0,6","1,1","85,6",100
+BR019,"Sagu aren, segar",Tunggal,Umbi,231,"0,6","0,2","56,6",100
+BR020,Sagu kasbi segar,Tunggal,Umbi,230,"0,6","0,2","56,5",100
+BR021,Sagu lempeng,Tunggal,Umbi,347,"0,9","0,3","85,2",100
+BR022,"Sagu singkong, kering",Tunggal,Umbi,362,"0,5","0,3","86,9",100
+BR023,"Sente, talas, segar",Tunggal,Umbi,353,"0,7","0,2","84,7",86
+BR024,"Suweg, talas, segar",Tunggal,Umbi,74,"1,4","0,1","17,2",86
+BR025,"Talas bogor, segar",Tunggal,Umbi,108,"1,4","0,4","25,0",85
+BR026,"Talas pontianak, segar",Tunggal,Umbi,163,"2,3","0,5","36,4",83
+BR027,"Talas viqueque, segar",Tunggal,Umbi,115,"1,8","0,5","25,9",85
+BR028,"Ubi jalar, kuning, segar",Tunggal,Umbi,119,"0,5","0,4","25,1",85
+BR029,"Ubi jalar manis, segar",Tunggal,Umbi,83,"1,5","0,2","18,8",85
+BR030,"Ubi jalar merah, segar",Tunggal,Umbi,151,"1,6","0,3","35,4",86
+BR031,"Ubi jalar putih, segar",Tunggal,Umbi,88,"0,4","0,4","20,6",86
+BR032,Ubi jalar tinta/ kemayung,Tunggal,Umbi,108,"0,5","0,4","25,6",85
+BR033,"Umbi Uwi, segar",Tunggal,Umbi,120,"2,8","0,5","82,3",86
+CP001,"Kacang belimbing (kecipir), rebus",Olahan,Kacang,204,"16,9","8,8","17,5",100
+CP002,"Kacang bogor, goreng",Olahan,Kacang,479,"12,7","23,2","58,9",35
+CP003,"Kacang bogor, rebus",Olahan,Kacang,161,"7,7","2,8","27,1",35
+CP004,"Kacang gude, rebus",Olahan,Kacang,147,"9,0","0,5","27,5",100
+CP005,"Kacang hijau, rebus",Olahan,Kacang,109,"8,7","0,5","18,3",100
+CP006,"Kacang kedelai, goreng",Olahan,Kacang,521,"32,2","37,7","22,9",100
+CP007,"Kacang kedelai, rebus",Olahan,Kacang,189,"20,2","8,2","12,7",100
+CP008,"Kacang merah kering, rebus",Olahan,Kacang,158,"10,3","0,9","28,2",100
+CP009,"Kacang merah segar, rebus",Olahan,Kacang,144,"10,0","1,0","24,7",100
+CP010,"Kacang mete/biji jambu monyet, goreng",Olahan,Kacang,629,"20,4","56,3","19,8",100
+CP011,Kacang tanah rebus dg kulit,Olahan,Kacang,360,"13,5","31,2","12,8",43
+CP012,"Kacang tanah, goreng",Olahan,Kacang,564,"25,5","44,4","25,5",100
+CP013,"Kacang tanah, rebus",Olahan,Kacang,220,"10,6","18,0","8,0",100
+CP014,"Kacang tolo / tunggak, rebus",Olahan,Kacang,138,"10,7","1,1","22,6",100
+CP015,Ampas kacang hijau,Olahan,Kacang,96,"3,7","0,6","19,1",100
+CP016,"Ampas tahu, mentah",Olahan,Kacang,67,"5,0","2,1","8,1",100
+CP017,Ampas tahu kukus,Olahan,Kacang,75,"4,1","2,1","10,7",100
+CP018,"Ampas tahu, kering",Olahan,Kacang,414,"26,6","18,3","41,3",100
+CP019,Pepes oncom ampas tahu,Olahan,Kacang,76,"5,2","1,8","10,6",100
+CP020,Bungkil biji karet,Olahan,Kacang,333,"29,3","3,3","50,0",100
+CP021,Bungkil kacang tanah,Olahan,Kacang,336,"37,4","13,0","30,5",100
+CP022,Bungkil kelapa,Olahan,Kacang,368,"23,0","15,0","40,0",100
+CP023,Dodol banjarmasin,Olahan,Kacang,368,"2,6","8,6","70,0",100
+CP024,Emping (kerupuk melinjo),Olahan,Kacang,345,"12,0","1,5","71,5",100
+CP025,Emping komak,Olahan,Kacang,355,"17,8","4,6","60,7",100
+CP026,Enting-enting gepuk hello kity,Olahan,Kacang,538,"13,6","30,3","52,6",100
+CP027,Enting-enting gepuk kacang tanah,Olahan,Kacang,524,"13,3","29,2","52,0",100
+CP028,Enting-enting wijen,Olahan,Kacang,565,"18,2","38,4","36,8",100
+CP029,Geplak,Olahan,Kacang,350,"1,4","14,4","53,6",100
+CP030,Geplak jahe,Olahan,Kacang,462,"3,1","24,4","57,7",100
+CP031,Kacang atom,Olahan,Kacang,533,"27,8","38,1","28,8",100
+CP032,Kacang goyang,Olahan,Kacang,516,"14,7","31,1","44,4",100
+CP033,Kacang negara,Olahan,Kacang,480,"18,4","19,1","58,5",100
+CP034,Kacang sukro,Olahan,Kacang,484,"8,8","26,1","57,7",100
+CP035,Kacang tanah sari,Olahan,Kacang,561,"25,5","43,8","26,0",100
+CP036,Keju kacang tanah (peanut butter),Olahan,Kacang,590,"27,0","49,0","20,9",100
+CP037,Kembang tahu,Olahan,Kacang,380,"48,9","13,8","23,3",100
+CP038,Kembang tahu rebus,Olahan,Kacang,90,"10,7","4,0","4,7",100
+CP039,Keripik oncom,Olahan,Kacang,598,"8,3","43,8","42,6",100
+CP040,Keripik tempe,Olahan,Kacang,581,"12,1","40,6","41,7",100
+CP041,Keripik tempe abadi besar,Olahan,Kacang,556,"15,8","37,1","39,8",100
+CP042,Keripik tempe abadi murni,Olahan,Kacang,542,"40,3","42,4","11,6",100
+CP043,Keripik tempe abadi sedang,Olahan,Kacang,510,"12,3","27,9","52,4",100
+CP044,Keripik tempe abadi telur,Olahan,Kacang,529,"20,8","31,7","40,2",100
+CP045,Keripik tempe abadi prima,Olahan,Kacang,540,"16,7","33,9","42,0",100
+CP046,Kwaci,Olahan,Kacang,515,"30,6","42,1","13,8",35
+CP047,Melinjo emping tebal goreng manis,Olahan,Kacang,439,"10,0","16,4","65,7",100
+CP048,"Melinjo emping tebal, goreng asin",Olahan,Kacang,431,"11,1","16,2","63,0",100
+CP049,Melinjo emping tipis goreng,Olahan,Kacang,485,"11,5","24,5","59,1",100
+CP050,Moon tahu,Olahan,Kacang,128,"8,0","10,0","1,3",100
+CP051,Oncom,Olahan,Kacang,187,"13,0","6,0","22,6",100
+CP052,Oncom ampas kacang hijau,Olahan,Kacang,376,"14,9","6,0","65,7",100
+CP053,Oncom kacang hijau + singkong,Olahan,Kacang,351,"11,0","5,3","65,9",100
+CP054,Oncom kacang tanah pepes,Olahan,Kacang,132,"12,7","3,8","13,7",100
+CP055,Rempeyek kacang tanah,Olahan,Kacang,513,"17,5","32,5","44,3",100
+CP056,Rempeyek kacang tolo,Olahan,Kacang,451,"11,2","20,2","59,7",100
+CP057,Rempeyek kacang uci,Olahan,Kacang,497,"17,0","27,6","50,8",100
+CP058,Sayur lebui,Olahan,Kacang,64,"2,1","0,6","12,5",100
+CP059,"Saridele, bubuk",Olahan,Kacang,344,"30,0","20,0","43,0",100
+CP060,Susu kedelai,Olahan,Kacang,41,"3,5","2,5","5,0",100
+CP061,"Tahu, mentah",Olahan,Kacang,80,"10,9","4,7","0,8",100
+CP062,Tahu goreng,Olahan,Kacang,115,"9,7","8,5","2,5",100
+CP063,Tahu telur,Olahan,Kacang,328,"12,6","19,9","24,6",100
+CP064,Takwa,Olahan,Kacang,148,"13,8","8,5","4,0",100
+CP065,Tauco,Olahan,Kacang,184,"11,4","5,5","22,2",100
+CP066,"Tauco cap beruang, cake",Olahan,Kacang,347,"7,4","5,2","67,6",100
+CP067,"Tauco cap DAS, cake",Olahan,Kacang,358,"7,5","4,3","70,4",100
+CP068,Tauco cap meong,Olahan,Kacang,159,"7,4","4,9","21,3",100
+CP069,Tauji cap singa,Olahan,Kacang,277,"9,1","4,7","49,6",100
+CP070,Tempe bongkrek,Olahan,Kacang,119,"4,4","3,5","18,3",100
+CP071,Tempe gembus P3G,Olahan,Kacang,73,"5,7","1,3","10,3",100
+CP072,Tempe gembus yogya,Olahan,Kacang,76,"6,8","0,7","10,6",100
+CP073,Tempe kacang babi,Olahan,Kacang,139,"12,5","0,8","21,9",100
+CP074,Tempe kecipir (kacang belimbing),Olahan,Kacang,212,"17,5","10,0","12,9",100
+CP075,Tempe kedelai + jagung,Olahan,Kacang,143,"12,0","5,5","11,4",100
+CP076,"Tempe kedelai murni, goreng",Olahan,Kacang,350,"24,5","26,6","10,4",100
+CP077,"Tempe kedelai murni, mentah",Olahan,Kacang,201,"20,8","8,8","13,5",100
+CP078,Tempe koro benguk,Olahan,Kacang,141,"10,2","1,3","23,2",100
+CP079,Tempe lamtoro,Olahan,Kacang,128,"10,7","0,5","21,3",100
+CP080,Tempe lamtoro var. gung dengan kulit,Olahan,Kacang,146,"11,7","2,3","19,6",100
+CP081,Tempe lamtoro var. gung tanpa kulit,Olahan,Kacang,131,"18,0","0,8","13,0",100
+CP082,Tempe pasar,Olahan,Kacang,150,"14,0","7,7","9,1",100
+CP083,Tempe pasar goreng,Olahan,Kacang,336,"20,0","28,0","7,8",100
+CP084,Tepung hunkwe (pati kacang ijo),Olahan,Kacang,364,"4,5","1,0","83,5",100
+CP085,Tepung Jalejo,Olahan,Kacang,388,"19,0","7,5","61,2",100
+CP086,Tepung kacang kedelai,Olahan,Kacang,347,"35,9","20,6","29,9",100
+CR001,"Kacang arab, kering",Tunggal,Kacang,330,"23,8","1,4","60,2",100
+CR002,"Kacang babi, kering",Tunggal,Kacang,341,"30,4","3,2","51,3",80
+CR003,"Kacang belimbing (kecipir), kering",Tunggal,Kacang,400,"34,4","16,9","34,1",100
+CR004,"Kacang beracun, segar",Tunggal,Kacang,118,"4,4","1,5","21,6",-
+CR005,"Kacang bogor, kering",Tunggal,Kacang,370,"16,0","6,0","65,0",100
+CR006,"Kacang bogor, segar",Tunggal,Kacang,165,"7,7","3,1","27,4",100
+CR007,"Kacang endel, biji, kering",Tunggal,Kacang,331,"25,0","1,0","58,0",95
+CR008,"Kacang ercis, segar",Tunggal,Kacang,129,"12,4","0,7","18,3",45
+CR009,"Kacang galing, segar",Tunggal,Kacang,336,"23,1","1,7","59,5",95
+CR010,"Kacang gude, biji, kering",Tunggal,Kacang,316,"20,7","1,0","58,0",100
+CR011,"Kacang gude, biji, segar",Tunggal,Kacang,114,"7,0","0,6","20,8",100
+CR012,"Kacang hijau var. bakti, kering",Tunggal,Kacang,350,"17,1","1,8","70,7",100
+CR013,"Kacang hijau var. siwalik, kering",Tunggal,Kacang,339,"20,8","2,1","64,6",100
+CR014,"Kacang hijau, kering",Tunggal,Kacang,323,"22,9","1,5","56,8",100
+CR015,"Kacang hitam, kering",Tunggal,Kacang,346,"16,6","1,7","66,1",100
+CR016,"Kacang kapri, segar",Tunggal,Kacang,98,"6,7","0,4","17,7",45
+CR017,"Kacang kedelai, kering",Tunggal,Kacang,381,"40,4","16,7","24,9",100
+CR018,"Kacang kedelai, segar",Tunggal,Kacang,286,"30,2","15,6","30,1",100
+CR019,"Kacang kincai, kering",Tunggal,Kacang,444,"19,9","16,0","55,0",-
+CR020,"Kacang komak, segar",Tunggal,Kacang,327,"16,4","4,3","55,8",45
+CR021,"Kacang kuning, kering",Tunggal,Kacang,355,"17,0","2,5","66,0",-
+CR022,"Kacang lebui /iris, kering",Tunggal,Kacang,346,"16,5","1,5","66,6",100
+CR023,"Kacang mentega, kering",Tunggal,Kacang,344,"16,7","2,1","64,6",-
+CR024,"Kacang merah/banda, kering",Tunggal,Kacang,350,"13,9","3,0","66,9",100
+CR025,"Kacang merah tua, kering",Tunggal,Kacang,280,"16,7","1,6","63,2",100
+CR026,"Kacang merah, kering",Tunggal,Kacang,314,"22,1","1,1","56,2",100
+CR027,"Kacang merah, segar",Tunggal,Kacang,171,"11,0","2,2","28,0",100
+CR028,"Kacang mete/biji jambu monyet, segar",Tunggal,Kacang,616,"16,3","48,4","28,7",69
+CR029,"Kacang panjang, biji, kering",Tunggal,Kacang,357,"17,3","1,5","68,6",100
+CR030,Kacang tanah sangan,Tunggal,Kacang,560,"29,5","43,0","24,1",100
+CR031,Kacang tanah sangan tanpa selaput,Tunggal,Kacang,559,"26,9","44,2","23,6",100
+CR032,"Kacang tanah, kering",Tunggal,Kacang,525,"27,9","42,7","17,4",100
+CR033,"Kacang tolo / tunggak, kering",Tunggal,Kacang,331,"24,4","1,9","56,6",100
+CR034,"Kacang tunis, kering",Tunggal,Kacang,351,"12,2","1,2","72,9",100
+CR035,"Kacang uci, kering",Tunggal,Kacang,358,"23,4","2,4","60,6",100
+CR036,"Kacang urei, kering",Tunggal,Kacang,354,"12,8","1,8","69,3",-
+CR037,"Kenari banda, kering",Tunggal,Kacang,616,"13,9","56,2","13,7",100
+CR038,"Kenari, kering",Tunggal,Kacang,657,"15,0","66,0","13,0",100
+CR039,"Komak polong, segar",Tunggal,Kacang,99,"3,3","0,1","21,2",100
+CR040,"Koro andong, kering",Tunggal,Kacang,356,"20,5","4,1","61,6",100
+CR041,"Koro benguk, biji, kering",Tunggal,Kacang,332,"24,0","3,0","55,0",95
+CR042,"Koro kerupuk, biji, segar",Tunggal,Kacang,125,"8,3","0,7","22,1",68
+CR043,"Koro loke, biji, segar",Tunggal,Kacang,33,"2,7","0,2","7,9",95
+CR044,"Koro roay, kering",Tunggal,Kacang,344,"12,5","2,1","69,4",100
+CR045,"Koro wedus, biji, kering",Tunggal,Kacang,338,"22,2","1,5","61,0",100
+CR046,"Lamtoro biji, muda, segar",Tunggal,Kacang,85,"5,7","0,3","15,4",100
+CR047,"Lamtoro biji, tua, segar",Tunggal,Kacang,148,"10,6","0,5","26,2",100
+CR048,Lamtoro var. gung tanpa kulit,Tunggal,Kacang,367,"46,4","5,4","32,5",100
+CR049,Lamtoro var. lokal dengan kulit,Tunggal,Kacang,336,"23,8","1,2","59,7",100
+CR050,"Nangka, biji, segar",Tunggal,Kacang,165,"4,2","0,1","36,7",75
+CR051,"Saga merah terkupas, mentah",Tunggal,Kacang,449,"30,6","25,5","31,9",100
+CR052,"Wijen, mentah",Tunggal,Kacang,568,"19,3","51,1","18,1",100
+DP001,"Bayam, kukus",Olahan,Sayur,30,"1,3","0,7","5,8",100
+DP002,"Bayam, rebus",Olahan,Sayur,23,"1,2","0,6","3,7",100
+DP003,"Buncis, rebus",Olahan,Sayur,30,"2,2","0,2","6,4",100
+DP004,"Daun kacang panjang, kukus",Olahan,Sayur,40,"3,7","0,3","8,0",100
+DP005,"Daun katuk, rebus",Olahan,Sayur,53,"5,3","0,9","9,1",100
+DP006,"Daun kelor, rebus",Olahan,Sayur,61,"6,1","0,9","10,0",100
+DP007,"Daun mengkudu, kukus",Olahan,Sayur,63,"3,8","1,5","11,5",100
+DP008,"Daun singkong, rebus",Olahan,Sayur,31,"3,7","0,6","4,8",100
+DP009,"Daun talas, rebus",Olahan,Sayur,27,"1,3","0,2","5,9",100
+DP010,"Daun ubi merah, kukus",Olahan,Sayur,56,"3,1","0,3","13,0",100
+DP011,"Kacang panjang, kukus",Olahan,Sayur,39,"3,0","0,6","7,6",100
+DP012,"Kacang panjang, rebus",Olahan,Sayur,30,"2,3","0,4","5,8",100
+DP013,"Kangkung, kukus",Olahan,Sayur,30,"3,2","0,7","4,7",100
+DP014,"Kangkung, rebus",Olahan,Sayur,22,"2,5","0,6","3,1",100
+DP015,"Paria putih, kukus",Olahan,Sayur,16,"0,8","0,2","3,4",100
+DP016,"Selada, rebus",Olahan,Sayur,19,"2,7","0,2","2,9",100
+DP017,"Taoge, goreng",Olahan,Sayur,88,"3,2","2,1","14,0",100
+DP018,"Taoge, seduh",Olahan,Sayur,28,"3,0","0,8","4,0",87
+DP019,"Terung panjang, kukus",Olahan,Sayur,23,"1,8","0,1","4,9",100
+DP020,"Wortel, rebus",Olahan,Sayur,28,"0,7","0,5","6,3",100
+DP021,"Wortel, kukus",Olahan,Sayur,37,"1,0","0,6","8,3",100
+DP022,"Asinan Bogor, sayuran",Olahan,Sayur,98,"3,9","2,6","14,8",100
+DP023,"Anyang, sayur",Olahan,Sayur,126,"3,4","7,9","10,3",100
+DP024,"Ares, sayur",Olahan,Sayur,113,"0,9","7,2","11,2",100
+DP025,Arwan sirsir,Olahan,Sayur,277,"2,4","25,0","10,7",100
+DP026,Beberuk,Olahan,Sayur,65,"1,1","5,2","3,5",100
+DP027,Botok lamtoro,Olahan,Sayur,186,"11,7","9,7","13,0",100
+DP028,Buntil daun talas,Olahan,Sayur,141,"4,4","10,2","8,0",100
+DP029,Cammetutu,Olahan,Sayur,102,"3,2","6,0","8,7",100
+DP030,"Cap cai, sayur",Olahan,Sayur,97,"5,8","6,3","4,2",100
+DP031,Gado-gado,Olahan,Sayur,137,"6,1","3,2","21,0",100
+DP032,"Gudeg, sayur",Olahan,Sayur,160,"3,3","9,2","16,0",100
+DP033,Gulai pakis,Olahan,Sayur,143,"4,0","11,4","6,0",100
+DP034,Gulai pliek,Olahan,Sayur,176,"7,3","14,9","3,2",100
+DP035,Kadada katembe,Olahan,Sayur,110,"4,5","6,9","7,1",100
+DP036,"Kaparende, sayur",Olahan,Sayur,38,"2,4","2,0","2,6",100
+DP037,"Karedok, sayur",Olahan,Sayur,92,"2,2","3,3","14,1",100
+DP038,Keripik bayam,Olahan,Sayur,586,"4,9","40,6","50,2",100
+DP039,Kotiu hinela tawang nggole,Olahan,Sayur,46,"2,2","1,5","6,0",100
+DP040,Lema/Rebung asam,Olahan,Sayur,15,"1,0","0,4","1,9",100
+DP041,Lilin bungkus gedi,Olahan,Sayur,79,"2,3","5,2","5,8",100
+DP042,Olah-olah,Olahan,Sayur,9,"2,1","6,0","7,1",100
+DP043,Paku hinela wulelenggapaya,Olahan,Sayur,77,"3,5","4,6","5,4",100
+DP044,Pelecing kangkung,Olahan,Sayur,75,"2,5","2,8","10,0",100
+DP045,Purundawa,Olahan,Sayur,25,"1,5","0,5","3,6",100
+DP046,Rujak cingur,Olahan,Sayur,153,"11,3","8,4","8,0",100
+DP047,Sayur asem,Olahan,Sayur,29,"0,7","0,6","5,0",100
+DP048,Sayur bunga pepaya,Olahan,Sayur,49,"1,7","0,3","9,8",100
+DP049,Sayur garu,Olahan,Sayur,178,"2,6","13,9","10,6",100
+DP050,Sayur kohu-kohu,Olahan,Sayur,133,"7,3","6,6","11,2",100
+DP051,Sayur lilin-terubuk,Olahan,Sayur,36,"2,7","0,7","4,8",100
+DP052,Sayur ndusuk,Olahan,Sayur,49,"3,1","2,5","3,6",100
+DP053,Sayur sop,Olahan,Sayur,27,"1,3","2,0","1,0",100
+DP054,Sayur umbut kelapa,Olahan,Sayur,67,"5,2","2,9","5,1",100
+DP055,Sayur umbut rotan,Olahan,Sayur,57,"5,4","2,6","3,1",100
+DP056,Shabu-shabu,Olahan,Sayur,88,"3,2","8,0","0,8",100
+DP057,Semur jengkol,Olahan,Sayur,212,"6,0","10,0","29,1",100
+DP058,Tinira ninahu nggaluku,Olahan,Sayur,33,"1,2","1,3","4,1",100
+DP059,Tumis bayam bersantan,Olahan,Sayur,48,"1,4","4,2","2,6",100
+DP060,Waluh balamak,Olahan,Sayur,45,"0,8","0,9","8,1",100
+DP061,Woku ubi,Olahan,Sayur,143,"3,1","7,8","15,0",100
+DR001,"Akar tonjong, segar",Tunggal,Sayur,45,"1,1","0,4","10,8",100
+DR002,"Ale,toge, segar",Tunggal,Sayur,37,"4,4","0,5","3,8",90
+DR003,"Andaliman, segar",Tunggal,Sayur,99,"4,6","1,0","18,0",100
+DR004,"Andewi, segar",Tunggal,Sayur,226,"1,6","0,2","5,3",80
+DR005,"Bakung, segar",Tunggal,Sayur,27,"2,0","0,2","4,2",100
+DR006,"Baligo, segar",Tunggal,Sayur,15,"0,4","0,2","3,0",69
+DR007,"Bawang bombay, segar",Tunggal,Sayur,43,"1,4","0,2","10,3",94
+DR008,"Bayam, segar",Tunggal,Sayur,16,"0,9","0,4","2,9",71
+DR009,"Bayam merah, segar",Tunggal,Sayur,41,"2,2","0,8","6,3",71
+DR010,"Bit, segar",Tunggal,Sayur,41,"1,6","0,1","9,6",75
+DR011,Buah kelor,Tunggal,Sayur,38,"1,5","0,2","7,5",65
+DR012,Buah merah,Tunggal,Sayur,87,"2,6","2,7","13,1",100
+DR013,"Buncis, segar",Tunggal,Sayur,34,"2,4","0,3","7,2",90
+DR014,"Bunga pepaya, segar",Tunggal,Sayur,45,"2,6","0,3","8,1",100
+DR015,"Bunga turi, segar",Tunggal,Sayur,42,"2,0","1,1","6,1",96
+DR016,"Caisin, segar",Tunggal,Sayur,20,"1,7","0,4","3,4",100
+DR017,"Daun bangun-bangun, segar",Tunggal,Sayur,27,"1,3","0,6","4,0",66
+DR018,"Daun bawang merah, segar",Tunggal,Sayur,41,"2,0","0,3","7,8",67
+DR019,"Daun bebuas, segar",Tunggal,Sayur,41,"2,7","1,0","7,3",49
+DR020,"Daun belem, segar",Tunggal,Sayur,50,"4,4","1,4","7,8",81
+DR021,"Daun bluntas, segar",Tunggal,Sayur,44,"1,8","0,5","9,4",65
+DR022,"Daun gandaria, segar",Tunggal,Sayur,63,"3,1","0,3","14,0",65
+DR023,"Daun gedi besar, segar",Tunggal,Sayur,58,"2,9","0,7","10,0",65
+DR024,"Daun gedi kecil, segar",Tunggal,Sayur,61,"3,2","0,7","10,4",65
+DR025,"Daun gelang, segar",Tunggal,Sayur,30,"1,3","0,7","5,8",52
+DR026,"Daun gunda bali, segar",Tunggal,Sayur,50,"4,6","0,9","7,0",49
+DR027,"Daun gunda serang, segar",Tunggal,Sayur,62,"4,2","0,9","9,2",47
+DR028,"Daun jambu mete muda, segar",Tunggal,Sayur,78,"4,6","0,5","16,2",65
+DR029,"Daun jampang, segar",Tunggal,Sayur,34,"3,8","0,5","5,3",47
+DR030,"Daun jawaw seluang, segar",Tunggal,Sayur,93,"5,0","1,3","15,3",-
+DR031,"Daun jonghe, segar",Tunggal,Sayur,27,"2,1","0,7","4,4",45
+DR032,"Daun kacang ma, segar",Tunggal,Sayur,36,"2,9","0,6","6,8",33
+DR033,"Daun kacang panjang, segar",Tunggal,Sayur,30,"3,1","0,3","5,8",65
+DR034,"Daun kasbi/singkong karet, segar",Tunggal,Sayur,92,"4,0","3,6","10,9",87
+DR035,"Daun katuk, segar",Tunggal,Sayur,59,"6,4","1,0","9,9",40
+DR036,"Daun kecipir, segar",Tunggal,Sayur,52,"5,0","0,5","8,5",70
+DR037,"Daun kedondong, segar",Tunggal,Sayur,59,"3,5","0,3","13,4",65
+DR038,"Daun kelor, segar",Tunggal,Sayur,92,"5,1","1,6","14,3",65
+DR039,"Daun kemangi, segar",Tunggal,Sayur,43,"5,5","0,3","7,5",65
+DR040,"Daun kenikir, segar",Tunggal,Sayur,45,"3,7","0,5","6,6",36
+DR041,"Daun kesum, segar",Tunggal,Sayur,48,"4,5","0,8","9,1",53
+DR042,"Daun kol sawi, segar",Tunggal,Sayur,22,"2,1","0,5","3,6",87
+DR043,"Daun koro, segar",Tunggal,Sayur,23,"3,0","0,3","3,7",65
+DR044,"Daun kubis, segar",Tunggal,Sayur,51,"2,5","1,1","8,0",75
+DR045,"Daun kumak, segar",Tunggal,Sayur,14,"1,3","0,3","2,3",78
+DR046,"Daun labu siam, segar",Tunggal,Sayur,34,"4,0","0,4","4,7",100
+DR047,"Daun labu waluh/kuning, segar",Tunggal,Sayur,34,"3,6","0,6","4,5",70
+DR048,"Daun lamtoro, segar",Tunggal,Sayur,87,"8,3","1,8","14,4",40
+DR049,"Daun leilem, segar",Tunggal,Sayur,76,"2,8","0,2","15,8",90
+DR050,"Daun leunca, segar",Tunggal,Sayur,49,"4,7","0,5","8,1",70
+DR051,"Daun lobak, segar",Tunggal,Sayur,30,"2,3","0,4","5,8",70
+DR052,"Daun lompong talas, segar",Tunggal,Sayur,44,"3,0","0,8","7,4",75
+DR053,"Daun mangkokan, segar",Tunggal,Sayur,57,"3,7","0,3","11,8",80
+DR054,"Daun matel ambon, segar",Tunggal,Sayur,71,"6,8","1,6","11,5",100
+DR055,"Daun melinjo, segar",Tunggal,Sayur,104,"5,0","1,3","21,3",88
+DR056,"Daun mengkudu, segar",Tunggal,Sayur,65,"4,0","1,7","11,4",90
+DR057,"Daun ndusuk, segar",Tunggal,Sayur,166,"1,7","0,5","38,8",-
+DR058,"Daun oyong, segar",Tunggal,Sayur,22,"1,0","0,1","5,3",65
+DR059,"Daun pakis, segar",Tunggal,Sayur,39,"4,5","0,4","6,9",70
+DR060,"Daun pakis longgiho, segar",Tunggal,Sayur,54,"2,2","3,6","3,1",70
+DR061,"Daun pakis wambateu, segar",Tunggal,Sayur,53,"3,4","1,2","7,2",70
+DR062,"Daun paku, segar",Tunggal,Sayur,29,"3,4","0,1","6,5",70
+DR063,"Daun pangi,segar",Tunggal,Sayur,104,"3,9","0,6","17,9",90
+DR064,"Daun pare, segar",Tunggal,Sayur,49,"2,7","1,0","8,4",-
+DR065,"Daun pepaya, segar",Tunggal,Sayur,87,"8,0","2,0","11,9",71
+DR066,"Daun pohpohan, segar",Tunggal,Sayur,37,"2,5","0,8","6,9",69
+DR067,"Daun selasih, segar",Tunggal,Sayur,62,"4,0","0,5","10,5",53
+DR068,"Daun semanggi, segar",Tunggal,Sayur,45,"4,4","0,5","8,5",90
+DR069,"Daun simpur, segar",Tunggal,Sayur,53,"3,2","2,5","7,6",100
+DR070,"Daun singkil, segar",Tunggal,Sayur,68,"2,0","1,0","15,2",70
+DR071,"Daun singkong, segar",Tunggal,Sayur,50,"6,2","1,1","7,1",87
+DR072,"Daun singkong ambon, segar",Tunggal,Sayur,144,"12,7","1,2","25,2",87
+DR073,"Daun singkong ampenan, segar",Tunggal,Sayur,50,"6,2","1,1","7,1",87
+DR074,"Daun singkong kopang, segar",Tunggal,Sayur,74,"6,3","0,7","10,7",87
+DR075,"Daun sintrong, segar",Tunggal,Sayur,36,"2,6","0,9","6,1",94
+DR076,"Daun talas, segar",Tunggal,Sayur,59,"3,0","0,4","13,5",80
+DR077,"Daun tespong, segar",Tunggal,Sayur,70,"2,9","0,3","13,9",60
+DR078,"Daun ubi kuning, segar",Tunggal,Sayur,62,"3,7","0,3","11,1",75
+DR079,"Daun ubi merah, segar",Tunggal,Sayur,48,"3,0","0,3","10,8",75
+DR080,"Daun ubi putih, segar",Tunggal,Sayur,46,"2,8","0,2","8,2",75
+DR081,"Daun ubi tinta, segar",Tunggal,Sayur,55,"1,7","0,1","11,9",75
+DR082,"Eceng, segar",Tunggal,Sayur,19,"1,0","0,2","3,8",70
+DR083,"Gambas (oyong), segar",Tunggal,Sayur,19,"0,8","0,2","4,1",85
+DR084,"Genjer, segar",Tunggal,Sayur,35,"1,7","0,2","7,7",70
+DR085,"Jagung muda / semi, segar",Tunggal,Sayur,35,"2,2","0,1","7,4",100
+DR086,Jamur encik,Tunggal,Sayur,296,"9,4","1,1","62,0",95
+DR087,"Jamur kuping, kering",Tunggal,Sayur,294,"16,0","0,9","64,6",100
+DR088,"Jamur kuping, segar",Tunggal,Sayur,21,"3,8","0,6","0,9",100
+DR089,"Jamur merang, segar",Tunggal,Sayur,30,"3,5","0,2","4,0",100
+DR090,"Jamur tiram, segar",Tunggal,Sayur,30,"1,9","0,1","5,5",100
+DR091,Jamur sagu,Tunggal,Sayur,48,"1,9","3,2","2,8",95
+DR092,"Jantung pisang, segar",Tunggal,Sayur,32,"1,2","0,3","7,1",25
+DR093,"Jengkol, segar",Tunggal,Sayur,192,"5,4","0,3","40,7",95
+DR094,"Jotang, segar",Tunggal,Sayur,34,"1,9","0,3","7,1",70
+DR095,"Kabau, segar",Tunggal,Sayur,130,"6,7","0,3","25,2",95
+DR096,"Kacang mekah, polong, segar",Tunggal,Sayur,22,"1,1","1,0","3,4",91
+DR097,"Kacang panjang, segar",Tunggal,Sayur,31,"2,3","0,1","5,3",92
+DR098,Kacang ranti polong,Tunggal,Sayur,37,"3,1","0,2","7,9",83
+DR099,"Kalakai, segar",Tunggal,Sayur,38,"2,4","0,2","6,6",70
+DR100,"Kangkung, segar",Tunggal,Sayur,28,"3,4","0,7","3,9",60
+DR101,Kangkung tondano,Tunggal,Sayur,43,"1,8","0,2","8,4",60
+DR102,"Kapri muda, segar",Tunggal,Sayur,45,"3,3","0,2","9,0",80
+DR103,Karawila,Tunggal,Sayur,25,"2,3","0,2","3,5",80
+DR104,"Kecipir muda, segar",Tunggal,Sayur,32,"2,9","0,2","5,8",96
+DR105,"Kecombrang, segar",Tunggal,Sayur,34,"0,9","1,0","6,7",100
+DR106,"Kelawi,kluwih, segar",Tunggal,Sayur,118,"1,5","0,3","27,2",77
+DR107,"Kembang turi, segar",Tunggal,Sayur,51,"1,8","0,6","9,6",83
+DR108,"Kerokot, segar",Tunggal,Sayur,26,"1,7","0,4","3,8",80
+DR109,"Ketimun, segar",Tunggal,Sayur,8,"0,2","0,2","1,4",55
+DR110,"Ketimun krai, segar",Tunggal,Sayur,10,"0,5","0,2","2,0",82
+DR111,"Ketimun madura, segar",Tunggal,Sayur,9,"0,5","0,1","1,9",89
+DR112,"Komak, segar",Tunggal,Sayur,99,"3,3","0,1","21,2",80
+DR113,Kembang Kol,Tunggal,Sayur,25,"2,4","0,2","4,9",57
+DR114,"Kol merah, kol putih",Tunggal,Sayur,29,"1,4","0,2","5,3",75
+DR115,"Koro kerupuk, polong",Tunggal,Sayur,128,"8,3","0,7","22,1",68
+DR116,"Koro wedus, polong",Tunggal,Sayur,46,"3,0","0,3","7,9",70
+DR117,"Kucai, segar",Tunggal,Sayur,45,"2,2","0,3","10,3",52
+DR118,"Kucai muda (Lokio), segar",Tunggal,Sayur,42,"3,8","0,6","7,8",100
+DR119,Kulit melinjo,Tunggal,Sayur,111,"4,5","1,1","20,7",100
+DR120,"Kundur, segar",Tunggal,Sayur,22,"0,4","0,2","4,7",57
+DR121,"Labu air, segar",Tunggal,Sayur,19,"0,6","0,2","3,8",80
+DR122,"Labu kuning, segar",Tunggal,Sayur,51,"1,7","0,5","10,0",74
+DR123,"Labu siam, segar",Tunggal,Sayur,30,"0,6","0,1","6,7",83
+DR124,"Labu waluh, segar",Tunggal,Sayur,32,"1,1","0,1","6,6",77
+DR125,"Lantar, segar",Tunggal,Sayur,34,"2,2","0,3","5,5",-
+DR126,"Lobak, segar",Tunggal,Sayur,21,"0,9","0,1","4,2",87
+DR127,"Lumai/Leunca, segar",Tunggal,Sayur,38,"1,1","0,3","7,6",95
+DR128,"Melinjo, segar",Tunggal,Sayur,66,"5,0","0,7","13,3",60
+DR129,Mostarda metan - sawi hijau,Tunggal,Sayur,33,"2,3","0,5","4,7",85
+DR130,"Nangka muda, segar",Tunggal,Sayur,57,"2,0","0,4","11,3",80
+DR131,"Paria putih, segar",Tunggal,Sayur,19,"1,0","0,4","3,6",80
+DR132,"Pepare ular, segar",Tunggal,Sayur,19,"0,6","0,1","3,9",97
+DR133,"Pepaya muda, segar",Tunggal,Sayur,29,"2,1","0,1","4,9",65
+DR134,"Petai, segar",Tunggal,Sayur,92,"5,4","1,1","15,2",36
+DR135,"Peterseli, segar",Tunggal,Sayur,53,"3,7","1,0","9,0",95
+DR136,"Pucuk lumai/daun leunca, segar",Tunggal,Sayur,33,"4,5","0,4","2,8",70
+DR137,"Putri malu, segar",Tunggal,Sayur,76,"3,6","0,3","14,6",-
+DR138,"Rebung, segar",Tunggal,Sayur,25,"0,8","0,1","5,3",28
+DR139,"Rimbang, segar",Tunggal,Sayur,75,"1,6","0,6","15,8",95
+DR140,Rumput laut,Tunggal,Sayur,41,"1,4","0,3","8,1",100
+DR141,"Sawi, segar",Tunggal,Sayur,28,"2,3","0,3","4,0",87
+DR142,"Sawi putih / pecai, segar",Tunggal,Sayur,9,"1,0","0,1","1,7",79
+DR143,"Sawi taiwan, segar",Tunggal,Sayur,30,"1,9","0,5","4,4",85
+DR144,"Sawi tanah, segar",Tunggal,Sayur,19,"1,3","0,2","2,9",85
+DR145,"Selada, segar",Tunggal,Sayur,18,"1,2","0,2","2,9",69
+DR146,"Selada air, segar",Tunggal,Sayur,17,"3,1","0,2","2,2",70
+DR147,"Seledri, segar",Tunggal,Sayur,23,"1,0","0,1","4,6",63
+DR148,"Taoge, segar",Tunggal,Sayur,34,"3,7","1,2","4,3",100
+DR149,"Taoge kacang kedelai, segar",Tunggal,Sayur,76,"9,0","2,6","6,4",100
+DR150,"Taoge kacang tunggak, segar",Tunggal,Sayur,40,"5,0","0,2","5,8",90
+DR151,"Tebu terubuk (lilin), segar",Tunggal,Sayur,30,"4,6","0,4","3,0",20
+DR152,"Tekokak, segar",Tunggal,Sayur,34,"2,0","0,1","7,9",95
+DR153,"Tekokak, kering",Tunggal,Sayur,302,"8,3","1,7","72,6",100
+DR154,"Terong, segar",Tunggal,Sayur,28,"1,1","0,2","5,5",100
+DR155,"Terong asam, segar",Tunggal,Sayur,37,"2,0","0,4","6,3",-
+DR156,"Terung belanda, segar",Tunggal,Sayur,52,"2,1","1,1","8,6",100
+DR157,"Terung bengkulu, segar",Tunggal,Sayur,52,"1,1","0,4","11,2",100
+Komposisi Zat Gizi Makanan per 100 gram BDD(Bagian yang Dapat Dimakan) - Sumber:TKPI 2019,(g),DR158,"Terong hintalo, segar",(g),(g),(g),(g),601
+DR158,"Terong hintalo, segar",Tunggal,Sayur,45,"1,9","0,8","7,5",-
+DR159,Terung panjang,Tunggal,Sayur,25,"2,1","0,1","5,3",100
+DR160,"Tomat, air (sari), segar",Tunggal,Sayur,20,"1,0","0,2","3,5",100
+DR161,"Tomat merah, segar",Tunggal,Sayur,24,"1,3","0,5","4,7",100
+DR162,"Tomat muda, segar",Tunggal,Sayur,24,"2,0","0,7","3,3",95
+DR163,"Uceng/ bunga melinjo, segar",Tunggal,Sayur,82,"5,8","1,3","11,7",89
+DR164,"Umbut kelapa, segar",Tunggal,Sayur,39,"2,0","0,2","7,2",-
+DR165,Umbut rotan,Tunggal,Sayur,34,"2,4","0,3","5,5",-
+DR166,"Wortel, segar",Tunggal,Sayur,36,"1,0","0,6","7,9",80
+EP001,Barongko,Olahan,Buah,159,"3,1","5,8","23,5",100
+EP002,Dodol nanas,Olahan,Buah,338,"1,5","1,2","80,3",100
+EP003,Getuk pisang,Olahan,Buah,144,"1,1","0,4","34,1",100
+EP004,Keripik lampung,Olahan,Buah,485,"1,7","22,2","69,7",100
+EP005,Ledre pisang,Olahan,Buah,405,"4,8","5,1","84,9",100
+EP006,Lempog durian,Olahan,Buah,320,"3,5","5,7","63,7",100
+EP007,Loka anjoro,Olahan,Buah,163,"1,1","4,3","30,0",100
+EP008,Rica-rica taipa,Olahan,Buah,49,"1,6","0,3","10,0",100
+EP009,Rujak aceh,Olahan,Buah,82,"0,4","0,3","19,7",100
+EP010,Sale kesemek,Olahan,Buah,296,"1,1","0,6","71,4",100
+EP011,Sale pisang siam,Olahan,Buah,281,"2,4","0,7","66,1",100
+EP012,"Sale pisang, cilacap",Olahan,Buah,295,"2,3","2,1","66,9",100
+EP013,Sanggara belanda,Olahan,Buah,242,"6,4","7,1","38,2",100
+EP014,Tepung Pisang,Olahan,Buah,338,"2,9","0,4","80,6",100
+EP015,Tepung Sukun,Olahan,Buah,353,"2,9","0,5","84,4",100
+ER001,"Alpukat, segar",Tunggal,Buah,85,"0,9","6,5","7,7",61
+ER002,"Anggur hutan, segar",Tunggal,Buah,30,"0,5","0,2","6,8",100
+ER003,"Apel malang, segar",Tunggal,Buah,57,"0,5","0,4","12,8",88
+ER004,"Apel, segar",Tunggal,Buah,58,"0,3","0,4","14,9",88
+ER005,"Arbai, segar",Tunggal,Buah,37,"0,8","0,5","8,3",96
+ER006,"Belimbing, segar",Tunggal,Buah,36,"0,4","0,4","8,8",86
+ER007,"Biwah, segar",Tunggal,Buah,51,"0,3","0,1","12,1",66
+ER008,"Buah atung, segar",Tunggal,Buah,23,"0,8","0,2","5,2",80
+ER009,"Buah kelenting, segar",Tunggal,Buah,110,"1,4","2,1","21,4",77
+ER010,"Buah kom, segar",Tunggal,Buah,264,"4,0","1,1","59,6",100
+ER011,"Buah mentega (Bisbul), segar",Tunggal,Buah,39,"0,7","0,2","9,7",50
+ER012,"Buah Naga Merah, segar",Tunggal,Buah,71,"1,7","3,1","9,1",67
+ER013,"Buah Naga Putih, segar",Tunggal,Buah,56,"0,8","1,0","10,9",74
+ER014,"Buah negri, segar",Tunggal,Buah,55,"1,2","0,1","12,2",48
+ER015,"Buah nona, segar",Tunggal,Buah,101,"1,7","0,6","25,2",58
+ER016,"Buah rotan, segar",Tunggal,Buah,78,"0,6","0,3","18,2",-
+ER017,"Buah rukam, segar",Tunggal,Buah,113,"0,8","0,3","26,8",100
+ER018,"Buah ruruhi, segar",Tunggal,Buah,29,"2,1","0,7","3,6",82
+ER019,"Buah tuppa, segar",Tunggal,Buah,67,"0,4","0,2","15,9",-
+ER020,"Carica papaya, segar",Tunggal,Buah,24,"1,9","0,2","3,7",60
+ER021,"Cempedak, segar",Tunggal,Buah,116,"3,0","0,4","28,6",30
+ER022,"Duku, segar",Tunggal,Buah,63,"1,0","0,2","16,1",64
+ER023,"Durian, segar",Tunggal,Buah,134,"2,5","3,0","28,0",22
+ER024,"Duwet, segar",Tunggal,Buah,80,"0,5","0,6","18,2",67
+ER025,"Embacang, segar",Tunggal,Buah,98,"1,4","0,2","25,4",65
+ER026,"Encung asam, segar",Tunggal,Buah,122,"3,5","4,5","17,5",98
+ER027,"Erbis, segar",Tunggal,Buah,70,"0,6",-,"18,9",33
+ER028,Gandaria masak,Tunggal,Buah,68,"0,7","0,1","18,0",70
+ER029,"Gatep, segar",Tunggal,Buah,191,"4,5","1,5","39,7",100
+ER030,"Jambu air, segar",Tunggal,Buah,46,"0,6","0,2","11,8",90
+ER031,Jambu biji,Tunggal,Buah,49,"0,9","0,3","12,2",82
+ER032,Jambu biji putih tidak berbiji,Tunggal,Buah,61,"0,9","0,3","15,4",82
+ER033,"Jambu bol, segar",Tunggal,Buah,49,"2,3","0,2","9,6",67
+ER034,"Jambu monyet, segar",Tunggal,Buah,64,"0,7","0,6","15,8",90
+ER035,"Jeruk bali, segar",Tunggal,Buah,48,"0,6","0,2","12,4",62
+ER036,"Jeruk banjar, segar",Tunggal,Buah,61,"0,8","0,2","14,1",72
+ER037,Jeruk garut-keprok,Tunggal,Buah,44,"0,8","0,3","10,9",71
+ER038,"Jeruk Kalamansi, segar",Tunggal,Buah,39,"0,3","0,3","8,9",100
+ER039,"Jeruk manis, segar",Tunggal,Buah,45,"0,9","0,2","11,2",72
+ER040,"Jeruk nipis, segar",Tunggal,Buah,44,"0,5","0,2","10,0",76
+ER041,"Jeruk ragi, segar",Tunggal,Buah,49,"0,7","0,2","11,1",59
+ER042,"Kawista, segar",Tunggal,Buah,120,"3,5","2,5","20,8",72
+ER043,"Kedondong masak, segar",Tunggal,Buah,46,"1,0","0,1","10,3",58
+ER044,"Kedondong, segar",Tunggal,Buah,47,"0,5","0,2","10,4",58
+ER045,"Kelapa hutan, kering",Tunggal,Buah,623,"2,0","52,1","36,5",-
+ER046,"Kelapa muda, daging, segar",Tunggal,Buah,68,"1,0","0,9","14,0",53
+ER047,"Kemang, segar",Tunggal,Buah,48,"1,0","0,2","11,9",65
+ER048,"Kesemek, segar",Tunggal,Buah,78,"0,8","0,4","20,0",97
+ER049,"Kokosan, segar",Tunggal,Buah,86,"1,6","0,2","13,0",64
+ER050,"Kranji, segar",Tunggal,Buah,315,"2,1","1,4","73,5",31
+ER051,"Langsat, segar",Tunggal,Buah,56,"0,9","0,2","14,3",64
+ER052,"Lemon, segar",Tunggal,Buah,34,"0,5","0,8","6,2",100
+ER053,"Lontar, segar",Tunggal,Buah,27,"0,4","0,2","6,0",79
+ER054,"Mangga, segar",Tunggal,Buah,52,"0,7",-,"12,3",65
+ER055,"Mangga benggala, segar",Tunggal,Buah,63,"2,4","0,4","12,4",65
+ER056,"Mangga gedung, segar",Tunggal,Buah,44,"0,7","0,2","11,2",65
+ER057,"Mangga golek, segar",Tunggal,Buah,63,"0,5","0,2","16,7",65
+ER058,"Mangga harumanis, segar",Tunggal,Buah,46,"0,4","0,2","11,9",65
+ER059,"Mangga indramayu, segar",Tunggal,Buah,72,"0,8","0,2","18,7",65
+ER060,"Mangga kopek, segar",Tunggal,Buah,56,"0,4","0,2","14,6",65
+ER061,"Mangga kwini, segar",Tunggal,Buah,86,"0,7","0,5","19,8",65
+ER062,"Mangga manalagi, segar",Tunggal,Buah,133,"1,0","0,1","32,1",65
+ER063,"Mangga muda, segar",Tunggal,Buah,59,"0,5","0,4","15,1",73
+ER064,"Manggis, segar",Tunggal,Buah,63,"0,6","0,6","15,6",29
+ER065,"Markisa, segar",Tunggal,Buah,144,"3,5","1,2","29,8",48
+ER066,"Matoa, segar",Tunggal,Buah,90,"1,2","0,1","21,1",40
+ER067,"Melon, segar",Tunggal,Buah,37,"0,6","0,4","7,8",58
+ER068,"Menteng, segar",Tunggal,Buah,65,"1,7","0,3","16,1",64
+ER069,"Nanas palembang, segar",Tunggal,Buah,58,"0,7","0,2","13,3",53
+ER070,"Nanas, segar",Tunggal,Buah,40,"0,6","0,3","9,9",53
+ER071,"Nangka masak pohon, segar",Tunggal,Buah,106,"1,2","0,3","27,6",28
+ER072,"Pala, daging, segar",Tunggal,Buah,42,"0,3","0,2","10,9",30
+ER073,"Pepaya, segar",Tunggal,Buah,46,"0,5","12,0","12,2",75
+ER074,"Pisang ambon, segar",Tunggal,Buah,108,"1,0","0,8","24,3",75
+ER075,"Pisang angleng (pisang ampyang), segar",Tunggal,Buah,68,"1,3","0,2","17,2",75
+ER076,"Pisang ayam, segar",Tunggal,Buah,120,"1,1","0,2","26,8",75
+ER077,"Pisang gapi, segar",Tunggal,Buah,127,"2,1","0,3","31,1",75
+ER078,"Pisang goroho, segar",Tunggal,Buah,115,"1,9","0,2","27,9",75
+ER079,"Pisang hijau, segar",Tunggal,Buah,117,"2,0","0,3","28,9",72
+ER080,"Pisang kayu, segar",Tunggal,Buah,100,"1,4","0,5","23,6",75
+ER081,"Pisang kepok, segar",Tunggal,Buah,109,"0,8","0,5","26,3",75
+ER082,"Pisang ketip, segar",Tunggal,Buah,145,"1,1","0,3","34,5",75
+ER083,"Pisang kidang, segar",Tunggal,Buah,96,"1,0","0,2","22,5",70
+ER084,"Pisang lampung, segar",Tunggal,Buah,99,"1,3","0,2","25,6",75
+ER085,"Pisang mas bali ampenan, segar",Tunggal,Buah,92,"1,4","0,2","21,0",75
+ER086,"Pisang mas bali kopang, segar",Tunggal,Buah,127,"1,4","0,2","31,8",75
+ER087,"Pisang mas, segar",Tunggal,Buah,127,"1,4","0,2","33,6",85
+ER088,"Pisang raja sereh, segar",Tunggal,Buah,108,"1,3","0,3","28,2",86
+ER089,"Pisang raja, segar",Tunggal,Buah,120,"1,2","0,2","31,8",70
+ER090,"Pisang rotan, segar",Tunggal,Buah,98,"1,3","1,2","20,5",56
+ER091,"Pisang talas, segar",Tunggal,Buah,113,"1,2","0,2","26,7",75
+ER092,Pisang tujuh bulan,Tunggal,Buah,94,"0,6","0,2","22,5",75
+ER093,"Pisang ua, segar",Tunggal,Buah,128,"0,8","0,5","30,2",75
+ER094,"Pisang uli, segar",Tunggal,Buah,134,"1,1","0,5","35,5",77
+ER095,"Purut, segar",Tunggal,Buah,76,"4,1","1,1","15,2",34
+ER096,"Rambutan binjai, segar",Tunggal,Buah,76,"0,5","0,2","18,0",40
+ER097,"Rambutan, segar",Tunggal,Buah,69,"0,9","0,1","18,1",40
+ER098,"Salak bali, segar",Tunggal,Buah,57,"0,5","0,1","13,6",93
+ER099,"Salak medan, segar",Tunggal,Buah,55,"0,4","0,2","12,8",93
+ER100,"Salak pondoh, segar",Tunggal,Buah,87,"0,8","0,4","20,1",59
+ER101,"Salak, segar",Tunggal,Buah,77,"0,4",-,"20,9",93
+ER102,"Sawo duren, segar",Tunggal,Buah,64,"1,0","3,1","8,0",64
+ER103,"Sawo kecik, segar",Tunggal,Buah,111,"0,9","2,3","21,6",83
+ER104,"Sawo Manila, segar",Tunggal,Buah,92,"0,5","1,1","22,4",79
+ER105,"Semangka, segar",Tunggal,Buah,28,"0,5","0,2","6,9",46
+ER106,"Sirsak, segar",Tunggal,Buah,65,"1,0","0,3","16,3",68
+ER107,"Sowa, segar",Tunggal,Buah,48,"1,6","0,6","9,1",-
+ER108,"Srikaya, segar",Tunggal,Buah,63,"1,1","0,5","13,9",48
+ER109,"Sukun muda, segar",Tunggal,Buah,119,"1,4","0,2","28,1",84
+ER110,"Sukun tua, segar",Tunggal,Buah,126,"1,6","0,2","24,5",88
+ER111,"Vigus, segar",Tunggal,Buah,44,"2,4","0,1","8,3",-
+ER112,"Wani, segar",Tunggal,Buah,74,"0,8","0,3","17,1",77
+ER113,"Mentimun Suri, segar",Tunggal,Buah,16,"1,3","0,0","2,1",-
+ER114,"Blewah, segar",Tunggal,Buah,34,"0,8","0,2","8,2",-
+FP001,"Ayam, ampela, goreng",Olahan,Daging,270,"32,3","11,2","9,9",100
+FP002,"Ayam, usus, goreng",Olahan,Daging,473,"45,2","26,3","13,9",100
+FP003,"Bebek, daging, goreng",Olahan,Daging,300,"24,0","20,7","4,5",100
+FP004,"Buaya, daging, dendeng, mentah",Olahan,Daging,365,"49,6","4,8","30,8",100
+FP005,Ham,Olahan,Daging,384,"16,9","35,0","0,3",100
+FP006,"Itik alabio, daging, dendeng, mentah",Olahan,Daging,496,"30,3","33,5","18,4",100
+FP007,Kerupuk urat,Olahan,Daging,588,"53,7","40,9","1,2",100
+FP008,"Menjangan, daging, dendeng, mentah",Olahan,Daging,322,"55,8","2,0","22,7",100
+FP009,"Punai, daging, goreng",Olahan,Daging,224,"26,2","11,3","4,4",100
+FP010,"Rusa, daging, dendeng, mentah",Olahan,Daging,536,"40,5","41,5",-,100
+FP011,"Sapi, abon",Olahan,Daging,212,"18,0","10,6","59,3",100
+FP012,"Sapi, abon, asli",Olahan,Daging,358,"14,6","16,1","38,6",100
+FP013,"Sapi, daging, asap",Olahan,Daging,182,"32,0","6,0",-,100
+FP014,"Sapi, daging, dendeng, mentah",Olahan,Daging,301,"55,0","9,0",-,100
+FP015,"Sapi, daging, kornet",Olahan,Daging,289,"16,0","25,0",-,100
+FP016,"Sapi, daging, sosis (Worst)",Olahan,Daging,448,"14,5","42,3","2,3",100
+FP017,"Sapi, hati, sosis (liverworst)",Olahan,Daging,274,"16,0","22,0","3,0",100
+FP018,"Sapi, paru, dendeng, mentah",Olahan,Daging,360,"57,3","6,0","19,2",100
+FP019,"Sapi, paru, goreng",Olahan,Daging,268,"23,9","12,7","14,5",100
+FP020,"Ulat sagu, panggang",Olahan,Daging,380,"11,9","30,3","14,9",100
+FP021,"Ayam goreng church texas, dada",Olahan,Daging,338,"35,2","20,6","0,4",100
+FP022,"Ayam goreng church,texas paha",Olahan,Daging,287,"31,0","15,7","1,7",100
+FP023,"Ayam goreng church texas, sayap",Olahan,Daging,295,"34,0","16,0","1,5",100
+FP024,"Ayam goreng kalasan, paha",Olahan,Daging,275,"37,4","12,2","1,3",100
+FP025,"Ayam goreng kentucky, dada",Olahan,Daging,298,"34,2","16,8","0,1",100
+FP026,"Ayam goreng Kentucky, paha",Olahan,Daging,286,"32,1","16,1","1,1",100
+FP027,"Ayam goreng Kentucky,sayap",Olahan,Daging,297,"35,9","15,2","1,6",100
+FP028,Ayam goreng mbok berek dada,Olahan,Daging,295,"39,2","13,6","1,0",100
+FP029,"Ayam goreng pasundan, dada",Olahan,Daging,246,"37,9","9,0","0,7",100
+FP030,"Ayam goreng pasundan, paha",Olahan,Daging,245,"33,1","11,4","0,3",100
+FP031,"Ayam goreng pioneer, dada",Olahan,Daging,295,"37,4","14,7","0,6",100
+FP032,"Ayam goreng sukabumi, dada",Olahan,Daging,244,"36,7","9,2","1,0",100
+FP033,"Ayam goreng sukabumi, paha",Olahan,Daging,283,"35,7","14,3","0,5",100
+FP034,"Ayam taliwang, masakan",Olahan,Daging,264,"18,2","20,1","2,7",100
+FP035,"Babi hutan masak rica, masakan",Olahan,Daging,491,"24,6","16,3","0,2",100
+FP036,Beef burger,Olahan,Daging,258,"10,6","9,5","32,5",100
+FP037,"Beef teriyaki, masakan",Olahan,Daging,151,"8,6","3,1","22,3",100
+FP038,"Beef yakiniku, masakan",Olahan,Daging,132,"9,8","1,1","20,7",100
+FP039,Brongkos,Olahan,Daging,141,"15,3","3,3","12,6",100
+FP040,"Bulgogi, masakan",Olahan,Daging,72,"11,4","4,9","1,4",100
+FP041,"Chicken teriyaki, masakan",Olahan,Daging,168,"13,0","9,6","7,5",100
+FP042,"Chikiniku, masakan",Olahan,Daging,143,"9,8","1,4","22,8",100
+FP043,"Coto mangkasara, kuda, masakan",Olahan,Daging,96,"6,8","5,9","3,8",100
+FP044,"Coto mangkasara, sapi, masakan",Olahan,Daging,84,"6,0","6,0","1,4",100
+FP045,"Djibokum, masakan",Olahan,Daging,248,"10,0","2,3","40,9",100
+FP046,"Empal (daging) Goreng, masakan",Olahan,Daging,248,"36,2","6,9","10,1",100
+FP047,Gulai kambing,Olahan,Daging,126,"4,2","9,4","6,2",100
+FP048,"Jangang bintatoeng, masakan",Olahan,Daging,107,"5,3","2,2","16,5",100
+FP049,"Kalio ayam, masakan",Olahan,Daging,203,"16,0","13,5","4,4",100
+FP050,"Kalio jeroan, masakan",Olahan,Daging,163,"16,5","9,0","4,1",100
+FP051,"Kalio kikil (tunjang), masakan",Olahan,Daging,122,"13,8","5,7","3,9",100
+FP052,"Kalio otak, masakan",Olahan,Daging,157,"8,1","8,8","11,4",100
+FP053,"Lawar babi, masakan",Olahan,Daging,174,"17,0","10,0","3,0",100
+FP054,"Lawar penyu, masakan",Olahan,Daging,141,"23,0","1,5","7,6",100
+FP055,"Lawara jangang, masakan",Olahan,Daging,159,"5,0","10,9","10,1",100
+FP056,"Naan maran sapi, masakan",Olahan,Daging,478,"38,3","33,9","5,1",100
+FP057,"Nasu likku, masakan",Olahan,Daging,196,"14,5","8,3","15,9",100
+FP058,"Oramu ninahu ndawa olaho, masakan",Olahan,Daging,117,"13,7","5,0","4,3",100
+FP059,"Paniki masak santan, masakan",Olahan,Daging,460,"28,5","35,2","7,2",100
+FP060,"Pelolah manuk, masakan",Olahan,Daging,219,"19,7","13,6","4,4",100
+FP061,"Rawon, masakan",Olahan,Daging,60,"5,4","2,5","4,0",100
+FP062,"Rendang sapi, masakan",Olahan,Daging,193,"22,6","7,9","7,8",100
+FP063,"RW, anjing, masakan",Olahan,Daging,198,"24,6","10,7","0,9",100
+FP064,"Sate, penyu, masakan",Olahan,Daging,179,"22,5","3,5","13,3",100
+FP065,"Sate pusut, masakan",Olahan,Daging,274,"12,9","18,6","13,6",100
+FP066,"Penyu, serapah, masakan",Olahan,Daging,174,"13,1","12,2","2,2",100
+FP067,"Sie reuboh, masakan",Olahan,Daging,474,"11,2","42,5","11,7",100
+FP068,"Sop buntut, masakan",Olahan,Daging,71,"7,5","3,6","2,2",100
+FP069,"Sop daging sapi, masakan",Olahan,Daging,49,"5,8","0,5","5,3",100
+FP070,"Sop kaki sapi, masakan",Olahan,Daging,68,"9,0","1,9","3,7",100
+FP071,"Sop kambing, masakan",Olahan,Daging,34,"5,5","0,8","1,1",100
+FP072,"Sop konro, masakan",Olahan,Daging,71,"7,4","2,6","4,5",100
+FP073,"Sop saudara, masakan",Olahan,Daging,89,"7,2","5,0","3,9",100
+FP074,"Soto bandung, masakan",Olahan,Daging,42,"3,9","1,7","2,8",100
+FP075,"Soto banjar, masakan",Olahan,Daging,110,"2,9","9,5","3,2",100
+FP076,"Soto betawi, masakan",Olahan,Daging,135,"2,5","8,8","11,5",100
+FP077,"Soto jeroan, masakan",Olahan,Daging,92,"11,8","4,3","1,4",100
+FP078,"Soto kudus, masakan",Olahan,Daging,38,"2,6","2,3","1,8",100
+FP079,"Soto madura, masakan",Olahan,Daging,60,"3,5","4,5","1,3",100
+FP080,"Soto padang, masakan",Olahan,Daging,127,"5,9","6,6","11,0",100
+FP081,"Soto pekalongan, masakan",Olahan,Daging,94,"3,0","6,8","5,1",100
+FP082,"Soto pemalang, masakan",Olahan,Daging,75,"3,6","5,2","3,5",100
+FP083,"Soto sukaraja, masakan",Olahan,Daging,80,"3,2","3,5","9,0",100
+FP084,"Soto sulung, masakan",Olahan,Daging,86,"2,3","8,5",-,100
+FP085,"Sukiyaki, masakan",Olahan,Daging,75,"5,6","0,4","12,2",100
+FP086,"Tedong pallu basa, masakan",Olahan,Daging,83,"10,4","3,4","2,8",100
+FP087,"Tikus rica, masakan",Olahan,Daging,257,"18,8","18,5","3,8",100
+FP088,"Tinoransa, masakan",Olahan,Daging,516,"17,7","49,5",-,100
+FR001,"Anak sapi, daging, gemuk, segar",Tunggal,Daging,184,"18,8","14,0",-,100
+FR002,"Anak sapi, daging, kurus, segar",Tunggal,Daging,174,"19,6","10,0",-,100
+FR003,"Anak sapi, daging, sedang, segar",Tunggal,Daging,190,"19,1","12,0",-,100
+FR004,"Angsa, daging, segar",Tunggal,Daging,349,"16,4","31,5",-,60
+FR005,"Ayam, daging, segar",Tunggal,Daging,298,"18,2","25,0",-,58
+FR006,"Ayam, dideh/darah, segar",Tunggal,Daging,75,"13,8","1,9","0,7",100
+FR007,"Ayam, hati, segar",Tunggal,Daging,261,"27,4","16,1","1,6",100
+FR008,"Babi, daging, gemuk,segar",Tunggal,Daging,453,"11,9","45,0",-,100
+FR009,"Babi, daging, kurus, segar",Tunggal,Daging,371,"14,1","35,0",-,100
+FR010,"Babi, ginjal, segar",Tunggal,Daging,110,"16,3","4,6","0,8",100
+FR011,"Babi, hati, segar",Tunggal,Daging,129,"19,7","4,8","1,7",100
+FR012,"Bebek (itik), daging, segar",Tunggal,Daging,321,"16,0","28,6",-,60
+FR013,"Bebek alabio, daging, segar",Tunggal,Daging,303,"11,3","27,0","3,7",100
+FR014,"Belibis, daging, segar",Tunggal,Daging,131,"20,2","4,3","2,8",100
+FR015,"Burung, sarang, segar",Tunggal,Daging,281,"37,5","0,3","32,1",100
+FR016,"Domba, daging, gemuk, segar",Tunggal,Daging,317,"15,7","27,7",-,100
+FR017,"Domba, daging, kurus, segar",Tunggal,Daging,202,"17,1","14,8",-,100
+FR018,"Domba, ginjal, segar",Tunggal,Daging,100,"16,6","3,3","1,0",100
+FR019,"Kambing, daging, segar",Tunggal,Daging,149,"16,6","9,2",-,100
+FR020,"Kelinci, daging, segar",Tunggal,Daging,142,"16,9","7,8",-,100
+FR021,"Kerbau, daging, segar",Tunggal,Daging,79,"18,7","0,5",-,100
+FR022,"Kuda, daging, segar",Tunggal,Daging,113,"18,1","4,1","0,9",100
+FR023,"Sapi, babat, segar",Tunggal,Daging,108,"17,6","4,2",-,100
+FR024,"Sapi, daging, gemuk, segar",Tunggal,Daging,273,"17,5","22,0",-,100
+FR025,"Sapi, daging, kurus, segar",Tunggal,Daging,174,"19,6","10,0",-,100
+FR026,"Sapi, daging, lemak sedang, segar",Tunggal,Daging,201,"18,8","14,0",-,100
+FR027,"Sapi, daleman, segar",Tunggal,Daging,183,"12,0","14,4","1,4",100
+FR028,"Sapi, dideh/darah",Tunggal,Daging,98,"21,9","1,1",-,100
+FR029,"Sapi, ginjal, segar",Tunggal,Daging,137,"15,0","8,1","0,9",100
+FR030,"Sapi, keleponan, segar",Tunggal,Daging,84,"10,5","4,6","0,2",100
+FR031,"Sapi, liver, segar",Tunggal,Daging,132,"19,7","3,2","6,0",100
+FR032,"Sapi, otak, segar",Tunggal,Daging,123,"10,4","8,6","0,8",100
+FR033,"Sapi, usus, segar",Tunggal,Daging,126,"14,0","7,2","1,5",100
+FR034,Ulat sagu segar,Tunggal,Daging,241,"5,8","21,6","5,8",100
+GP001,"Bekicot, dendeng, mentah",Olahan,Ikan dsb,441,"48,7","20,3","15,8",100
+GP002,"Belut, goreng",Olahan,Ikan dsb,417,"25,9","19,4","32,0",-
+GP003,"Cumi-cumi, goreng",Olahan,Ikan dsb,265,"40,6","10,1",-,-
+GP004,"Ikan asin, kering",Olahan,Ikan dsb,193,"42,0","1,5",-,70
+GP005,"Ikan bandeng presto, masakan",Olahan,Ikan dsb,296,"17,1","20,3","11,3",100
+GP006,Ikan baung bakar,Olahan,Ikan dsb,144,"17,8","5,8","5,2",-
+GP007,Ikan Belida bakar,Olahan,Ikan dsb,128,"18,0","3,0","7,2",-
+GP008,"Ikan cakalang asap, mentah",Olahan,Ikan dsb,204,"34,2","5,6","1,9",70
+GP009,"Ikan cakalang asin, mentah",Olahan,Ikan dsb,198,"36,5","2,2","5,5",70
+GP010,"Ikan calo/ peda, mentah",Olahan,Ikan dsb,81,"11,4","1,9","3,8",100
+GP011,"Ikan Gabus asap, mentah",Olahan,Ikan dsb,261,"38,1","2,3","21,9",80
+GP012,"Ikan Gabus, kering",Olahan,Ikan dsb,268,"58,0","4,0",-,80
+GP013,"Ikan gete, goreng",Olahan,Ikan dsb,267,"23,1","19,4","0,2",-
+GP014,"Ikan hiu, kering",Olahan,Ikan dsb,298,"46,3","3,6","20,2",-
+GP015,"Ikan katombo, asin",Olahan,Ikan dsb,162,"31,7","2,8","0,3",70
+GP016,"Ikan kayu, kering",Olahan,Ikan dsb,302,"70,7","1,9","0,4",-
+GP017,Ikan Lais bakar,Olahan,Ikan dsb,147,"17,5","6,5","5,4",-
+GP018,"Ikan lomak asin, mentah",Olahan,Ikan dsb,258,"40,3","2,3","18,9",-
+GP019,Ikan Mas pepes,Olahan,Ikan dsb,209,"15,2","11,3","11,8",100
+GP020,Ikan mujahir goreng,Olahan,Ikan dsb,416,"46,9","23,9",-,100
+GP021,Ikan Mujahir pepes,Olahan,Ikan dsb,121,"21,7","2,8","0,8",100
+GP022,"Ikan mujahir, dendeng, mentah",Olahan,Ikan dsb,582,"68,3","15,2","37,2",100
+GP023,"Ikan Papuyu, bakar",Olahan,Ikan dsb,152,"17,6","6,1","6,7",-
+GP024,"Ikan Patin, bakar",Olahan,Ikan dsb,144,"17,5","6,3","4,3",-
+GP025,"Ikan peda banjar, mentah",Olahan,Ikan dsb,156,"28,0","4,0","2,0",90
+GP026,"Ikan pepetek, mentah",Olahan,Ikan dsb,176,"32,0","4,4","2,0",-
+GP027,"Ikan Pindang banjar, mentah",Olahan,Ikan dsb,157,"28,0","4,2","1,8",-
+GP028,"Ikan Pindang benggol, mentah",Olahan,Ikan dsb,170,"31,0","4,2",-,-
+GP029,"Ikan Pindang layang, mentah",Olahan,Ikan dsb,153,"30,0","2,8",-,-
+GP030,"Ikan Pindang selar, mentah",Olahan,Ikan dsb,142,"27,0","3,0",-,-
+GP031,"Ikan sale lais, mentah",Olahan,Ikan dsb,415,"61,3","17,6","2,9",-
+GP032,"Ikan saluang, kering, mentah",Olahan,Ikan dsb,284,"34,1","9,9","14,6",-
+GP033,"Ikan sanggang, masakan",Olahan,Ikan dsb,240,"21,7","7,7","20,7",-
+GP034,"Ikan selar kuning, cue, mentah",Olahan,Ikan dsb,138,"27,0","3,3",-,90
+GP035,"Ikan selar, kering, mentah",Olahan,Ikan dsb,194,"38,0","3,5",-,-
+GP036,"Ikan sepat, kering, mentah",Olahan,Ikan dsb,289,"38,0","14,0",-,-
+GP037,"Ikan sunu, asin, mentah",Olahan,Ikan dsb,199,"34,1","3,8","7,1",-
+GP038,"Ikan, tepung, mentah",Olahan,Ikan dsb,316,"60,1","6,5","22,4",-
+GP039,"Ikan Teri nasi, kering, mentah",Olahan,Ikan dsb,144,"32,5","0,6",-,-
+GP040,"Ikan Teri, bubuk, mentah",Olahan,Ikan dsb,277,"60,0","2,3","1,8",-
+GP041,"Ikan teri, kering, mentah",Olahan,Ikan dsb,170,"33,4","3,0",-,-
+GP042,"Ikan Teri, kering, tawar, mentah",Olahan,Ikan dsb,331,"68,7","4,2",-,-
+GP043,"Ikan Teri, tepung, mentah",Olahan,Ikan dsb,347,"48,8","6,4","19,6",-
+GP044,"Kerang, asap, mentah",Olahan,Ikan dsb,393,"38,9","13,3","29,4",100
+GP045,"Kerang, dendeng, mentah",Olahan,Ikan dsb,357,"41,1","10,0","25,6",100
+GP046,"Rebon, kering, mentah",Olahan,Ikan dsb,299,"59,4","3,6","3,2",-
+GP047,"Rebung laut, mentah",Olahan,Ikan dsb,320,"7,2","4,2","63,3",-
+GP048,Rusip,Olahan,Ikan dsb,110,"11,5","2,0","11,7",100
+GP049,Sardines dalam kaleng,Olahan,Ikan dsb,338,"21,1","27,0","1,0",-
+GP050,"Teripang, dendeng, mentah",Olahan,Ikan dsb,462,"39,1","32,4","3,5",100
+GP051,"Udang kering, mentah",Olahan,Ikan dsb,278,"62,6","4,1","2,2",-
+GP052,"Udang papay, mentah",Olahan,Ikan dsb,273,"47,8","3,8","12,5",-
+GP053,Abon haruwan,Olahan,Ikan dsb,513,"23,7","37,0","21,3",100
+GP054,Abon ikan,Olahan,Ikan dsb,435,"27,2","20,2","36,1",100
+GP055,"Betok wadi, masakan",Olahan,Ikan dsb,145,"16,3","7,0","4,1",-
+GP056,"Bou ninahu ndamate, masakan",Olahan,Ikan dsb,79,"6,3","1,0","1,1",-
+GP057,"Bouiki ninahu nggaluku, masakan",Olahan,Ikan dsb,94,"7,8","2,2","10,8",-
+GP058,Cakalang asar (asap papua),Olahan,Ikan dsb,155,"20,1","3,8","10,2",-
+GP059,"Dendeng belut, goreng",Olahan,Ikan dsb,382,"55,7","14,1","8,0",-
+GP060,"Dendeng mujahir, goreng",Olahan,Ikan dsb,598,"74,3","26,9","9,2",-
+GP061,Fillet o-fish,Olahan,Ikan dsb,270,"12,3","15,9","19,3",-
+GP062,"Gete kuah asam, masakan",Olahan,Ikan dsb,75,"8,2","2,0","6,0",-
+GP063,"Gulai asam keueung, masakan",Olahan,Ikan dsb,52,"10,0","0,5","1,8",-
+GP064,"Gulai ikan paya, masakan",Olahan,Ikan dsb,148,"10,0","9,8","5,0",-
+GP065,"Gulai ikan, masakan",Olahan,Ikan dsb,106,"16,5","3,3","2,5",-
+GP066,"Gulai keumamah, masakan",Olahan,Ikan dsb,110,"5,9","8,2","3,2",100
+GP067,"Gulai tiram, masakan",Olahan,Ikan dsb,132,"9,0","7,2","7,8",-
+GP068,"Gurame asem manis, masakan",Olahan,Ikan dsb,192,"12,7","10,1","12,7",-
+GP069,"Ikan asar merah, masakan",Olahan,Ikan dsb,146,"17,7","5,9","5,6",-
+GP070,Jambal goreng,Olahan,Ikan dsb,286,"48,5","9,2","2,3",-
+GP071,"Jukku pallu kaloa, masakan",Olahan,Ikan dsb,15,"15,2","4,3","8,8",-
+GP072,"Kaholeo, masakan",Olahan,Ikan dsb,413,"28,7","19,8","29,8",-
+GP073,"Lawara penjah, masakan",Olahan,Ikan dsb,207,"7,4","15,4","9,6",100
+GP074,"Model, masakan",Olahan,Ikan dsb,79,"2,2","4,0","8,6",-
+GP075,"Mujahir acar kuning, masakan",Olahan,Ikan dsb,330,"17,8","23,4","12,1",-
+GP076,"Parede baleh, masakan",Olahan,Ikan dsb,87,"10,5","2,5","5,5",-
+GP077,Pempek adaan,Olahan,Ikan dsb,162,"4,9","3,0","27,8",-
+GP078,Pempek belida,Olahan,Ikan dsb,156,"4,2","1,4","31,6",-
+GP079,Pempek kapal selam,Olahan,Ikan dsb,152,"4,5","2,3","28,2",-
+GP080,Pempek kelesan,Olahan,Ikan dsb,211,"12,3","6,1","26,6",-
+GP081,Pempek kulit,Olahan,Ikan dsb,243,"5,2","7,3","39,1",-
+GP082,Pempek telur,Olahan,Ikan dsb,156,"4,7","2,7","28,3",-
+GP083,Pempek tenggiri,Olahan,Ikan dsb,173,"7,2","1,2","33,4",-
+GP084,"Pencok lele, masakan",Olahan,Ikan dsb,372,"7,8","36,3","3,5",-
+GP085,"Pinda, masakan",Olahan,Ikan dsb,107,"15,9","0,6","0,4",-
+GP086,"Pindang kenari, masakan",Olahan,Ikan dsb,124,"9,5","9,6",-,-
+GP087,"Saboko gurita, masakan",Olahan,Ikan dsb,87,"15,7","1,5","2,6",-
+GP088,"Saboko saltan, masakan",Olahan,Ikan dsb,113,"17,1","3,6","3,0",-
+GP089,"Saboko sardin, masakan",Olahan,Ikan dsb,110,"12,9","4,3","4,9",-
+GP090,Sate Bandeng,Olahan,Ikan dsb,283,"12,1","16,8","20,9",82
+GP091,"Sepi, masakan",Olahan,Ikan dsb,88,"7,9","1,6","10,6",-
+GP092,Tekwan,Olahan,Ikan dsb,53,"1,9","0,9","9,4",-
+GP093,"Teri balado, masakan",Olahan,Ikan dsb,365,"23,7","22,3","17,5",-
+GP094,Tumis bandeng,Olahan,Ikan dsb,189,"11,3","15,7","0,6",-
+GP095,Tumis keumamah,Olahan,Ikan dsb,300,"14,5","20,0","15,5",100
+GR001,"Ikan bader, segar",Tunggal,Ikan dsb,193,"19,0","13,0",-,-
+GR002,"Ikan balong, segar",Tunggal,Ikan dsb,107,"16,5","3,9","1,5",-
+GR003,"Ikan bambangan, segar",Tunggal,Ikan dsb,112,"20,0","1,3","3,7",-
+GR004,"Ikan bandeng, segar",Tunggal,Ikan dsb,123,"20,0","4,8",-,-
+GR005,"Ikan banjar, segar",Tunggal,Ikan dsb,111,"19,4","0,9","4,8",-
+GR006,"Ikan baronang, segar",Tunggal,Ikan dsb,78,"14,5","0,6","3,7",-
+GR007,"Ikan batung, segar",Tunggal,Ikan dsb,115,"14,5","4,6","4,2",-
+GR008,"Ikan baung, segar",Tunggal,Ikan dsb,123,"15,1","5,5","3,3",-
+GR009,"Ikan bawal, segar",Tunggal,Ikan dsb,91,"19,0","1,7",-,-
+GR010,"Ikan Belida, segar",Tunggal,Ikan dsb,80,"14,7","1,4","2,2",-
+GR011,"Belut, segar",Tunggal,Ikan dsb,70,"14,6","0,8","1,0",-
+GR012,"Belut,laut, segar",Tunggal,Ikan dsb,93,"12,8","1,5","6,1",-
+GR013,"Ikan beunteur, segar",Tunggal,Ikan dsb,109,"17,0","4,0",-,-
+GR014,"Ikan biawan, segar",Tunggal,Ikan dsb,90,"14,9","2,5","2,1",-
+GR015,"Ikan bili, segar",Tunggal,Ikan dsb,88,"14,2","0,7","6,2",-
+GR016,"Ikan bubara, segar",Tunggal,Ikan dsb,100,"14,7","2,4","4,9",-
+GR017,"Ikan bulan-bulan, segar",Tunggal,Ikan dsb,134,"25,5","1,3","5,0",-
+GR018,"Ikan, cakalang, segar",Tunggal,Ikan dsb,107,"19,6","0,7","5,5",-
+GR019,"Ikan cakalang, hati, segar",Tunggal,Ikan dsb,120,"11,3","3,9","10,0",-
+GR020,"Ikan cakalang, jantung, segar",Tunggal,Ikan dsb,116,"11,2","1,2","10,2",-
+GR021,"Ikan cakalang, perut, segar",Tunggal,Ikan dsb,86,"10,2","1,1","8,7",-
+GR022,"Cumi-cumi, segar",Tunggal,Ikan dsb,75,"16,1","0,7","0,1",-
+GR023,"Ikan daun, segar",Tunggal,Ikan dsb,101,"11,5","4,1","4,6",-
+GR024,"Ikan ekor kuning, segar",Tunggal,Ikan dsb,108,"22,3","1,2","2,1",-
+GR025,"Ikan gabus, segar",Tunggal,Ikan dsb,80,"16,2","0,5","2,6",-
+GR026,"Ikan Heu, segar",Tunggal,Ikan dsb,81,"10,0","1,6","6,6",-
+GR027,"Ikan hitam, segar",Tunggal,Ikan dsb,101,"10,3","3,7","6,7",-
+GR028,"Ikan hiu, segar",Tunggal,Ikan dsb,57,"10,7","0,3","2,2",-
+GR029,"Ikan kacangan, segar",Tunggal,Ikan dsb,77,"15,6","0,9","1,6",-
+GR030,"Ikan kakap, segar",Tunggal,Ikan dsb,92,"20,0","0,7",-,-
+GR031,"Ikan kakatua, segar",Tunggal,Ikan dsb,82,"11,4","1,2","6,4",-
+GR032,"Ikan kalaban, segar",Tunggal,Ikan dsb,77,"16,4","0,7","1,3",-
+GR033,"Ikan Kamera, segar",Tunggal,Ikan dsb,86,"19,7","0,8",-,-
+GR034,"Ikan kapar, segar",Tunggal,Ikan dsb,132,"17,0","6,7","0,8",-
+GR035,"Ikan kawalinya, segar",Tunggal,Ikan dsb,110,"12,6","4,2","5,4",-
+GR036,"Ikan oci, kembung, segar",Tunggal,Ikan dsb,125,"21,3","3,4","2,2",80
+GR037,"Keong, segar",Tunggal,Ikan dsb,64,"12,0","1,0","2,0",46
+GR038,"Kepiting, segar",Tunggal,Ikan dsb,151,"13,8","3,8","14,1",45
+GR039,"Kerang, segar",Tunggal,Ikan dsb,101,"14,4","2,6","3,9",100
+GR040,"Ikan keru-keru, segar",Tunggal,Ikan dsb,93,"16,5","2,1","0,8",55
+GR041,"Ikan kima, segar",Tunggal,Ikan dsb,70,"10,8","0,7","5,2",-
+GR042,"Kodok, segar",Tunggal,Ikan dsb,73,"16,4","0,3",-,65
+GR043,"Kura-kura, segar",Tunggal,Ikan dsb,83,"19,1","0,2",-,70
+GR044,"Kuro, segar",Tunggal,Ikan dsb,87,"16,0","2,2","1,0",52
+GR045,"Ikan lais, segar",Tunggal,Ikan dsb,161,"11,9","11,5","2,4",62
+GR046,"Ikan layang, segar",Tunggal,Ikan dsb,109,"22,0","1,7",-,80
+GR047,"Ikan layur, segar",Tunggal,Ikan dsb,82,"18,0","1,0","0,4",49
+GR048,"Ikan lehoma, segar",Tunggal,Ikan dsb,90,"20,4","0,9",-,-
+GR049,"Ikan lemuru, segar",Tunggal,Ikan dsb,112,"20,0","3,0",-,80
+GR050,"Ikan lidah, segar",Tunggal,Ikan dsb,104,"15,6","3,2","2,0",-
+GR051,"Lokan, segar",Tunggal,Ikan dsb,217,"11,0","1,7","5,1",-
+GR052,"Ikan malalugis, segar",Tunggal,Ikan dsb,99,"20,6","1,4","0,9",-
+GR053,"Ikan mamar merah, segar",Tunggal,Ikan dsb,115,"15,3","4,0","4,4",-
+GR054,"Ikan mas, segar",Tunggal,Ikan dsb,86,"16,0","2,0",-,80
+GR055,"Ikan mayong, segar",Tunggal,Ikan dsb,97,"17,9","2,0","0,4",89
+GR056,"Ikan mujahir, segar",Tunggal,Ikan dsb,89,"18,7","1,0",-,80
+GR057,"Ikan nasu metti, segar",Tunggal,Ikan dsb,154,"16,8","5,0","10,5",-
+GR058,"Ikan paling, segar",Tunggal,Ikan dsb,303,"14,0","27,0",-,100
+GR059,"Ikan papuyu/ betok, segar",Tunggal,Ikan dsb,120,"14,3","4,9","4,6",-
+GR060,"Ikan Patin, segar",Tunggal,Ikan dsb,132,"17,0","6,6","1,1",-
+GR061,"Ikan pomo, segar",Tunggal,Ikan dsb,147,"22,5","5,2","2,6",-
+GR062,"Ikan Puntin, segar",Tunggal,Ikan dsb,76,"14,4","1,1","2,2",-
+GR063,"Rajungan, segar",Tunggal,Ikan dsb,76,"12,1","2,0","2,4",-
+GR064,"Rebon, udang kecil, segar",Tunggal,Ikan dsb,81,"16,2","1,2","0,7",100
+GR065,"Ikan saluang, segar",Tunggal,Ikan dsb,113,"13,9","4,9","3,4",89
+GR066,"Ikan sarden, segar",Tunggal,Ikan dsb,109,"19,9","1,8","3,4",-
+GR067,"Ikan selar, segar",Tunggal,Ikan dsb,100,"18,8","2,2",-,48
+GR068,"Ikan sepat, segar",Tunggal,Ikan dsb,84,"15,2","0,6","4,7",75
+GR069,"Ikan sidat, segar",Tunggal,Ikan dsb,81,"11,4","1,9","3,8",100
+GR070,"Ikan sunu, segar",Tunggal,Ikan dsb,111,"13,3","3,4","6,7",70
+GR071,"Ikan tahuman, segar",Tunggal,Ikan dsb,88,"15,9","0,9","4,1",-
+GR072,"Ikan Sale, segar",Tunggal,Ikan dsb,534,"40,2","39,3","4,9",100
+GR073,"Ikan tarmon, segar",Tunggal,Ikan dsb,96,"19,5","1,1","2,0",-
+GR074,"Ikan telan, segar",Tunggal,Ikan dsb,95,"15,8","0,7","6,5",-
+GR075,"Ikan tembang, segar",Tunggal,Ikan dsb,204,"16,0","15,0",-,80
+GR076,"Ikan tempahas, segar",Tunggal,Ikan dsb,101,"15,1","4,1","1,0",-
+GR077,"Ikan terbang, segar",Tunggal,Ikan dsb,98,"19,6","1,7","1,0",-
+GR078,"Ikan teri, segar",Tunggal,Ikan dsb,74,"10,3","1,4","4,1",100
+GR079,"Ikan titang, segar",Tunggal,Ikan dsb,82,"17,4","0,4","2,3",-
+GR080,"Ikan tongkol, segar",Tunggal,Ikan dsb,100,"13,7","1,5","8,0",100
+GR081,"Ikan turi, segar",Tunggal,Ikan dsb,96,"19,2","2,0","0,2",-
+GR082,"Udang, besar, segar",Tunggal,Ikan dsb,56,"11,4","0,6","1,2",68
+GR083,"Udang galah, segar",Tunggal,Ikan dsb,81,"16,5","0,3","3,0",68
+GR084,"Udang, segar",Tunggal,Ikan dsb,91,"21,0","0,2","0,1",68
+HP001,"Telur ayam, dadar, masakan",Olahan,Telur,251,"16,3","19,4","1,4",100
+HP002,"Telur bebek, asin, mentah",Olahan,Telur,179,"13,6","13,3","4,4",83
+HP003,"Telur bebek, dadar, masakan",Olahan,Telur,301,"20,0","23,7",-,100
+HP004,"Ikan, telur, asin, mentah",Olahan,Telur,358,"20,7","26,4","9,4",100
+HP005,"Bayau mi balu, masakan",Olahan,Telur,313,"6,0","12,2","44,8",100
+HP006,"Cucuru bayau, masakan",Olahan,Telur,349,"6,8","18,7","38,3",100
+HP007,"Kalio telur, masakan",Olahan,Telur,193,"10,6","12,4","9,7",100
+HR001,"Telur ayam kampung, segar",Tunggal,Telur,174,"10,8","14,0","1,2",87
+HR002,"Telur ayam ras, segar",Tunggal,Telur,154,"12,4","10,8","0,7",89
+HR003,"Telur ayam ras, bagian kuning, segar",Tunggal,Telur,355,"16,3","31,9","0,7",100
+HR004,"Telur ayam ras, bagian putih, segar",Tunggal,Telur,50,"10,8",-,"0,8",100
+HR005,"Telur bebek alabio, segar",Tunggal,Telur,187,"11,8","14,2","3,0",90
+HR006,"Telur bebek, bagian kuning, segar",Tunggal,Telur,386,"17,0","35,0","0,8",100
+HR007,"Telur bebek, bagian putih, segar",Tunggal,Telur,54,"11,0",-,"0,8",100
+HR008,"Telur bebek tambak, segar",Tunggal,Telur,187,"10,9","12,4","7,9",90
+HR009,"Telur burung maleo, segar",Tunggal,Telur,436,"26,5","36,3","0,4",-
+HR010,"Telur penyu, segar",Tunggal,Telur,136,"8,6","10,1","2,7",90
+HR011,"Telur burung puyuh, segar",Tunggal,Telur,116,"10,7","7,0","1,6",100
+JP001,Es krim,Olahan,Susu,210,"4,0","12,5","20,6",100
+JP002,Hangop,Olahan,Susu,65,"10,0","1,0","3,5",100
+JP003,Keju,Olahan,Susu,326,"22,8","20,3","13,1",100
+JP004,Kwark (Quark),Olahan,Susu,242,"19,0","17,0","3,0",100
+JP005,"Susu asam untuk bayi, bubuk",Olahan,Susu,418,"19,0","9,0","65,5",100
+JP006,Susu bubuk,Olahan,Susu,513,"24,6","30,0","36,2",100
+JP007,Susu kental manis,Olahan,Susu,343,"8,2","10,0","55,0",100
+JP008,Susu kental tak manis,Olahan,Susu,138,"7,0","7,9","9,9",100
+JP009,"Susu skim, bubuk",Olahan,Susu,359,"35,6","1,0","52,0",100
+JP010,"Susu skim, segar",Olahan,Susu,36,"3,5","0,1","5,1",100
+JP011,"Yoghurt, segar",Olahan,Susu,52,"3,3","2,5","4,0",100
+JR001,"Kepala susu - krim, segar",Tunggal,Susu,204,"2,6","20,0","4,0",100
+JR002,Susu ibu - ASI,Tunggal,Susu,62,"1,5","3,2","7,0",100
+JR003,"Susu kambing, segar",Tunggal,Susu,64,"4,3","2,3","6,6",100
+JR004,"Susu kerbau, segar",Tunggal,Susu,160,"6,3","12,0","7,1",100
+JR005,"Susu kuda, segar",Tunggal,Susu,40,"2,0","1,1","5,4",100
+JR006,"Susu sapi, segar",Tunggal,Susu,61,"3,2","3,5","4,3",100
+KP001,Margarin,Olahan,Lemak,720,"0,6","81,0","0,4",100
+KP002,Mentega,Olahan,Lemak,742,"0,5","81,6","1,4",100
+KP003,Santan (dengan air),Olahan,Lemak,122,"2,0","10,0","7,6",100
+KP004,Santan murni,Olahan,Lemak,324,"4,2","34,3","5,6",100
+KR001,"Kelapa setengah tua, daging, segar",Tunggal,Lemak,180,"4,0","15,0","10,0",53
+KR002,"Kelapa tua, daging, segar",Tunggal,Lemak,359,"3,4","34,7","14,0",53
+KR003,Lemak babi (lard),Tunggal,Lemak,902,-,"100,0",-,100
+KR004,Lemak babi (bacon),Tunggal,Lemak,626,"9,1","65,0","1,1",100
+KR005,Lemak ikan,Tunggal,Lemak,372,"12,0","29,4","14,4",100
+KR006,Lemak kerbau (lemak sapi),Tunggal,Lemak,818,"1,5","90,0",-,100
+KR007,"Minyak hiu, hati",Tunggal,Lemak,902,-,"100,0",-,100
+KR008,Minyak ikan,Tunggal,Lemak,902,-,"100,0",-,100
+KR009,Minyak kacang tanah,Tunggal,Lemak,902,-,"100,0",-,100
+KR010,Minyak kedelai,Tunggal,Lemak,883,-,"99,9",-,100
+KR011,Minyak kelapa,Tunggal,Lemak,870,"1,0","98,0",-,100
+KR012,Minyak kelapa sawit,Tunggal,Lemak,884,-,"100,0",-,100
+KR013,Minyak wijen,Tunggal,Lemak,881,"0,2","99,7",-,100
+KR014,Minyak Zaitun,Tunggal,Lemak,884,-,"100,0",-,100
+MP001,"Coklat manis, batang",Olahan,Gula,527,"2,0","29,8","62,7",100
+MP002,"Coklat pahit,batang",Olahan,Gula,615,"5,5","42,6","29,2",100
+MP003,"Coklat susu, batang",Olahan,Gula,565,"9,0","35,0","53,6",100
+MP004,Coklat bubuk,Olahan,Gula,311,"8,0","4,0","48,9",-
+MP005,Gula aren,Olahan,Gula,368,-,-,"92,0",100
+MP006,Gula kelapa,Olahan,Gula,386,"3,0","10,0","76,0",100
+MP007,Gula putih,Olahan,Gula,394,-,-,"94,0",100
+MP008,"Jam, selai",Olahan,Gula,239,"0,5","0,6","64,5",100
+MP009,Kopi bubuk instant,Olahan,Gula,129,"12,3","0,5","35,0",100
+MP010,Madu,Olahan,Gula,294,"0,3",-,"79,5",100
+MP011,Markisa squash,Olahan,Gula,217,"2,5","1,0","49,6",-
+MP012,"Markisa squash, BD",Olahan,Gula,104,"1,2","0,5","23,7",-
+MP013,Melase,Olahan,Gula,276,-,"0,1","71,0",100
+MP014,Sirup,Olahan,Gula,213,-,-,"55,0",100
+MP015,Sirup pirous,Olahan,Gula,228,"0,2","0,4","55,9",-
+MP016,Teh hijau daun kering,Olahan,Gula,300,"28,3","4,8","53,6",100
+MP017,Teh hitam daun kering,Olahan,Gula,293,"24,5","2,8","58,8",100
+MP018,Teh melati daun kering,Olahan,Gula,299,"24,1","3,5","59,0",100
+NP001,Balichong,Olahan,Bumbu,152,"13,2","0,8","22,9",-
+NP002,Bekasam,Olahan,Bumbu,116,"11,9","4,9","6,1",-
+NP003,Bekasang,Olahan,Bumbu,78,"11,4","2,0","3,6",-
+NP004,Cuka,Olahan,Bumbu,21,"0,1","0,1","5,0",100
+NP005,Kecap,Olahan,Bumbu,71,"5,7","1,3","9,0",100
+NP006,Petis ikan,Olahan,Bumbu,165,"20,0","0,2","20,8",100
+NP007,Petis udang kering,Olahan,Bumbu,345,"23,8","1,4","59,3",100
+NP008,Petis udang pasta,Olahan,Bumbu,220,"15,0","0,9","38,0",100
+NP009,Saos tomat,Olahan,Bumbu,110,"2,0","0,4","24,5",100
+NP010,Tempoya,Olahan,Bumbu,110,"1,7","1,3","21,9",100
+NP011,Terasi,Olahan,Bumbu,155,"22,3","2,9","9,9",100
+NP012,Terasi dobo,Olahan,Bumbu,191,"33,1","3,6","6,6",100
+NP013,Terasi merah,Olahan,Bumbu,174,"30,0","3,5","5,6",100
+NR001,"Asam arang coklat, segar",Tunggal,Bumbu,130,"0,5","1,1","30,9",-
+NR002,"Asam arang merah, segar",Tunggal,Bumbu,99,"0,8","1,6","20,3",-
+NR003,"Asam kandis, kering",Tunggal,Bumbu,261,"0,9","1,6","63,3",100
+NR004,"Asam kandis, segar",Tunggal,Bumbu,75,"0,2","1,1","16,1",-
+NR005,"Asam masak pohon, segar",Tunggal,Bumbu,267,"2,8","0,6","62,5",48
+NR006,"Asam payak, segar",Tunggal,Bumbu,135,"0,8","0,4","32,1",-
+NR007,"Bawang merah, segar",Tunggal,Bumbu,46,"1,5","0,3","9,2",90
+NR008,"Bawang putih, segar",Tunggal,Bumbu,112,"4,5","0,2","23,1",88
+NR009,"Boros kunci, segar",Tunggal,Bumbu,40,"1,0","0,8","7,2",80
+NR010,"Boros laja (lengkuas), segar",Tunggal,Bumbu,26,"1,0","0,3","4,7",80
+NR011,"Cabai gembor merah, segar",Tunggal,Bumbu,38,"1,6","0,8","6,3",89
+NR012,"Cabai hijau, segar",Tunggal,Bumbu,26,"0,7","0,3","5,2",82
+NR013,"Cabai merah, kering",Tunggal,Bumbu,367,"15,9","6,2","61,8",85
+NR014,"Cabai merah, segar",Tunggal,Bumbu,36,"1,0","0,3","7,3",85
+NR015,"Cabai rawit, segar",Tunggal,Bumbu,120,"4,7","2,4","19,9",85
+NR016,"Cengkeh, kering",Tunggal,Bumbu,330,"5,2","8,9","57,4",100
+NR017,"Daun salam, bubuk",Tunggal,Bumbu,301,"14,2","10,9","49,0",100
+NR018,"Jahe, segar",Tunggal,Bumbu,51,"1,5","1,0","10,1",97
+NR019,Kemiri,Tunggal,Bumbu,675,"19,0","63,0","8,0",100
+NR020,"Ketumbar, kering",Tunggal,Bumbu,418,"14,1","16,1","54,2",100
+NR021,Kluwek,Tunggal,Bumbu,310,"10,0","24,0","13,5",80
+NR022,"Kunyit, segar",Tunggal,Bumbu,69,"2,0","2,7","9,1",78
+NR023,"Merica, kering",Tunggal,Bumbu,365,"11,5","6,8","64,4",100
+NR024,"Pala, biji, kering",Tunggal,Bumbu,518,"7,5","36,4","40,1",95
+QR001,"Kelapa muda, air, segar",Tunggal,Minuman,17,"0,2","0,1","3,8",100

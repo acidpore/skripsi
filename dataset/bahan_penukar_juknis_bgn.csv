@@ -1,0 +1,31 @@
+komponen,nama_penukar,berat_bersih_per_sp_gram,berat_kotor_per_sp_gram,bdd_tersirat_persen,catatan
+karbohidrat,Beras,50,50,100,
+karbohidrat,Nasi,100,100,100,bentuk matang dari beras; jangan diaktifkan bersamaan dengan Beras
+karbohidrat,Kentang,210,247,85.0,
+karbohidrat,Mie kering,50,50,100,
+karbohidrat,Roti putih,70,70,100,
+karbohidrat,Ubi,135,159,84.9,
+protein_hewani,Telur,55,62,88.7,telur ayam
+protein_hewani,Daging ayam,40,69,58.0,
+protein_hewani,Daging sapi,35,35,100,
+protein_hewani,Ikan segar,40,50,80.0,
+protein_nabati,Tempe,50,50,100,
+protein_nabati,Tahu,110,110,100,
+protein_nabati,Oncom,40,40,100,
+sayur,Kol,100,133,75.2,
+sayur,Kangkung,100,167,59.9,
+sayur,Sawi,100,115,87.0,
+sayur,Wortel,100,125,80.0,
+sayur,Kacang panjang,100,109,91.7,
+sayur,Buncis,100,111,90.1,
+sayur,Bayam,100,141,70.9,
+sayur,Labu siam,100,120.5,83.0,
+buah,Pisang,50,67,74.6,
+buah,Jeruk,110,153,71.9,Gambar 11 menulis 100 g; lima gambar lain menulis 110 g
+buah,Semangka,180,391,46.0,
+buah,Melon,190,327,58.1,
+buah,Pepaya,110,147,74.8,
+lemak,Minyak,5,5,100,
+lemak,Santan,40,40,100,
+lemak,Mentega,5,5,100,
+susu,Susu,200,200,100,1 kotak; balita dan SD 4-6 memakai 0.625 SP setara 125 g
