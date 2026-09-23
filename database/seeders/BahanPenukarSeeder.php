@@ -46,7 +46,11 @@ class BahanPenukarSeeder extends Seeder
                 continue;
             }
 
-            $bahan->update(['berat_per_sp_gram' => (float) $data['berat_bersih_per_sp_gram']]);
+            $bahan->update([
+                'berat_per_sp_gram' => (float) $data['berat_bersih_per_sp_gram'],
+                // TKPI menandai sebagian BDD dengan tanda hubung, Juknis melengkapinya lewat rasio berat kotor terhadap berat bersih
+                'bdd_persen' => $bahan->bdd_persen ?? (float) $data['bdd_tersirat_persen'],
+            ]);
             $this->periksaBdd($bahan, (float) $data['bdd_tersirat_persen'], $data['nama_penukar']);
             $tersimpan++;
         }
@@ -58,16 +62,18 @@ class BahanPenukarSeeder extends Seeder
 
     private function cariBahan(array $data, array $kelompok): ?BahanPangan
     {
+        $nama = config('spk.penukar_alias.'.$data['nama_penukar'], $data['nama_penukar']);
+
         $kandidat = BahanPangan::query()
             ->whereIn('kelompok', $kelompok)
-            ->where('nama', 'like', $data['nama_penukar'].'%')
+            ->where('nama', 'like', $nama.'%')
             ->get();
 
         if ($kandidat->isEmpty()) {
             return null;
         }
 
-        $cocokPersis = $kandidat->firstWhere('nama', $data['nama_penukar']);
+        $cocokPersis = $kandidat->firstWhere('nama', $nama);
 
         if ($cocokPersis !== null) {
             return $cocokPersis;

@@ -6,7 +6,6 @@ namespace App\Services\Menu;
 
 use App\Models\BahanPangan;
 use App\Models\KebutuhanBahan;
-use App\Models\Menu;
 use App\Models\Rekomendasi;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
@@ -15,13 +14,13 @@ class MaterialRequirementService
 {
     public function calculateForRekomendasi(Rekomendasi $rekomendasi): Collection
     {
-        $menu = $rekomendasi->menuTerpilih;
+        $komposisi = $rekomendasi->komposisi_terpilih['komposisi'] ?? [];
 
-        if ($menu === null) {
+        if ($komposisi === []) {
             return collect();
         }
 
-        $kebutuhan = $this->aggregate([$menu], $rekomendasi->jumlah_porsi);
+        $kebutuhan = $this->hitung($komposisi, $rekomendasi->jumlah_porsi);
 
         DB::transaction(function () use ($rekomendasi, $kebutuhan): void {
             $rekomendasi->kebutuhanBahan()->delete();
@@ -39,48 +38,41 @@ class MaterialRequirementService
         return $rekomendasi->kebutuhanBahan()->with('bahanPangan')->get();
     }
 
-    public function aggregate(iterable $menus, int $jumlahPorsi): array
+    public function hitung(array $komposisi, int $jumlahPorsi): array
     {
+        $bahanPerId = BahanPangan::query()
+            ->whereIn('id', array_column($komposisi, 'bahan_pangan_id'))
+            ->get()
+            ->keyBy('id');
+
         $kebutuhan = [];
 
-        foreach ($menus as $menu) {
-            foreach ($this->rowsForMenu($menu, $jumlahPorsi) as $bahanId => $baris) {
-                if (!isset($kebutuhan[$bahanId])) {
-                    $kebutuhan[$bahanId] = $baris;
-
-                    continue;
-                }
-
-                $kebutuhan[$bahanId]['berat_bersih_gram'] += $baris['berat_bersih_gram'];
-                $kebutuhan[$bahanId]['berat_kotor_gram'] += $baris['berat_kotor_gram'];
-            }
-        }
-
-        return $kebutuhan;
-    }
-
-    private function rowsForMenu(Menu $menu, int $jumlahPorsi): array
-    {
-        $baris = [];
-
-        foreach ($menu->bahan as $menuBahan) {
-            $bahan = $menuBahan->bahanPangan;
+        foreach ($komposisi as $komponen) {
+            $bahan = $bahanPerId->get($komponen['bahan_pangan_id']);
 
             if ($bahan === null) {
                 continue;
             }
 
-            $beratBersih = $menuBahan->berat_bersih_gram * $jumlahPorsi;
-
-            $baris[$bahan->id] = [
+            $beratBersih = ((float) $komponen['berat_bersih_gram']) * $jumlahPorsi;
+            $baris = [
                 'bahan_pangan_id' => $bahan->id,
                 'nama' => $bahan->nama,
                 'berat_bersih_gram' => $beratBersih,
                 'berat_kotor_gram' => $this->beratKotor($beratBersih, $bahan->bdd_persen),
             ];
+
+            if (!isset($kebutuhan[$bahan->id])) {
+                $kebutuhan[$bahan->id] = $baris;
+
+                continue;
+            }
+
+            $kebutuhan[$bahan->id]['berat_bersih_gram'] += $baris['berat_bersih_gram'];
+            $kebutuhan[$bahan->id]['berat_kotor_gram'] += $baris['berat_kotor_gram'];
         }
 
-        return $baris;
+        return $kebutuhan;
     }
 
     // Konversi BDD, berat kotor = berat bersih dibagi BDD dikali 100

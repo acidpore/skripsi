@@ -16,10 +16,12 @@ class Menu extends Model
 
     public const KOMPONEN = [
         'karbohidrat',
-        'lauk_hewani',
-        'lauk_nabati',
+        'protein_hewani',
+        'protein_nabati',
         'sayur',
         'buah',
+        'lemak',
+        'susu',
     ];
 
     protected $table = 'menu';

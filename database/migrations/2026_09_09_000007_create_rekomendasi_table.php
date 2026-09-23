@@ -19,8 +19,6 @@ return new class extends Migration
 
             $table->json('bobot_entropy');
             $table->json('hasil_ranking_topsis');
-            $table->json('hasil_ranking_saw');
-            $table->decimal('koefisien_spearman', 6, 4)->nullable();
 
             $table->timestamps();
 

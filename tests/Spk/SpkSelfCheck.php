@@ -5,16 +5,12 @@ declare(strict_types=1);
 namespace Tests\Spk;
 
 use App\Services\Spk\EntropyWeighting;
-use App\Services\Spk\SawRanking;
-use App\Services\Spk\SpearmanCorrelation;
 use App\Services\Spk\TopsisRanking;
 
 class SpkSelfCheck
 {
     private const EPSILON = 0.000001;
     private const NEAR_ZERO_WEIGHT = 0.001;
-    private const PERFECT_CORRELATION = 1.0;
-    private const INVERSE_CORRELATION = -1.0;
 
     public static function run(): void
     {
@@ -22,7 +18,6 @@ class SpkSelfCheck
         self::checkConstantCriterionGetsNearZeroWeight();
         self::checkDominantAlternativeRanksFirst();
         self::checkCostCriterionInvertsPreference();
-        self::checkSpearmanIdenticalAndReversed();
     }
 
     private static function checkEntropyWeightsSumToOne(): void
@@ -58,12 +53,9 @@ class SpkSelfCheck
         $types = ['protein' => 'benefit', 'calorie' => 'benefit', 'price' => 'cost'];
 
         $topsis = (new TopsisRanking())->rank($matrix, $weights, $types);
-        $saw = (new SawRanking())->rank($matrix, $weights, $types);
 
         assert($topsis[0]['index'] === 1);
         assert($topsis[0]['rank'] === 1);
-        assert($saw[0]['index'] === 1);
-        assert($saw[0]['rank'] === 1);
         assert(count($topsis) === 3);
     }
 
@@ -75,31 +67,11 @@ class SpkSelfCheck
         ];
         $weights = ['price' => 1.0];
 
-        $asBenefit = (new SawRanking())->rank($matrix, $weights, ['price' => 'benefit']);
-        $asCost = (new SawRanking())->rank($matrix, $weights, ['price' => 'cost']);
+        $asBenefit = (new TopsisRanking())->rank($matrix, $weights, ['price' => 'benefit']);
+        $asCost = (new TopsisRanking())->rank($matrix, $weights, ['price' => 'cost']);
 
         assert($asBenefit[0]['index'] === 1);
         assert($asCost[0]['index'] === 0);
-    }
-
-    private static function checkSpearmanIdenticalAndReversed(): void
-    {
-        $correlation = new SpearmanCorrelation();
-
-        $rankingA = [
-            ['index' => 2, 'score' => 0.9, 'rank' => 1],
-            ['index' => 0, 'score' => 0.5, 'rank' => 2],
-            ['index' => 1, 'score' => 0.1, 'rank' => 3],
-        ];
-        $reversed = [
-            ['index' => 1, 'score' => 0.9, 'rank' => 1],
-            ['index' => 0, 'score' => 0.5, 'rank' => 2],
-            ['index' => 2, 'score' => 0.1, 'rank' => 3],
-        ];
-
-        assert(self::isClose($correlation->calculate($rankingA, $rankingA), self::PERFECT_CORRELATION));
-        assert(self::isClose($correlation->calculate($rankingA, $reversed), self::INVERSE_CORRELATION));
-        assert(self::isClose($correlation->calculate([], []), 0.0));
     }
 
     private static function sampleMatrix(): array

@@ -23,8 +23,6 @@ class Rekomendasi extends Model
         'jumlah_porsi',
         'bobot_entropy',
         'hasil_ranking_topsis',
-        'hasil_ranking_saw',
-        'koefisien_spearman',
     ];
 
     protected function casts(): array
@@ -33,8 +31,6 @@ class Rekomendasi extends Model
             'komposisi_terpilih' => 'array',
             'bobot_entropy' => 'array',
             'hasil_ranking_topsis' => 'array',
-            'hasil_ranking_saw' => 'array',
-            'koefisien_spearman' => 'float',
             'jumlah_porsi' => 'integer',
         ];
     }

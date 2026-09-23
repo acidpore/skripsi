@@ -5,30 +5,21 @@ declare(strict_types=1);
 namespace App\Services\Spk;
 
 use App\Models\AkgSekaliMakan;
-use App\Services\Menu\MenuNutritionCalculator;
-use Illuminate\Support\Collection;
 
 class DecisionMatrixBuilder
 {
-    public function __construct(
-        private readonly MenuNutritionCalculator $nutritionCalculator,
-        private readonly SuitabilityScorer $suitabilityScorer,
-    ) {}
+    public function __construct(private readonly SuitabilityScorer $suitabilityScorer) {}
 
-    public function build(Collection $menus, AkgSekaliMakan $akg, array $definisiKriteria): array
+    public function build(array $daftarGizi, AkgSekaliMakan $akg, array $definisiKriteria): array
     {
         $matriks = [];
-        $gizi = [];
 
-        foreach ($menus->values() as $posisi => $menu) {
-            $kandunganGizi = $this->nutritionCalculator->calculate($menu);
-            $gizi[$posisi] = $kandunganGizi;
+        foreach (array_values($daftarGizi) as $posisi => $kandunganGizi) {
             $matriks[$posisi] = $this->scoreRow($kandunganGizi, $akg, $definisiKriteria);
         }
 
         return [
             'matriks' => $matriks,
-            'gizi' => $gizi,
             'tipe_kriteria' => $this->criteriaTypes($definisiKriteria),
         ];
     }

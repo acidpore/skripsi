@@ -16,6 +16,10 @@ class DatabaseSeeder extends Seeder
         $this->call([
             BahanPanganSeeder::class,
             BahanPenukarSeeder::class,
+            AkgHarianSeeder::class,
+            AkgSekaliMakanSeeder::class,
+            SppgSeeder::class,
+            UserSeeder::class,
         ]);
     }
 }

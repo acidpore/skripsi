@@ -27,7 +27,8 @@ return new class extends Migration
             $table->decimal('besi_mg', 8, 2)->nullable();
             $table->decimal('vitamin_c_mg', 8, 2)->nullable();
 
-            $table->decimal('bdd_persen', 5, 2)->default(100);
+            // Nullable karena TKPI menandai sebagian BDD dengan tanda hubung, yang berarti tidak tersedia dan bukan nol
+            $table->decimal('bdd_persen', 5, 2)->nullable();
             $table->timestamps();
 
             $table->index('kelompok');

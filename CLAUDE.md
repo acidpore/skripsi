@@ -4,6 +4,10 @@ Aturan kerja wajib dibaca sebelum mengerjakan apapun di project ini:
 
 @rencana/rule.md
 
+Panduan desain frontend, wajib dibaca sebelum menyentuh `resources/views/`:
+
+@rencana/DESIGN.md
+
 Acuan kebutuhan produk dan model data:
 
 @rencana/PRD_Sistem_SPK_MBG.md

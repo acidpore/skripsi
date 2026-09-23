@@ -23,7 +23,7 @@ class BahanPanganSeeder extends Seeder
         }
 
         $pointer = fopen($berkas, 'rb');
-        $judul = fgetcsv($pointer);
+        $judul = $this->judulTanpaBom(fgetcsv($pointer));
         $batch = [];
         $dilewati = 0;
 
@@ -51,6 +51,14 @@ class BahanPanganSeeder extends Seeder
         $this->command->info('Bahan pangan tersimpan. Baris dilewati: '.$dilewati.'.');
     }
 
+    // Berkas sumber diekspor dengan BOM UTF-8, tanpa dibuang kunci kolom pertama tidak akan pernah cocok
+    private function judulTanpaBom(array $judul): array
+    {
+        $judul[0] = preg_replace('/^\xEF\xBB\xBF/', '', (string) $judul[0]);
+
+        return $judul;
+    }
+
     private function petakan(array $judul, array $baris): ?array
     {
         $data = @array_combine($judul, $baris);
@@ -68,7 +76,7 @@ class BahanPanganSeeder extends Seeder
             'protein_g' => $this->angka($data['protein_g']),
             'lemak_g' => $this->angka($data['lemak_g']),
             'karbohidrat_g' => $this->angka($data['karbohidrat_g']),
-            'bdd_persen' => $this->angka($data['bdd_persen']),
+            'bdd_persen' => $this->angkaAtauNull($data['bdd_persen']),
         ];
     }
 
@@ -76,6 +84,14 @@ class BahanPanganSeeder extends Seeder
     private function angka(mixed $nilai): float
     {
         return (float) str_replace(',', '.', trim((string) $nilai));
+    }
+
+    // Tanda hubung pada TKPI berarti nilai tidak tersedia, berbeda arti dengan nol dan tidak boleh disamakan
+    private function angkaAtauNull(mixed $nilai): ?float
+    {
+        $bersih = trim((string) $nilai);
+
+        return $bersih === '-' || $bersih === '' ? null : $this->angka($bersih);
     }
 
     private function simpan(array $batch): void

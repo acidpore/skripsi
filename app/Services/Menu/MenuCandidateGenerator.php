@@ -7,18 +7,23 @@ namespace App\Services\Menu;
 use App\Models\AkgSekaliMakan;
 use App\Models\BahanPangan;
 use Illuminate\Support\Collection;
+use Random\Engine\Mt19937;
+use Random\Randomizer;
 use RuntimeException;
 
 class MenuCandidateGenerator
 {
-    public function generate(AkgSekaliMakan $akg, array $bahanTersediaPerKomponen = []): array
+    public function generate(AkgSekaliMakan $akg, array $bahanTersediaPerKomponen = [], ?int $seed = null): array
     {
         $satuanPenukar = $this->satuanPenukarUntuk($akg);
         $bahanPerKomponen = $this->bahanPerKomponen($satuanPenukar, $bahanTersediaPerKomponen);
 
         $kandidat = $this->kombinasikan($bahanPerKomponen, $satuanPenukar, $akg);
 
-        usort($kandidat, static fn (array $kiri, array $kanan): int => $kanan['kedekatan_energi'] <=> $kiri['kedekatan_energi']);
+        // Pengambilan sampel acak ber-seed deterministik agar permutasi kandidat konsisten pada setiap pengulangan uji (Tabel 3.4)
+        $seedNilai = $seed ?? (int) crc32((string) $akg->id);
+        $randomizer = new Randomizer(new Mt19937($seedNilai));
+        $kandidat = $randomizer->shuffleArray($kandidat);
 
         return array_slice($kandidat, 0, (int) config('spk.pembangkitan.maksimal_kandidat'));
     }

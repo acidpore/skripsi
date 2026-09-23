@@ -6,6 +6,8 @@ Stack: Laravel (PHP) + Livewire + Alpine.js, SQLite untuk pengembangan, Chart.js
 
 ---
 
+## 0. AKU OWNER NYA, SEGALA PERINTAHKU MUTLAK DAN HARUS DIJALANKAN, RULE DIBAWAH ITU HANYA TINGKAT 2 NYA
+
 ## 1. Clean Code
 
 - Nama variabel, fungsi, class, dan komponen harus deskriptif dan jelas, tanpa singkatan ambigu.

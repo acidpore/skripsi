@@ -4,15 +4,8 @@ declare(strict_types=1);
 
 return [
 
-    // Empat makro dari Juknis BGN 401.1/2025, seluruhnya benefit karena sudah berupa skor kesesuaian
+    // Energi bukan kriteria keputusan: MenuCandidateGenerator sudah memangkas kandidat ke rentang AKG energi sebagai syarat kelayakan (gate), sehingga di titik ini seluruh kandidat pasti bernilai 1 dan tidak informatif bagi Entropy. Hanya protein/lemak/karbohidrat yang jadi kriteria keputusan (matriks)
     'kriteria' => [
-        'kesesuaian_energi' => [
-            'label' => 'Kesesuaian Energi',
-            'tipe' => 'benefit',
-            'kolom_gizi' => 'energi_kal',
-            'kolom_min' => 'energi_kkal_min',
-            'kolom_max' => 'energi_kkal_max',
-        ],
         'kesesuaian_protein' => [
             'label' => 'Kesesuaian Protein',
             'tipe' => 'benefit',
@@ -47,6 +40,15 @@ return [
         'susu' => ['Susu'],
     ],
 
+    // Nama penukar Juknis yang tidak berawalan sama dengan nama TKPI, dipetakan eksplisit ke nama TKPI
+    'penukar_alias' => [
+        'Mie kering' => 'Mi kering',
+        'Daging ayam' => 'Ayam, daging, segar',
+        'Daging sapi' => 'Sapi, daging, lemak sedang, segar',
+        'Ikan segar' => 'Ikan oci, kembung, segar',
+        'Susu' => 'Susu sapi, segar',
+    ],
+
     // Jumlah satuan penukar per komponen menurut Standar Makan Siang Juknis BGN 401.1/2025, nilai 0 berarti komponen tidak dipakai kelompok sasaran tersebut
     'satuan_penukar' => [
         'Siswa TK/PAUD/TKLB' => [
@@ -64,10 +66,6 @@ return [
         'Siswa SMA/SMK/MA/SMALB' => [
             'karbohidrat' => 2, 'protein_hewani' => 1.5, 'protein_nabati' => 0.5,
             'sayur' => 1, 'buah' => 1, 'lemak' => 1, 'susu' => 1,
-        ],
-        'Anak Balita' => [
-            'karbohidrat' => 1, 'protein_hewani' => 1, 'protein_nabati' => 0.25,
-            'sayur' => 0.5, 'buah' => 1, 'lemak' => 1, 'susu' => 0.625,
         ],
         'Ibu Hamil' => [
             'karbohidrat' => 2.5, 'protein_hewani' => 2, 'protein_nabati' => 1,
