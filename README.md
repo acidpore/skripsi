@@ -1,59 +1,82 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Sistem Pendukung Keputusan Menu dan Kebutuhan Bahan Program MBG
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Aplikasi web untuk operator Satuan Pelayanan Pemenuhan Gizi (SPPG). Aplikasi ini menyusun rekomendasi menu Program Makan Bergizi Gratis (MBG) dengan pembobotan Entropy dan perankingan TOPSIS, lalu menghitung kebutuhan bahan mentah berdasarkan nilai Bagian yang Dapat Dimakan (BDD).
 
-## About Laravel
+Objek penelitian skripsi Ferdinand Wilson Pratama Sanjoto (NIM 23051204357).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Stack
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- Laravel 12, PHP 8.3
+- Livewire dan Alpine.js
+- SQLite (pengembangan)
+- Chart.js, Leaflet
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Alur Rekomendasi
 
-## Learning Laravel
+1. Operator memilih kelompok sasaran, waktu makan, dan jumlah porsi.
+2. `MenuCandidateGenerator` membangkitkan kandidat menu dari bahan penukar Juknis BGN 401.1/2025. Tiap kandidat berisi satu bahan per komponen aktif: karbohidrat, protein hewani, protein nabati, sayur, buah, lemak, dan susu.
+3. Kandidat yang energinya di luar rentang AKG sekali makan dibuang (gate energi). Dari sisanya diambil sampel acak ber-seed, maksimal 20 kandidat.
+4. `DecisionMatrixBuilder` dan `SuitabilityScorer` membentuk matriks skor kesesuaian protein, lemak, dan karbohidrat. Skornya 1 jika di dalam rentang, `x / L` jika di bawah batas bawah, dan `U / x` jika di atas batas atas.
+5. `EntropyWeighting` menghitung bobot kriteria.
+6. `TopsisRanking` menyusun peringkat alternatif.
+7. `MaterialRequirementService` menghitung berat kotor: `(berat bersih / BDD) x 100 x jumlah porsi`.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## Struktur Penting
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| Lokasi | Isi |
+|---|---|
+| `app/Services/Spk/` | Entropy, TOPSIS, matriks keputusan, orkestrasi rekomendasi |
+| `app/Services/Menu/` | Pembangkit kandidat, kebutuhan bahan, penyimpanan menu |
+| `app/Livewire/RekomendasiMenu.php` | Halaman rekomendasi |
+| `config/spk.php` | Kriteria, peta komponen, satuan penukar per kelompok sasaran |
+| `database/seeders/` | Data TKPI, bahan penukar, AKG, SPPG, akun uji |
+| `rencana/` | PRD, aturan kerja, panduan desain, catatan progress |
+| `scripts/export_perhitungan.php` | Ekspor data contoh perhitungan untuk naskah |
 
-## Laravel Sponsors
+## Instalasi
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+```bash
+composer install
+cp .env.example .env
+php artisan key:generate
+touch database/database.sqlite
+php artisan migrate --seed
+php artisan serve
+```
 
-### Premium Partners
+Pengaturan opsional di `.env`:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- `SPK_MAKSIMAL_KANDIDAT`: jumlah kandidat yang masuk matriks, bawaan 20.
+- `SPK_MAKSIMAL_BAHAN_PER_KOMPONEN`: batas bahan per komponen, bawaan tanpa batas.
 
-## Contributing
+## Akun Uji
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Semua akun memakai password `password`.
 
-## Code of Conduct
+| Email | Peran |
+|---|---|
+| `admin@spk-mbg.test` | Admin |
+| `operator@spk-mbg.test` | Operator SPPG 1 |
+| `operator2@spk-mbg.test` | Operator SPPG 2 |
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Command
 
-## Security Vulnerabilities
+```bash
+php artisan spk:coba "Siswa SD/MI/SDLB Kelas 4-6" --porsi=100   # uji generate dari terminal, tambah --simpan untuk menyimpan
+php artisan spk:penukar --sp=1                                    # daftar bahan penukar
+php artisan test
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Ekspor Data Perhitungan
 
-## License
+```bash
+php scripts/export_perhitungan.php
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Script ini hanya membaca database. Hasilnya ditulis ke `export_perhitungan/` dan dikemas menjadi `export_perhitungan.zip`, berisi:
+
+- `data_acuan/`: tabel bahan pangan, AKG harian, AKG sekali makan, satuan penukar, dan daftar bahan penukar.
+- `a_sd_kelas_4-6/` dan `b_tk_paud/`: langkah perhitungan untuk 3000 porsi, yaitu kandidat lolos energi, matriks kesesuaian, Entropy, TOPSIS, dan kebutuhan bahan peringkat 1.
+- `signatures.md`: signature method publik service, komponen Livewire, dan model.
+
+Nilai Entropy dan TOPSIS ditulis dua kali: hasil hitung ulang manual (`*_rumus`) dan hasil class aplikasi (`*_sistem`). Keduanya harus sama.
