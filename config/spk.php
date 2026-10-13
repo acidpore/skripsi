@@ -83,11 +83,19 @@ return [
         'Tenaga Kependidikan' => 'Siswa SMA/SMK/MA/SMALB',
     ],
 
+    'porsi' => [
+        'bawaan' => 100,
+        'minimal' => 1,
+        'maksimal' => 100000,
+    ],
+
+    'pencarian_sppg_maksimal' => 10,
+
     'pembangkitan' => [
-        // Katup pengaman bila daftar penukar diperluas, null berarti nonaktif karena daftar Juknis saat ini hanya menghasilkan 7.200 kombinasi
-        'maksimal_bahan_per_komponen' => null,
-        // Kandidat yang masuk matriks keputusan, menjawab pertanyaan top-N pada PRD Bagian 3.4
-        'maksimal_kandidat' => 20,
+        // Katup pengaman kombinatorial, diatur lewat .env agar uji waktu respons bisa memvariasikannya
+        'maksimal_bahan_per_komponen' => env('SPK_MAKSIMAL_BAHAN_PER_KOMPONEN') === null ? null : (int) env('SPK_MAKSIMAL_BAHAN_PER_KOMPONEN'),
+        // Kandidat yang masuk matriks keputusan (PRD 3.4), diatur lewat .env untuk uji waktu respons bertingkat
+        'maksimal_kandidat' => (int) env('SPK_MAKSIMAL_KANDIDAT', 20),
     ],
 
 ];

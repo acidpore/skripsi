@@ -1,0 +1,121 @@
+﻿alternatif,komponen,kode_bahan,nama_bahan,jumlah_sp,berat_bersih_gram
+A1,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A1,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A1,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A1,sayur,DR141,"Sawi, segar",0.5,50
+A1,buah,ER074,"Pisang ambon, segar",1,50
+A1,lemak,KP002,Mentega,1,5
+A2,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A2,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A2,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A2,sayur,DR100,"Kangkung, segar",0.5,50
+A2,buah,ER074,"Pisang ambon, segar",1,50
+A2,lemak,KP002,Mentega,1,5
+A3,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A3,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A3,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A3,sayur,DR141,"Sawi, segar",0.5,50
+A3,buah,ER073,"Pepaya, segar",1,110
+A3,lemak,KP002,Mentega,1,5
+A4,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A4,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A4,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A4,sayur,DR100,"Kangkung, segar",0.5,50
+A4,buah,ER105,"Semangka, segar",1,180
+A4,lemak,KP002,Mentega,1,5
+A5,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A5,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A5,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A5,sayur,DR008,"Bayam, segar",0.5,50
+A5,buah,ER074,"Pisang ambon, segar",1,50
+A5,lemak,KP002,Mentega,1,5
+A6,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A6,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A6,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A6,sayur,DR114,"Kol merah, kol putih",0.5,50
+A6,buah,ER073,"Pepaya, segar",1,110
+A6,lemak,KP002,Mentega,1,5
+A7,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A7,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A7,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A7,sayur,DR008,"Bayam, segar",0.5,50
+A7,buah,ER105,"Semangka, segar",1,180
+A7,lemak,KP002,Mentega,1,5
+A8,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A8,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A8,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A8,sayur,DR166,"Wortel, segar",0.5,50
+A8,buah,ER073,"Pepaya, segar",1,110
+A8,lemak,KP002,Mentega,1,5
+A9,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A9,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A9,protein_nabati,CP051,Oncom,0.5,20
+A9,sayur,DR008,"Bayam, segar",0.5,50
+A9,buah,ER074,"Pisang ambon, segar",1,50
+A9,lemak,KP002,Mentega,1,5
+A10,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A10,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A10,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A10,sayur,DR008,"Bayam, segar",0.5,50
+A10,buah,ER073,"Pepaya, segar",1,110
+A10,lemak,KP002,Mentega,1,5
+A11,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A11,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A11,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A11,sayur,DR008,"Bayam, segar",0.5,50
+A11,buah,ER074,"Pisang ambon, segar",1,50
+A11,lemak,KR007,"Minyak hiu, hati",1,5
+A12,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A12,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A12,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A12,sayur,DR114,"Kol merah, kol putih",0.5,50
+A12,buah,ER105,"Semangka, segar",1,180
+A12,lemak,KP002,Mentega,1,5
+A13,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A13,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A13,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A13,sayur,DR013,"Buncis, segar",0.5,50
+A13,buah,ER073,"Pepaya, segar",1,110
+A13,lemak,KP002,Mentega,1,5
+A14,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A14,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A14,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A14,sayur,DR008,"Bayam, segar",0.5,50
+A14,buah,ER073,"Pepaya, segar",1,110
+A14,lemak,KP003,"Santan (dengan air)",1,40
+A15,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A15,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A15,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A15,sayur,DR123,"Labu siam, segar",0.5,50
+A15,buah,ER073,"Pepaya, segar",1,110
+A15,lemak,KP002,Mentega,1,5
+A16,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A16,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A16,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A16,sayur,DR013,"Buncis, segar",0.5,50
+A16,buah,ER105,"Semangka, segar",1,180
+A16,lemak,KP002,Mentega,1,5
+A17,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A17,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A17,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A17,sayur,DR141,"Sawi, segar",0.5,50
+A17,buah,ER105,"Semangka, segar",1,180
+A17,lemak,KP002,Mentega,1,5
+A18,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A18,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A18,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A18,sayur,DR008,"Bayam, segar",0.5,50
+A18,buah,ER105,"Semangka, segar",1,180
+A18,lemak,KR007,"Minyak hiu, hati",1,5
+A19,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A19,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A19,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A19,sayur,DR008,"Bayam, segar",0.5,50
+A19,buah,ER073,"Pepaya, segar",1,110
+A19,lemak,KR007,"Minyak hiu, hati",1,5
+A20,karbohidrat,BR013,"Kentang, segar",1.25,262.5
+A20,protein_hewani,GR036,"Ikan oci, kembung, segar",1,40
+A20,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A20,sayur,DR097,"Kacang panjang, segar",0.5,50
+A20,buah,ER074,"Pisang ambon, segar",1,50
+A20,lemak,KP002,Mentega,1,5

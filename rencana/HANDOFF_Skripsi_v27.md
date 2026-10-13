@@ -41,31 +41,24 @@ Tempel file ini di awal sesi baru, lalu lampirkan `Proposal_Skripsi_final_v27.do
 
 **Class Diagram:** model Sppg, User(role), BahanPangan, AkgHarian, AkgSekaliMakan, Menu, MenuBahan, Rekomendasi (bobot_entropy & hasil_ranking_topsis JSON), KebutuhanBahan (milik Rekomendasi); service MenuCandidateGenerator, SuitabilityScorer, DecisionMatrixBuilder, EntropyWeighting, RankingMethod ← TopsisRanking, RecommendationService, MaterialRequirementService, MenuPersistenceService; Livewire RekomendasiMenu, Login; DaftarBelanjaController (cetak, csv). Sumber mermaid ada di sesi lama; kalau perlu digambar ulang, minta ulang ke sesi coding.
 
-## 5. Yang MASIH KURANG di v27
+## 5. Status Item Terbuka (Update 23 Sep 2026)
 
-| # | Item | Prioritas | Catatan |
+| # | Item | Status | Catatan |
 |---|---|---|---|
-| 1 | **Rancangan UI/UX** | Tinggi — diminta Bu Santi | Frontend sudah didesain ulang di kode (progress 18: Fraunces + IBM Plex, aksen hijau). Ambil screenshot halaman baru (login, rekomendasi, daftar belanja cetak) → masukkan ke 3.8 sebagai Gambar 3.4 dst. + update Daftar Gambar + verifikasi halaman ulang |
-| 2 | **3.8.3 menyebut "grafik pemenuhan gizi"** | Tinggi — naskah ≠ kode | Chart.js belum diimplementasi. Pilih: (a) implement grafiknya, atau (b) ubah kalimat jadi "nilai zat gizi beserta rentang acuan dan penanda di luar rentang" (sesuai UI sekarang) |
-| 3 | Activity/sequence diagram alur generate | Sedang | Bu Santi menyebut "diagram lain sesuai standar SDLC". Tanyakan saat bimbingan apakah perlu |
-| 4 | Lampiran instrumen (lembar validasi ahli, pedoman wawancara) | Sedang | Disebut di 3.5.2 tapi belum ada lampirannya. Tanyakan apakah wajib di proposal |
-| 5 | Angka SPPG 28.390 (Kompas, di Latar Belakang) vs 30.244 (dataset kode) | Rendah | Bisa dijelaskan lisan / ditangani di Bab IV |
-| 6 | Temuan anomali bobot TK/PAUD | Bahan diskusi, bukan revisi | Lihat bagian 6 |
+| 1 | **Rancangan UI/UX & Screenshots** | **SELESAI** | Seluruh screenshot baru (.png) di `rencana/screenshots/` sudah diambil via Chrome asli dengan skenario seragam: **Siswa SD/MI/SDLB Kelas 4–6 Siang, 100 porsi** (Gambar 3.4 s/d 3.8). Screenshot lama (.jpg) sudah dihapus permanen. |
+| 2 | **Sampel Acak vs Uji Konsistensi (Tabel 3.4)** | **SELESAI** | Diimplementasikan seed deterministik via `Randomizer(Mt19937)` berbasis `(sppg_id, akg_id, porsi)`. Terbukti 100% konsisten & identik pada setiap pengulangan. |
+| 3 | **Batasan Masalah 11 (Kelompok Sasaran)** | **SELESAI** | Kelompok sasaran tanpa standar makanan resmi (`Anak Balita`, `Balita 13-59 bln`, `Balita 6-11 bln`, `SD Kelas 1-3`) dikunci total dari kode & config, tidak muncul di UI. |
+| 4 | **3.8.3 menyebut "grafik pemenuhan gizi"** | Menunggu naskah | Chart.js belum diimplementasi di UI. Kalimat di naskah disarankan disesuaikan ke format angka & penanda rentang AKG terkini. |
+| 5 | **Activity/sequence diagram alur generate** | Sedang | Tanyakan saat bimbingan ke Bu Santi apakah perlu diagram tambahan. |
+| 6 | **Lampiran instrumen validasi ahli** | Sedang | Disebut di 3.5.2 tapi belum ada lampirannya. |
+| 7 | **Temuan anomali bobot TK/PAUD** | Bahan bimbingan | Porsi Juknis BGN TK/PAUD menghasilkan protein 16,6–17,6 g vs AKG 5–6,3 g. Layak dijadikan bahan diskusi Bab IV. |
 
-## 6. Temuan untuk dibawa ke bimbingan: anomali bobot TK/PAUD
+## 6. Sisi Kode & Lingkungan (Update 23 Sep 2026)
 
-- Di 6 kelompok sasaran, bobot Entropy didominasi **karbohidrat** (0,60–0,79). Di TK/PAUD kebalik: **lemak** dominan (0,87).
-- Penyebab: standar porsi Juknis BGN untuk TK/PAUD menghasilkan protein **16,6–17,6 g**, padahal rentang AKG protein sekali makan hanya **5–6,3 g** (≈3× batas atas). Skor protein seluruh kandidat terjebak di 0,35–0,40, karbohidrat terjebak di 0,935–1, sehingga hanya lemak (0,615–0,832) yang bervariasi → Entropy memberi bobot besar ke lemak.
-- Kesimpulan sementara: **bukan bug**, kemungkinan inkonsistensi antar dua sumber resmi. Perlu konfirmasi ahli gizi (subbab 3.9). Calon temuan penelitian di Bab IV.
-- Sumber data mentah: `14_anomali-bobot-tk-paud.md` di folder progress sesi coding.
-
-## 7. Sisi kode (dikerjakan di sesi Claude Code terpisah)
-
-- Stack: Laravel 12 + Livewire, Tailwind CDN, SQLite. PRD aktif: **v1.2** (16 Sep 2026), sudah sinkron dengan naskah
-- MVP selesai: generate → Entropy-TOPSIS → simpan menu → auth + kunci tenant SPPG → export CSV & cetak PDF → desain ulang frontend
-- Backlog: grafik Chart.js, picker "bahan tersedia per komponen", registrasi mandiri SPPG, dashboard + peta Leaflet
-- **Bug terbuka:** `Rekomendasi::$fillable` memuat `komposisi_terpilih` tetapi migration tidak punya kolom itu. Developer juga perlu `php artisan migrate:fresh --seed` setelah kolom SAW/Spearman dihapus
-- Aturan: sesi naskah dan sesi coding sengaja dipisah. Perubahan metodologi harus disinkronkan ke dua-duanya
+- Stack: Laravel 12 + Livewire, Tailwind CDN, SQLite (`database/database.sqlite`), PHP 8.3 Laragon.
+- Kredensial uji: `operator@spk-mbg.test` (terikat SPPG Kebumen, id 1) / `admin@spk-mbg.test`, password `password`.
+- Generator & SPK: `MenuCandidateGenerator` ber-seed deterministik, `DecisionMatrixBuilder`, `EntropyWeighting`, `TopsisRanking`.
+- Repositori bersih: file `.jpg` lama dan dataset tidak terpakai (`template_alternatif_menu.csv`, `satuan_penukar_kelompok_sasaran.csv`) telah dibersihkan. Seluruh tes `php artisan test` hijau (PASS).
 
 ## 8. Cara kerja yang disepakati (WAJIB diikuti sesi baru)
 

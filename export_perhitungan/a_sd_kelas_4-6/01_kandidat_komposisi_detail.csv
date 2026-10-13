@@ -1,0 +1,141 @@
+﻿alternatif,komponen,kode_bahan,nama_bahan,jumlah_sp,berat_bersih_gram
+A1,karbohidrat,AP001,Nasi,1.5,150
+A1,protein_hewani,HR002,"Telur ayam ras, segar",1,55
+A1,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A1,sayur,DR013,"Buncis, segar",0.5,50
+A1,buah,ER036,"Jeruk banjar, segar",1,110
+A1,lemak,KP003,"Santan (dengan air)",1,40
+A1,susu,JR006,"Susu sapi, segar",0.625,125
+A2,karbohidrat,BR028,"Ubi jalar, kuning, segar",1.5,202.5
+A2,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A2,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A2,sayur,DR097,"Kacang panjang, segar",0.5,50
+A2,buah,ER067,"Melon, segar",1,190
+A2,lemak,KP002,Mentega,1,5
+A2,susu,JR006,"Susu sapi, segar",0.625,125
+A3,karbohidrat,AP022,"Mi kering",1.5,75
+A3,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A3,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A3,sayur,DR008,"Bayam, segar",0.5,50
+A3,buah,ER036,"Jeruk banjar, segar",1,110
+A3,lemak,KP003,"Santan (dengan air)",1,40
+A3,susu,JR006,"Susu sapi, segar",0.625,125
+A4,karbohidrat,AP024,"Roti putih",1.5,105
+A4,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A4,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A4,sayur,DR097,"Kacang panjang, segar",0.5,50
+A4,buah,ER073,"Pepaya, segar",1,110
+A4,lemak,KP003,"Santan (dengan air)",1,40
+A4,susu,JR006,"Susu sapi, segar",0.625,125
+A5,karbohidrat,AP001,Nasi,1.5,150
+A5,protein_hewani,FR026,"Sapi, daging, lemak sedang, segar",1,35
+A5,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A5,sayur,DR100,"Kangkung, segar",0.5,50
+A5,buah,ER036,"Jeruk banjar, segar",1,110
+A5,lemak,KP003,"Santan (dengan air)",1,40
+A5,susu,JR006,"Susu sapi, segar",0.625,125
+A6,karbohidrat,AP001,Nasi,1.5,150
+A6,protein_hewani,FR026,"Sapi, daging, lemak sedang, segar",1,35
+A6,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A6,sayur,DR166,"Wortel, segar",0.5,50
+A6,buah,ER067,"Melon, segar",1,190
+A6,lemak,KR007,"Minyak hiu, hati",1,5
+A6,susu,JR006,"Susu sapi, segar",0.625,125
+A7,karbohidrat,AP024,"Roti putih",1.5,105
+A7,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A7,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A7,sayur,DR008,"Bayam, segar",0.5,50
+A7,buah,ER067,"Melon, segar",1,190
+A7,lemak,KP002,Mentega,1,5
+A7,susu,JR006,"Susu sapi, segar",0.625,125
+A8,karbohidrat,AP001,Nasi,1.5,150
+A8,protein_hewani,HR002,"Telur ayam ras, segar",1,55
+A8,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A8,sayur,DR100,"Kangkung, segar",0.5,50
+A8,buah,ER067,"Melon, segar",1,190
+A8,lemak,KR007,"Minyak hiu, hati",1,5
+A8,susu,JR006,"Susu sapi, segar",0.625,125
+A9,karbohidrat,AP001,Nasi,1.5,150
+A9,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A9,protein_nabati,CP051,Oncom,0.5,20
+A9,sayur,DR166,"Wortel, segar",0.5,50
+A9,buah,ER036,"Jeruk banjar, segar",1,110
+A9,lemak,KP002,Mentega,1,5
+A9,susu,JR006,"Susu sapi, segar",0.625,125
+A10,karbohidrat,AP022,"Mi kering",1.5,75
+A10,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A10,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A10,sayur,DR008,"Bayam, segar",0.5,50
+A10,buah,ER073,"Pepaya, segar",1,110
+A10,lemak,KP002,Mentega,1,5
+A10,susu,JR006,"Susu sapi, segar",0.625,125
+A11,karbohidrat,BR028,"Ubi jalar, kuning, segar",1.5,202.5
+A11,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A11,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A11,sayur,DR114,"Kol merah, kol putih",0.5,50
+A11,buah,ER067,"Melon, segar",1,190
+A11,lemak,KP003,"Santan (dengan air)",1,40
+A11,susu,JR006,"Susu sapi, segar",0.625,125
+A12,karbohidrat,AP022,"Mi kering",1.5,75
+A12,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A12,protein_nabati,CP051,Oncom,0.5,20
+A12,sayur,DR008,"Bayam, segar",0.5,50
+A12,buah,ER073,"Pepaya, segar",1,110
+A12,lemak,KR007,"Minyak hiu, hati",1,5
+A12,susu,JR006,"Susu sapi, segar",0.625,125
+A13,karbohidrat,AP001,Nasi,1.5,150
+A13,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A13,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A13,sayur,DR114,"Kol merah, kol putih",0.5,50
+A13,buah,ER105,"Semangka, segar",1,180
+A13,lemak,KP002,Mentega,1,5
+A13,susu,JR006,"Susu sapi, segar",0.625,125
+A14,karbohidrat,AP024,"Roti putih",1.5,105
+A14,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A14,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A14,sayur,DR141,"Sawi, segar",0.5,50
+A14,buah,ER073,"Pepaya, segar",1,110
+A14,lemak,KP002,Mentega,1,5
+A14,susu,JR006,"Susu sapi, segar",0.625,125
+A15,karbohidrat,AP001,Nasi,1.5,150
+A15,protein_hewani,HR002,"Telur ayam ras, segar",1,55
+A15,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A15,sayur,DR008,"Bayam, segar",0.5,50
+A15,buah,ER036,"Jeruk banjar, segar",1,110
+A15,lemak,KP002,Mentega,1,5
+A15,susu,JR006,"Susu sapi, segar",0.625,125
+A16,karbohidrat,AP001,Nasi,1.5,150
+A16,protein_hewani,HR002,"Telur ayam ras, segar",1,55
+A16,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A16,sayur,DR013,"Buncis, segar",0.5,50
+A16,buah,ER067,"Melon, segar",1,190
+A16,lemak,KP002,Mentega,1,5
+A16,susu,JR006,"Susu sapi, segar",0.625,125
+A17,karbohidrat,AP024,"Roti putih",1.5,105
+A17,protein_hewani,HR002,"Telur ayam ras, segar",1,55
+A17,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A17,sayur,DR123,"Labu siam, segar",0.5,50
+A17,buah,ER067,"Melon, segar",1,190
+A17,lemak,KP003,"Santan (dengan air)",1,40
+A17,susu,JR006,"Susu sapi, segar",0.625,125
+A18,karbohidrat,AP024,"Roti putih",1.5,105
+A18,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A18,protein_nabati,CP070,"Tempe bongkrek",0.5,25
+A18,sayur,DR008,"Bayam, segar",0.5,50
+A18,buah,ER067,"Melon, segar",1,190
+A18,lemak,KR007,"Minyak hiu, hati",1,5
+A18,susu,JR006,"Susu sapi, segar",0.625,125
+A19,karbohidrat,AP001,Nasi,1.5,150
+A19,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A19,protein_nabati,CP051,Oncom,0.5,20
+A19,sayur,DR013,"Buncis, segar",0.5,50
+A19,buah,ER036,"Jeruk banjar, segar",1,110
+A19,lemak,KR007,"Minyak hiu, hati",1,5
+A19,susu,JR006,"Susu sapi, segar",0.625,125
+A20,karbohidrat,AP024,"Roti putih",1.5,105
+A20,protein_hewani,FR005,"Ayam, daging, segar",1,40
+A20,protein_nabati,CP061,"Tahu, mentah",0.5,55
+A20,sayur,DR123,"Labu siam, segar",0.5,50
+A20,buah,ER036,"Jeruk banjar, segar",1,110
+A20,lemak,KP002,Mentega,1,5
+A20,susu,JR006,"Susu sapi, segar",0.625,125

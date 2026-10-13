@@ -1,0 +1,45 @@
+﻿kelompok_sasaran,komponen,jumlah_sp,aktif
+"Siswa TK/PAUD/TKLB",karbohidrat,1.25,ya
+"Siswa TK/PAUD/TKLB",protein_hewani,1,ya
+"Siswa TK/PAUD/TKLB",protein_nabati,0.5,ya
+"Siswa TK/PAUD/TKLB",sayur,0.5,ya
+"Siswa TK/PAUD/TKLB",buah,1,ya
+"Siswa TK/PAUD/TKLB",lemak,1,ya
+"Siswa TK/PAUD/TKLB",susu,0,tidak
+"Siswa SD/MI/SDLB Kelas 4-6",karbohidrat,1.5,ya
+"Siswa SD/MI/SDLB Kelas 4-6",protein_hewani,1,ya
+"Siswa SD/MI/SDLB Kelas 4-6",protein_nabati,0.5,ya
+"Siswa SD/MI/SDLB Kelas 4-6",sayur,0.5,ya
+"Siswa SD/MI/SDLB Kelas 4-6",buah,1,ya
+"Siswa SD/MI/SDLB Kelas 4-6",lemak,1,ya
+"Siswa SD/MI/SDLB Kelas 4-6",susu,0.625,ya
+"Siswa SMP/MTs/SMPLB",karbohidrat,1.75,ya
+"Siswa SMP/MTs/SMPLB",protein_hewani,1,ya
+"Siswa SMP/MTs/SMPLB",protein_nabati,0.5,ya
+"Siswa SMP/MTs/SMPLB",sayur,0.5,ya
+"Siswa SMP/MTs/SMPLB",buah,1,ya
+"Siswa SMP/MTs/SMPLB",lemak,1,ya
+"Siswa SMP/MTs/SMPLB",susu,1,ya
+"Siswa SMA/SMK/MA/SMALB",karbohidrat,2,ya
+"Siswa SMA/SMK/MA/SMALB",protein_hewani,1.5,ya
+"Siswa SMA/SMK/MA/SMALB",protein_nabati,0.5,ya
+"Siswa SMA/SMK/MA/SMALB",sayur,1,ya
+"Siswa SMA/SMK/MA/SMALB",buah,1,ya
+"Siswa SMA/SMK/MA/SMALB",lemak,1,ya
+"Siswa SMA/SMK/MA/SMALB",susu,1,ya
+"Ibu Hamil",karbohidrat,2.5,ya
+"Ibu Hamil",protein_hewani,2,ya
+"Ibu Hamil",protein_nabati,1,ya
+"Ibu Hamil",sayur,1,ya
+"Ibu Hamil",buah,1,ya
+"Ibu Hamil",lemak,2,ya
+"Ibu Hamil",susu,0,tidak
+"Ibu Menyusui",karbohidrat,2.5,ya
+"Ibu Menyusui",protein_hewani,2,ya
+"Ibu Menyusui",protein_nabati,1,ya
+"Ibu Menyusui",sayur,1,ya
+"Ibu Menyusui",buah,1,ya
+"Ibu Menyusui",lemak,2,ya
+"Ibu Menyusui",susu,0,tidak
+Pendidik,alias_dari,"Siswa SMA/SMK/MA/SMALB",-
+"Tenaga Kependidikan",alias_dari,"Siswa SMA/SMK/MA/SMALB",-

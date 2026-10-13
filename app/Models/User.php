@@ -51,4 +51,10 @@ class User extends Authenticatable
     {
         return $this->role === self::ROLE_OPERATOR;
     }
+
+    // Aturan multi-tenant: operator hanya boleh menyentuh data SPPG miliknya, admin bebas
+    public function dapatMengaksesSppg(int $sppgId): bool
+    {
+        return !$this->isOperator() || (int) $this->sppg_id === $sppgId;
+    }
 }

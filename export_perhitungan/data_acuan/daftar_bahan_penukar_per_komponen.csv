@@ -1,0 +1,30 @@
+﻿komponen,kelompok_tkpi,bahan_pangan_id,kode,nama,berat_per_sp_gram,bdd_persen
+karbohidrat,Umbi,224,BR013,"Kentang, segar",210,85
+karbohidrat,Serealia,22,AP022,"Mi kering",50,100
+karbohidrat,Serealia,1,AP001,Nasi,100,100
+karbohidrat,Serealia,24,AP024,"Roti putih",70,100
+karbohidrat,Umbi,239,BR028,"Ubi jalar, kuning, segar",135,85
+protein_hewani,Daging,831,FR005,"Ayam, daging, segar",40,58
+protein_hewani,"Ikan dsb",991,GR036,"Ikan oci, kembung, segar",40,80
+protein_hewani,Daging,852,FR026,"Sapi, daging, lemak sedang, segar",35,100
+protein_hewani,Telur,1048,HR002,"Telur ayam ras, segar",55,89
+protein_nabati,Kacang,295,CP051,Oncom,40,100
+protein_nabati,Kacang,305,CP061,"Tahu, mentah",110,100
+protein_nabati,Kacang,314,CP070,"Tempe bongkrek",50,100
+sayur,Sayur,451,DR008,"Bayam, segar",100,71
+sayur,Sayur,456,DR013,"Buncis, segar",100,90
+sayur,Sayur,540,DR097,"Kacang panjang, segar",100,92
+sayur,Sayur,543,DR100,"Kangkung, segar",100,60
+sayur,Sayur,557,DR114,"Kol merah, kol putih",100,75
+sayur,Sayur,566,DR123,"Labu siam, segar",100,83
+sayur,Sayur,584,DR141,"Sawi, segar",100,87
+sayur,Sayur,609,DR166,"Wortel, segar",100,80
+buah,Buah,660,ER036,"Jeruk banjar, segar",110,72
+buah,Buah,691,ER067,"Melon, segar",190,58
+buah,Buah,697,ER073,"Pepaya, segar",110,75
+buah,Buah,698,ER074,"Pisang ambon, segar",50,75
+buah,Buah,729,ER105,"Semangka, segar",180,46
+lemak,Lemak,1076,KP002,Mentega,5,100
+lemak,Lemak,1085,KR007,"Minyak hiu, hati",5,100
+lemak,Lemak,1077,KP003,"Santan (dengan air)",40,100
+susu,Susu,1074,JR006,"Susu sapi, segar",200,100

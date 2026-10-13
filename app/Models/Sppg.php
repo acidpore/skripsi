@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
@@ -46,6 +47,11 @@ class Sppg extends Model
     public function rekomendasi(): HasMany
     {
         return $this->hasMany(Rekomendasi::class);
+    }
+
+    public function scopeCariNama(Builder $query, string $kataKunci): Builder
+    {
+        return $query->where('nama', 'like', '%'.$kataKunci.'%')->orderBy('nama');
     }
 
     public function hasKoordinat(): bool

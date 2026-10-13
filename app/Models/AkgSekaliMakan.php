@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
@@ -50,6 +51,11 @@ class AkgSekaliMakan extends Model
     public function rekomendasi(): HasMany
     {
         return $this->hasMany(Rekomendasi::class);
+    }
+
+    public function scopeBerurutan(Builder $query): Builder
+    {
+        return $query->orderBy('kelompok_sasaran')->orderBy('waktu_distribusi');
     }
 
     public function titikTengah(string $zatGizi): float

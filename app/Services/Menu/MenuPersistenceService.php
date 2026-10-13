@@ -12,7 +12,32 @@ use RuntimeException;
 
 class MenuPersistenceService
 {
-    // Menyimpan satu kandidat dari hasil rekomendasi sebagai menu tetap SPPG, default kandidat peringkat pertama TOPSIS
+    public function __construct(private readonly MaterialRequirementService $materialRequirementService) {}
+
+    // Menyimpan kandidat peringkat pilihan operator, lalu menyelaraskan kebutuhan bahan dengan menu tersebut
+    public function simpanPeringkat(Rekomendasi $rekomendasi, int $indeksPeringkat, string $nama): Menu
+    {
+        if ($rekomendasi->menu_terpilih_id !== null) {
+            throw new RuntimeException('Menu dari rekomendasi ini sudah disimpan. Jalankan generate ulang untuk menyimpan menu lain.');
+        }
+
+        $baris = $rekomendasi->hasil_ranking_topsis[$indeksPeringkat] ?? null;
+
+        if ($baris === null) {
+            throw new RuntimeException('Peringkat menu yang dipilih tidak ditemukan.');
+        }
+
+        return DB::transaction(function () use ($rekomendasi, $nama, $baris): Menu {
+            $menu = $this->simpanDariRekomendasi($rekomendasi, $nama, $baris['komposisi']);
+
+            $rekomendasi->update(['komposisi_terpilih' => ['komposisi' => $baris['komposisi'], 'gizi' => $baris['gizi']]]);
+            $this->materialRequirementService->calculateForRekomendasi($rekomendasi);
+
+            return $menu;
+        });
+    }
+
+    // Default komposisi adalah kandidat peringkat pertama TOPSIS
     public function simpanDariRekomendasi(Rekomendasi $rekomendasi, string $nama, ?array $komposisi = null): Menu
     {
         $komposisi ??= $rekomendasi->komposisi_terpilih['komposisi'] ?? null;

@@ -1,0 +1,4 @@
+﻿kriteria,tipe,norma_akar_jumlah_kuadrat,bobot,a_plus,a_minus
+kesesuaian_protein,benefit,1.6877062101,0.0714105268,0.0166526145,0.0150115008
+kesesuaian_lemak,benefit,3.1565326182,0.8937288035,0.2367019037,0.167259126
+kesesuaian_karbohidrat,benefit,4.3854142896,0.0348606696,0.0079492306,0.0074351887

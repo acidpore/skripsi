@@ -7,6 +7,7 @@ namespace App\Http\Controllers;
 use App\Models\Rekomendasi;
 use App\Services\Menu\MaterialRequirementService;
 use Illuminate\Http\Response;
+use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Symfony\Component\HttpFoundation\StreamedResponse;
 
@@ -20,7 +21,7 @@ class DaftarBelanjaController extends Controller
 
         return view('daftar-belanja.cetak', [
             'rekomendasi' => $rekomendasi->load(['sppg', 'akgSekaliMakan']),
-            'kebutuhanBahan' => $this->materialRequirementService->calculateForRekomendasi($rekomendasi),
+            'kebutuhanBahan' => $this->kebutuhanBahan($rekomendasi),
         ]);
     }
 
@@ -28,7 +29,7 @@ class DaftarBelanjaController extends Controller
     {
         $this->otorisasi($rekomendasi);
 
-        $kebutuhanBahan = $this->materialRequirementService->calculateForRekomendasi($rekomendasi);
+        $kebutuhanBahan = $this->kebutuhanBahan($rekomendasi);
         $namaBerkas = 'daftar-belanja-rekomendasi-'.$rekomendasi->id.'.csv';
 
         return response()->streamDownload(function () use ($kebutuhanBahan): void {
@@ -47,10 +48,18 @@ class DaftarBelanjaController extends Controller
         }, $namaBerkas, ['Content-Type' => 'text/csv']);
     }
 
-    // Operator cuma boleh export rekomendasi milik SPPG-nya sendiri, admin bebas
+    private function kebutuhanBahan(Rekomendasi $rekomendasi): Collection
+    {
+        $kebutuhanBahan = $this->materialRequirementService->forRekomendasi($rekomendasi);
+
+        abort_if($kebutuhanBahan->isEmpty(), Response::HTTP_NOT_FOUND, 'Rekomendasi ini belum memiliki kebutuhan bahan.');
+
+        return $kebutuhanBahan;
+    }
+
     private function otorisasi(Rekomendasi $rekomendasi): void
     {
-        if (Auth::user()->isOperator() && $rekomendasi->sppg_id !== Auth::user()->sppg_id) {
+        if (!Auth::user()->dapatMengaksesSppg($rekomendasi->sppg_id)) {
             abort(Response::HTTP_FORBIDDEN);
         }
     }

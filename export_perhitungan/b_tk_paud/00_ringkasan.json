@@ -1,0 +1,225 @@
+{
+    "kelompok_sasaran": "Siswa TK/PAUD/TKLB",
+    "waktu_distribusi": "Pagi",
+    "akg_sekali_makan_id": 1,
+    "sppg_id": 1,
+    "sppg_nama": "SPPG Kebumen Buayan Rangkah",
+    "jumlah_porsi": 3000,
+    "rumus_seed": "crc32('1-1-3000')",
+    "seed": 1261592555,
+    "maksimal_bahan_per_komponen": null,
+    "maksimal_kandidat": 20,
+    "jumlah_kandidat_masuk_matriks": 20,
+    "satuan_penukar": {
+        "karbohidrat": 1.25,
+        "protein_hewani": 1,
+        "protein_nabati": 0.5,
+        "sayur": 0.5,
+        "buah": 1,
+        "lemak": 1,
+        "susu": 0
+    },
+    "rentang_akg": {
+        "energi_kkal": [
+            280.0,
+            350.0
+        ],
+        "protein_g": [
+            5.0,
+            6.3
+        ],
+        "lemak_g": [
+            10.0,
+            12.5
+        ],
+        "karbohidrat_g": [
+            44.0,
+            55.0
+        ]
+    },
+    "bobot_entropy": {
+        "kesesuaian_protein": 0.07141052681906315,
+        "kesesuaian_lemak": 0.8937288035430127,
+        "kesesuaian_karbohidrat": 0.03486066963792414
+    },
+    "peringkat_1": {
+        "alternatif": "A11",
+        "c_i": 0.9988832503053953,
+        "komposisi": {
+            "karbohidrat": {
+                "bahan_pangan_id": 224,
+                "kode": "BR013",
+                "nama": "Kentang, segar",
+                "jumlah_sp": 1.25,
+                "berat_bersih_gram": 262.5
+            },
+            "protein_hewani": {
+                "bahan_pangan_id": 991,
+                "kode": "GR036",
+                "nama": "Ikan oci, kembung, segar",
+                "jumlah_sp": 1.0,
+                "berat_bersih_gram": 40.0
+            },
+            "protein_nabati": {
+                "bahan_pangan_id": 314,
+                "kode": "CP070",
+                "nama": "Tempe bongkrek",
+                "jumlah_sp": 0.5,
+                "berat_bersih_gram": 25.0
+            },
+            "sayur": {
+                "bahan_pangan_id": 451,
+                "kode": "DR008",
+                "nama": "Bayam, segar",
+                "jumlah_sp": 0.5,
+                "berat_bersih_gram": 50.0
+            },
+            "buah": {
+                "bahan_pangan_id": 698,
+                "kode": "ER074",
+                "nama": "Pisang ambon, segar",
+                "jumlah_sp": 1.0,
+                "berat_bersih_gram": 50.0
+            },
+            "lemak": {
+                "bahan_pangan_id": 1085,
+                "kode": "KR007",
+                "nama": "Minyak hiu, hati",
+                "jumlah_sp": 1.0,
+                "berat_bersih_gram": 5.0
+            }
+        },
+        "gizi": {
+            "energi_kal": 349.6,
+            "protein_g": 16.082500000000003,
+            "lemak_g": 8.36,
+            "karbohidrat_g": 54.49250000000001,
+            "kalsium_mg": 0.0,
+            "besi_mg": 0.0,
+            "vitamin_c_mg": 0.0
+        }
+    },
+    "ranking_topsis_sistem": [
+        {
+            "alternatif": "A11",
+            "index": 10,
+            "score": 0.9988832503053953,
+            "rank": 1
+        },
+        {
+            "alternatif": "A18",
+            "index": 17,
+            "score": 0.9823150286132173,
+            "rank": 2
+        },
+        {
+            "alternatif": "A9",
+            "index": 8,
+            "score": 0.75667333430111,
+            "rank": 3
+        },
+        {
+            "alternatif": "A2",
+            "index": 1,
+            "score": 0.6856892320203409,
+            "rank": 4
+        },
+        {
+            "alternatif": "A4",
+            "index": 3,
+            "score": 0.6691874999235295,
+            "rank": 5
+        },
+        {
+            "alternatif": "A5",
+            "index": 4,
+            "score": 0.6250537397161107,
+            "rank": 6
+        },
+        {
+            "alternatif": "A7",
+            "index": 6,
+            "score": 0.6086457894898925,
+            "rank": 7
+        },
+        {
+            "alternatif": "A1",
+            "index": 0,
+            "score": 0.6044718578623188,
+            "rank": 8
+        },
+        {
+            "alternatif": "A17",
+            "index": 16,
+            "score": 0.5880287469622599,
+            "rank": 9
+        },
+        {
+            "alternatif": "A16",
+            "index": 15,
+            "score": 0.5879879835753301,
+            "rank": 10
+        },
+        {
+            "alternatif": "A12",
+            "index": 11,
+            "score": 0.5678058626104264,
+            "rank": 11
+        },
+        {
+            "alternatif": "A20",
+            "index": 19,
+            "score": 0.5637184017692566,
+            "rank": 12
+        },
+        {
+            "alternatif": "A15",
+            "index": 14,
+            "score": 0.13017087091103807,
+            "rank": 13
+        },
+        {
+            "alternatif": "A6",
+            "index": 5,
+            "score": 0.1231508998025961,
+            "rank": 14
+        },
+        {
+            "alternatif": "A14",
+            "index": 13,
+            "score": 0.11986607899934183,
+            "rank": 15
+        },
+        {
+            "alternatif": "A3",
+            "index": 2,
+            "score": 0.11629467896434527,
+            "rank": 16
+        },
+        {
+            "alternatif": "A13",
+            "index": 12,
+            "score": 0.11616305361456943,
+            "rank": 17
+        },
+        {
+            "alternatif": "A10",
+            "index": 9,
+            "score": 0.11145200392007715,
+            "rank": 18
+        },
+        {
+            "alternatif": "A8",
+            "index": 7,
+            "score": 0.09906274391436892,
+            "rank": 19
+        },
+        {
+            "alternatif": "A19",
+            "index": 18,
+            "score": 0.022046266094180988,
+            "rank": 20
+        }
+    ],
+    "catatan": "Kandidat diberi kode A1..An sesuai urutan setelah pengacakan ber-seed. Kolom *_rumus dihitung ulang manual, *_sistem diambil dari class aplikasi; keduanya harus sama."
+}

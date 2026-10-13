@@ -7,6 +7,8 @@ namespace App\Services\Spk;
 use App\Models\AkgSekaliMakan;
 use App\Models\Rekomendasi;
 use App\Models\Sppg;
+use App\Models\User;
+use App\Services\Menu\MaterialRequirementService;
 use App\Services\Menu\MenuCandidateGenerator;
 use Illuminate\Support\Facades\DB;
 use RuntimeException;
@@ -20,7 +22,17 @@ class RecommendationService
         private readonly DecisionMatrixBuilder $matrixBuilder,
         private readonly EntropyWeighting $entropyWeighting,
         private readonly TopsisRanking $topsisRanking,
+        private readonly MaterialRequirementService $materialRequirementService,
     ) {}
+
+    public function generateUntuk(User $pengguna, int $sppgId, int $akgId, int $jumlahPorsi): Rekomendasi
+    {
+        if (!$pengguna->dapatMengaksesSppg($sppgId)) {
+            throw new RuntimeException('Operator hanya dapat membuat rekomendasi untuk SPPG miliknya sendiri.');
+        }
+
+        return $this->generate(Sppg::findOrFail($sppgId), AkgSekaliMakan::findOrFail($akgId), $jumlahPorsi);
+    }
 
     public function generate(Sppg $sppg, AkgSekaliMakan $akg, int $jumlahPorsi, array $bahanTersediaPerKomponen = []): Rekomendasi
     {
@@ -40,14 +52,20 @@ class RecommendationService
         $bobot = $this->entropyWeighting->calculate($hasilMatriks['matriks']);
         $rankingTopsis = $this->topsisRanking->rank($hasilMatriks['matriks'], $bobot, $hasilMatriks['tipe_kriteria']);
 
-        return DB::transaction(fn (): Rekomendasi => Rekomendasi::create([
-            'sppg_id' => $sppg->id,
-            'akg_sekali_makan_id' => $akg->id,
-            'komposisi_terpilih' => $this->kandidatTeratas($kandidat, $rankingTopsis),
-            'jumlah_porsi' => $jumlahPorsi,
-            'bobot_entropy' => $bobot,
-            'hasil_ranking_topsis' => $this->annotate($rankingTopsis, $kandidat, $hasilMatriks['matriks']),
-        ]));
+        return DB::transaction(function () use ($sppg, $akg, $jumlahPorsi, $kandidat, $rankingTopsis, $bobot, $hasilMatriks): Rekomendasi {
+            $rekomendasi = Rekomendasi::create([
+                'sppg_id' => $sppg->id,
+                'akg_sekali_makan_id' => $akg->id,
+                'komposisi_terpilih' => $this->kandidatTeratas($kandidat, $rankingTopsis),
+                'jumlah_porsi' => $jumlahPorsi,
+                'bobot_entropy' => $bobot,
+                'hasil_ranking_topsis' => $this->annotate($rankingTopsis, $kandidat, $hasilMatriks['matriks']),
+            ]);
+
+            $this->materialRequirementService->calculateForRekomendasi($rekomendasi);
+
+            return $rekomendasi;
+        });
     }
 
     // Snapshot lengkap disimpan, bukan rujukan ke data induk, agar hasil rekomendasi lama tetap dapat ditelusuri meski TKPI di-seed ulang

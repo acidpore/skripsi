@@ -12,6 +12,12 @@ use Illuminate\Support\Facades\DB;
 
 class MaterialRequirementService
 {
+    public function forRekomendasi(Rekomendasi $rekomendasi): Collection
+    {
+        return $rekomendasi->kebutuhanBahan()->with('bahanPangan')->get();
+    }
+
+    // Menulis ke DB, hanya dipanggil saat rekomendasi dibuat atau menu dipilih
     public function calculateForRekomendasi(Rekomendasi $rekomendasi): Collection
     {
         $komposisi = $rekomendasi->komposisi_terpilih['komposisi'] ?? [];

@@ -4,17 +4,17 @@ declare(strict_types=1);
 
 namespace App\Livewire;
 
-use App\Models\AkgSekaliMakan;
 use App\Models\Rekomendasi;
 use App\Models\Sppg;
 use App\Services\Menu\MaterialRequirementService;
-use App\Services\Menu\MenuCandidateGenerator;
 use App\Services\Menu\MenuPersistenceService;
 use App\Services\Spk\RecommendationService;
+use App\Services\Spk\RekomendasiFormService;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Auth;
 use Livewire\Attributes\Computed;
 use Livewire\Attributes\Layout;
+use Livewire\Attributes\Locked;
 use Livewire\Component;
 use RuntimeException;
 
@@ -27,8 +27,9 @@ class RekomendasiMenu extends Component
 
     public ?int $akgId = null;
 
-    public int $porsi = 100;
+    public ?int $porsi = null;
 
+    #[Locked]
     public ?int $rekomendasiId = null;
 
     public ?string $pesanError = null;
@@ -42,6 +43,8 @@ class RekomendasiMenu extends Component
 
     public function mount(): void
     {
+        $this->porsi = (int) config('spk.porsi.bawaan');
+
         if (Auth::user()->isOperator()) {
             $this->sppgId = Auth::user()->sppg_id;
             $this->sppgCari = Auth::user()->sppg?->nama ?? '';
@@ -54,7 +57,7 @@ class RekomendasiMenu extends Component
         return [
             'sppgId' => ['required', 'exists:sppg,id'],
             'akgId' => ['required', 'exists:akg_sekali_makan,id'],
-            'porsi' => ['required', 'integer', 'min:1', 'max:100000'],
+            'porsi' => ['required', 'integer', 'min:'.config('spk.porsi.minimal'), 'max:'.config('spk.porsi.maksimal')],
         ];
     }
 
@@ -67,47 +70,33 @@ class RekomendasiMenu extends Component
             'akgId.exists' => 'Kelompok sasaran yang dipilih tidak sah.',
             'porsi.required' => 'Jumlah porsi wajib diisi.',
             'porsi.integer' => 'Jumlah porsi harus berupa bilangan bulat.',
-            'porsi.min' => 'Jumlah porsi minimal 1.',
-            'porsi.max' => 'Jumlah porsi maksimal 100.000.',
+            'porsi.min' => 'Jumlah porsi minimal '.number_format((int) config('spk.porsi.minimal'), 0, ',', '.').'.',
+            'porsi.max' => 'Jumlah porsi maksimal '.number_format((int) config('spk.porsi.maksimal'), 0, ',', '.').'.',
         ];
     }
 
     #[Computed]
     public function daftarSppg(): Collection
     {
-        if (trim($this->sppgCari) === '') {
-            return collect();
-        }
-
-        return Sppg::query()
-            ->where('nama', 'like', '%'.$this->sppgCari.'%')
-            ->orderBy('nama')
-            ->limit(10)
-            ->get();
+        return app(RekomendasiFormService::class)->cariSppg($this->sppgCari);
     }
 
     #[Computed]
     public function daftarAkg(): Collection
     {
-        $generator = app(MenuCandidateGenerator::class);
-
-        return AkgSekaliMakan::query()
-            ->orderBy('kelompok_sasaran')
-            ->orderBy('waktu_distribusi')
-            ->get()
-            ->filter(fn (AkgSekaliMakan $akg): bool => $generator->didukung($akg));
+        return app(RekomendasiFormService::class)->daftarAkgDidukung();
     }
 
     #[Computed]
     public function sppgTerpilih(): ?Sppg
     {
-        return $this->sppgId === null ? null : Sppg::find($this->sppgId);
+        return app(RekomendasiFormService::class)->sppg($this->sppgId);
     }
 
     #[Computed]
     public function rekomendasi(): ?Rekomendasi
     {
-        return $this->rekomendasiId === null ? null : Rekomendasi::find($this->rekomendasiId);
+        return app(RekomendasiFormService::class)->rekomendasiMilik($this->rekomendasiId, Auth::user());
     }
 
     #[Computed]
@@ -117,13 +106,13 @@ class RekomendasiMenu extends Component
             return collect();
         }
 
-        return app(MaterialRequirementService::class)->calculateForRekomendasi($this->rekomendasi);
+        return app(MaterialRequirementService::class)->forRekomendasi($this->rekomendasi);
     }
 
     public function pilihSppg(int $sppgId): void
     {
         $this->sppgId = $sppgId;
-        $this->sppgCari = Sppg::find($sppgId)?->nama ?? '';
+        $this->sppgCari = app(RekomendasiFormService::class)->sppg($sppgId)?->nama ?? '';
         unset($this->daftarSppg);
     }
 
@@ -135,17 +124,8 @@ class RekomendasiMenu extends Component
 
         $this->validate();
 
-        if (Auth::user()->isOperator() && $this->sppgId !== Auth::user()->sppg_id) {
-            $this->pesanError = 'Operator hanya dapat membuat rekomendasi untuk SPPG miliknya sendiri.';
-
-            return;
-        }
-
-        $sppg = Sppg::findOrFail($this->sppgId);
-        $akg = AkgSekaliMakan::findOrFail($this->akgId);
-
         try {
-            $rekomendasi = app(RecommendationService::class)->generate($sppg, $akg, $this->porsi);
+            $rekomendasi = app(RecommendationService::class)->generateUntuk(Auth::user(), $this->sppgId, $this->akgId, $this->porsi);
         } catch (RuntimeException $e) {
             $this->pesanError = $e->getMessage();
 
@@ -162,6 +142,7 @@ class RekomendasiMenu extends Component
             return;
         }
 
+        $this->pesanSukses = null;
         $nama = trim($this->namaMenuPerPeringkat[$indeksPeringkat] ?? '');
 
         if ($nama === '') {
@@ -170,18 +151,13 @@ class RekomendasiMenu extends Component
             return;
         }
 
-        $baris = $this->rekomendasi->hasil_ranking_topsis[$indeksPeringkat] ?? null;
+        try {
+            app(MenuPersistenceService::class)->simpanPeringkat($this->rekomendasi, $indeksPeringkat, $nama);
+        } catch (RuntimeException $e) {
+            $this->pesanError = $e->getMessage();
 
-        if ($baris === null) {
             return;
         }
-
-        app(MenuPersistenceService::class)->simpanDariRekomendasi($this->rekomendasi, $nama, $baris['komposisi']);
-
-        // Bahan yang perlu dibeli mengikuti menu yang benar-benar dipilih operator, bukan selalu peringkat 1
-        $this->rekomendasi->update([
-            'komposisi_terpilih' => ['komposisi' => $baris['komposisi'], 'gizi' => $baris['gizi']],
-        ]);
 
         $this->pesanError = null;
         $this->pesanSukses = 'Menu "'.$nama.'" berhasil disimpan.';

@@ -1,0 +1,8 @@
+﻿komponen,kode,nama,jumlah_sp,berat_bersih_per_porsi_g,bdd_persen,berat_kotor_per_porsi_g,jumlah_porsi,total_berat_bersih_g,total_berat_kotor_g,total_berat_kotor_kg,total_berat_kotor_g_sistem
+karbohidrat,AP001,Nasi,1.5,150,100,150,3000,450000,450000,450,450000
+protein_hewani,FR005,"Ayam, daging, segar",1,40,58,68.9655172414,3000,120000,206896.55172414,206.8965517241,206896.55172414
+protein_nabati,CP051,Oncom,0.5,20,100,20,3000,60000,60000,60,60000
+sayur,DR166,"Wortel, segar",0.5,50,80,62.5,3000,150000,187500,187.5,187500
+buah,ER036,"Jeruk banjar, segar",1,110,72,152.7777777778,3000,330000,458333.33333333,458.3333333333,458333.33333333
+lemak,KP002,Mentega,1,5,100,5,3000,15000,15000,15,15000
+susu,JR006,"Susu sapi, segar",0.625,125,100,125,3000,375000,375000,375,375000

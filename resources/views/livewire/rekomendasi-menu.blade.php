@@ -71,7 +71,7 @@
                     <label for="porsi" class="block font-medium">Jumlah porsi</label>
                     <p class="mb-3 text-sm text-ink-2">Dipakai untuk menghitung berat belanja.</p>
                     <div class="flex items-center gap-3">
-                        <input id="porsi" type="number" wire:model="porsi" min="1" class="field num max-w-[9rem]">
+                        <input id="porsi" type="number" wire:model="porsi" min="{{ config('spk.porsi.minimal') }}" max="{{ config('spk.porsi.maksimal') }}" class="field num max-w-[9rem]">
                         <span class="text-sm text-ink-3">porsi</span>
                     </div>
                     @error('porsi') <p class="mt-2 text-sm text-ember">{{ $message }}</p> @enderror

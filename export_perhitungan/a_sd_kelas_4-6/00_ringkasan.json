@@ -1,0 +1,232 @@
+{
+    "kelompok_sasaran": "Siswa SD/MI/SDLB Kelas 4-6",
+    "waktu_distribusi": "Siang",
+    "akg_sekali_makan_id": 3,
+    "sppg_id": 1,
+    "sppg_nama": "SPPG Kebumen Buayan Rangkah",
+    "jumlah_porsi": 3000,
+    "rumus_seed": "crc32('1-3-3000')",
+    "seed": 117112544,
+    "maksimal_bahan_per_komponen": null,
+    "maksimal_kandidat": 20,
+    "jumlah_kandidat_masuk_matriks": 20,
+    "satuan_penukar": {
+        "karbohidrat": 1.5,
+        "protein_hewani": 1,
+        "protein_nabati": 0.5,
+        "sayur": 0.5,
+        "buah": 1,
+        "lemak": 1,
+        "susu": 0.625
+    },
+    "rentang_akg": {
+        "energi_kkal": [
+            585.0,
+            683.0
+        ],
+        "protein_g": [
+            15.8,
+            18.4
+        ],
+        "lemak_g": [
+            19.5,
+            22.8
+        ],
+        "karbohidrat_g": [
+            87.0,
+            101.5
+        ]
+    },
+    "bobot_entropy": {
+        "kesesuaian_protein": 0.10565755676962053,
+        "kesesuaian_lemak": 0.19407405851395165,
+        "kesesuaian_karbohidrat": 0.7002683847164278
+    },
+    "peringkat_1": {
+        "alternatif": "A9",
+        "c_i": 0.9857681283844397,
+        "komposisi": {
+            "karbohidrat": {
+                "bahan_pangan_id": 1,
+                "kode": "AP001",
+                "nama": "Nasi",
+                "jumlah_sp": 1.5,
+                "berat_bersih_gram": 150.0
+            },
+            "protein_hewani": {
+                "bahan_pangan_id": 831,
+                "kode": "FR005",
+                "nama": "Ayam, daging, segar",
+                "jumlah_sp": 1.0,
+                "berat_bersih_gram": 40.0
+            },
+            "protein_nabati": {
+                "bahan_pangan_id": 295,
+                "kode": "CP051",
+                "nama": "Oncom",
+                "jumlah_sp": 0.5,
+                "berat_bersih_gram": 20.0
+            },
+            "sayur": {
+                "bahan_pangan_id": 609,
+                "kode": "DR166",
+                "nama": "Wortel, segar",
+                "jumlah_sp": 0.5,
+                "berat_bersih_gram": 50.0
+            },
+            "buah": {
+                "bahan_pangan_id": 660,
+                "kode": "ER036",
+                "nama": "Jeruk banjar, segar",
+                "jumlah_sp": 1.0,
+                "berat_bersih_gram": 110.0
+            },
+            "lemak": {
+                "bahan_pangan_id": 1076,
+                "kode": "KP002",
+                "nama": "Mentega",
+                "jumlah_sp": 1.0,
+                "berat_bersih_gram": 5.0
+            },
+            "susu": {
+                "bahan_pangan_id": 1074,
+                "kode": "JR006",
+                "nama": "Susu sapi, segar",
+                "jumlah_sp": 0.625,
+                "berat_bersih_gram": 125.0
+            }
+        },
+        "gizi": {
+            "energi_kal": 625.05,
+            "protein_g": 19.785000000000004,
+            "lemak_g": 20.625,
+            "karbohidrat_g": 89.125,
+            "kalsium_mg": 0.0,
+            "besi_mg": 0.0,
+            "vitamin_c_mg": 0.0
+        }
+    },
+    "ranking_topsis_sistem": [
+        {
+            "alternatif": "A9",
+            "index": 8,
+            "score": 0.9857681283844397,
+            "rank": 1
+        },
+        {
+            "alternatif": "A19",
+            "index": 18,
+            "score": 0.9790956000682853,
+            "rank": 2
+        },
+        {
+            "alternatif": "A16",
+            "index": 15,
+            "score": 0.9470722060121352,
+            "rank": 3
+        },
+        {
+            "alternatif": "A6",
+            "index": 5,
+            "score": 0.9370305212596852,
+            "rank": 4
+        },
+        {
+            "alternatif": "A1",
+            "index": 0,
+            "score": 0.9358450719836434,
+            "rank": 5
+        },
+        {
+            "alternatif": "A5",
+            "index": 4,
+            "score": 0.9278233409008328,
+            "rank": 6
+        },
+        {
+            "alternatif": "A17",
+            "index": 16,
+            "score": 0.9258526150313056,
+            "rank": 7
+        },
+        {
+            "alternatif": "A15",
+            "index": 14,
+            "score": 0.9175365119071005,
+            "rank": 8
+        },
+        {
+            "alternatif": "A8",
+            "index": 7,
+            "score": 0.914349268273936,
+            "rank": 9
+        },
+        {
+            "alternatif": "A13",
+            "index": 12,
+            "score": 0.8888953239789072,
+            "rank": 10
+        },
+        {
+            "alternatif": "A7",
+            "index": 6,
+            "score": 0.8632457733394956,
+            "rank": 11
+        },
+        {
+            "alternatif": "A18",
+            "index": 17,
+            "score": 0.8622187173271314,
+            "rank": 12
+        },
+        {
+            "alternatif": "A2",
+            "index": 1,
+            "score": 0.8608275104077585,
+            "rank": 13
+        },
+        {
+            "alternatif": "A4",
+            "index": 3,
+            "score": 0.8515355687743782,
+            "rank": 14
+        },
+        {
+            "alternatif": "A11",
+            "index": 10,
+            "score": 0.8401529690834468,
+            "rank": 15
+        },
+        {
+            "alternatif": "A20",
+            "index": 19,
+            "score": 0.8309085768837634,
+            "rank": 16
+        },
+        {
+            "alternatif": "A14",
+            "index": 13,
+            "score": 0.7476742321289945,
+            "rank": 17
+        },
+        {
+            "alternatif": "A3",
+            "index": 2,
+            "score": 0.14852262511106465,
+            "rank": 18
+        },
+        {
+            "alternatif": "A12",
+            "index": 11,
+            "score": 0.07234247911992972,
+            "rank": 19
+        },
+        {
+            "alternatif": "A10",
+            "index": 9,
+            "score": 0.009282974509262921,
+            "rank": 20
+        }
+    ],
+    "catatan": "Kandidat diberi kode A1..An sesuai urutan setelah pengacakan ber-seed. Kolom *_rumus dihitung ulang manual, *_sistem diambil dari class aplikasi; keduanya harus sama."
+}
